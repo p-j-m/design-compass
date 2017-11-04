@@ -1,0 +1,668 @@
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+
+/* layout */
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(preloader.svg) center no-repeat #fff;
+}
+
+body {
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-break: keep-all;
+}
+
+.logo {
+    background: rgba(0, 0, 0, 0.00);
+    border-bottom: 1px solid #E6E6E6;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    width: 180px;
+    height: 100%;
+    background-color: white;
+    border-right: 1px solid #E6E6E6;
+    z-index: 999;
+    text-align: center;
+}
+
+.mobile-menu-sub {
+    display: none;
+}
+
+.menu-sub {
+    position: fixed;
+    left: 180px;
+    padding: 50px 40px 0px 40px;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid #E6E6E6;
+    font-size: 18px;
+}
+
+.menu-sub-dropdown {
+    display: none;
+}
+
+
+.menu-sub ul {
+    list-style: none;
+    margin-left: -40px;
+    /*overflow-y:scroll;*/
+}
+
+.menu-sub li {
+    padding: 10px 20px 10px 0px;
+}
+
+.menu-sub li a {
+    font-weight: 400;
+}
+
+
+.container {
+    float: left;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.con-title {
+    float: left;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+.wrapper {
+    float: left;
+    width: 100%;
+}
+
+.col {
+    float: left;
+    width: 300px;
+    height: 52px;
+    padding: 12px 24px 24px 24px;
+    transition: ease 0.5s;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+}
+
+.col:hover {
+    color: white;
+    box-shadow: 0px 10px 30px #cecece;
+    transition: ease 0.5s;
+    transform: translateY(-10px)
+}
+
+/* font styles */
+
+hr {
+    border: 0.5px solid #e6e6e6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a {
+
+    text-decoration: none;
+}
+
+.introduction {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 16px 0px 24px 16px;
+    color: black;
+}
+
+.title {
+    font-size: 24px;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.sub-title {
+    font-size: 28px;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 18px;
+    color: black;
+    letter-spacing: 0;
+    margin: 6px 0px 6px 0px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    height: 1.4em;
+    line-height: 1.4em;
+}
+
+
+h2 {
+    opacity: 0.5;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0;
+    margin: 0;
+    font-weight: 200;
+}
+
+.nav-btn {
+    cursor: pointer;
+    background: #F7F7F7;
+    background: rgba(0, 0, 0, 0.00);
+    border-bottom: 1px solid #E6E6E6;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 24px;
+    color: black;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.nav-btn:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.nav-btn-sub {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+
+.mobile-menu {
+    display: none;
+}
+
+
+/* icon */
+
+.logo-icon {
+    width: 60px;
+    padding-top: 20px;
+
+}
+
+.share {
+    position: fixed;
+    bottom: 0;
+    padding: 40px;
+}
+
+.icon-tag {
+    width: 20px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.icon-sub-title {
+    padding: 4px 8px 0px 8px;
+    float: left;
+    width: 26px;
+}
+
+.target {
+    padding-top: 79px;
+    margin-top: -80px;
+    width: 1px;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+}
+
+.archive-title {
+
+    float: left;
+    width: 90%;
+
+    padding: 20px 20px 20px 20px;
+
+}
+
+.archive-list-title {
+    float: none;
+    width: auto;
+    font-size: 24px;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.article-container {
+    margin-left: 400px;
+    padding: 40px;
+    max-width: 750px;
+}
+
+.article-img {
+    width: 100%;
+    max-width: 750px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.article-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.article-subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 24px;
+    color: #949494;
+}
+
+.article-h1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 24px;
+    color: #4e4e4e;
+}
+
+.article-a {
+    color: #357DFF;
+}
+
+
+
+
+.menubar {
+    border: none;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menubar ul {
+    background: rgb(109, 109, 109);
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menubar li {
+    float: left;
+    padding: 0px;
+}
+
+.menubar li a {
+    background: rgb(109, 109, 109);
+    color: #cccccc;
+    display: block;
+    font-weight: normal;
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menubar li a:hover,
+.menubar ul li:hover a {
+    background: rgb(71, 71, 71);
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menubar li ul {
+    background: rgb(109, 109, 109);
+    display: none;
+    /* 평상시에는 드랍메뉴가 안보이게 하기 */
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    width: 200px;
+    z-index: 200;
+    /*top:1em;
+/*left:0;*/
+}
+
+.menubar li:hover ul {
+    display: block;
+    /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+
+.menubar li li {
+    background: rgb(109, 109, 109);
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+}
+
+.menubar li:hover li a {
+    background: none;
+}
+
+.menubar li ul a {
+    display: block;
+    height: 50px;
+    font-size: 12px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px 10px 0px 15px;
+    text-align: left;
+}
+
+.menubar li ul a:hover,
+.menubar li ul li:hover a {
+    background: rgb(71, 71, 71);
+    border: 0px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menubar p {
+    clear: left;
+}
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 840px) {
+    .archive-title {
+
+        float: none;
+        width: auto;
+
+        padding: 20px 20px 20px 20px;
+    }
+    .article-container {
+        max-width: 750px;
+        padding: 20px;
+        padding-top: 120px;
+        margin: 0;
+    }
+    .nav {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        text-align: left;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .wrapper {
+        padding: 0px;
+    }
+    .container {
+        float: none;
+        padding: 80px 0px 0px 0px;
+    }
+    .con-title {
+        /*float: left;*/
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .col {
+        float: none;
+        width: auto;
+    }
+
+    .logo {
+        float: left;
+        padding: 0px;
+        border-bottom: none;
+    }
+
+    .logo-icon {
+        width: 46px;
+        padding: 10px 0px 0px 20px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .menu-sub {
+        display: none;
+    }
+
+    /* Mobile Navi */
+    .mobile-menu {
+        display: inline;
+        float: right;
+        padding: 0;
+        height: 70px;
+        line-height: 50px;
+        /* disable text selection by clicking */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .mobile-menu a.dropdown-link {
+        display: block;
+        height: 70px;
+        padding: 0 20px;
+        color: black;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: right;
+        box-shadow: 1px solid #e6e6e6;
+
+    }
+
+    .mobile-menu a.dropdown-link:hover {
+        text-decoration: none;
+    }
+    .mobile-menu a.dropdown-link i {
+        float: right;
+        position: relative;
+        top: 15px;
+    }
+
+    .mobile-dropdown {
+        display: none;
+        list-style-type: none;
+        background: white;
+        padding: 0;
+        z-index: 100;
+        margin: 0;
+        text-align: center;
+        box-shadow: 0px 1px 2px #dedfe6;
+    }
+
+    .mobile-dropdown li {
+        padding: 0;
+        height: auto;
+    }
+
+    .mobile-dropdown li a {
+        padding: 0;
+        color: black;
+        display: block;
+        padding: 20px 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .mobile-dropdown li a:hover {
+        text-decoration: none;
+    }
+
+    /* Mobile Navi Sub*/
+    .mobile-menu-sub {
+        position: fixed;
+        display: inline;
+        width: 100%;
+        margin-top: 70px;
+        height: 80px;
+        line-height: 50px;
+        background-color: white;
+        /* disable text selection by clicking */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border-bottom: 1px solid #e9eaee;
+        left: 0px;
+        padding: 0px;
+        top: 0;
+
+    }
+
+
+    .mobile-menu-sub-dropdown {
+        display: block;
+        margin: 12px 16px 12px 16px;
+        padding: 0px 16px 0px 16px;
+        margin-right: 20px;
+        color: black;
+        border: 1px solid #d4d4d4;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .mobile-menu-sub a.dropdown-link {
+        display: block;
+        height: 80px;
+        padding: 0 20px;
+        color: black;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: right;
+
+    }
+
+    .mobile-menu-sub a.dropdown-link:hover {
+        text-decoration: none;
+    }
+    .mobile-menu-sub a.dropdown-link i {
+        float: right;
+        position: relative;
+        top: 15px;
+    }
+
+    .mobile-dropdown-sub {
+        display: none;
+        list-style-type: none;
+        background: white;
+        padding: 0;
+        z-index: 100;
+        margin: 0;
+        text-align: left;
+        box-shadow: 0px 1px 2px #dedfe6;
+        height: 300px;
+        overflow-y: scroll;
+    }
+
+
+    .mobile-menu-sub ul {
+        list-style: none;
+        margin-left: 0px;
+        color: black;
+        overflow-y: scroll;
+    }
+
+    .mobile-dropdown-sub li {
+        padding: 0;
+        height: auto;
+    }
+
+    .mobile-dropdown-sub li a {
+        padding: 0;
+        color: black;
+        display: block;
+        padding: 8px 24px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        font-weight: 200;
+        text-decoration: none;
+    }
+
+    .mobile-dropdown-sub li a:hover {
+        text-decoration: none;
+    }
+
+    .article-title {
+        margin-top: 50px;
+
+    }
+
+    .article-subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom: 24px;
+        color: #949494;
+    }
+
+    .article-h1 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 24px;
+        color: #4e4e4e;
+    }
+
+}

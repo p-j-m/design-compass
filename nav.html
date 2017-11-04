@@ -1,0 +1,46 @@
+<script type="text/javascript">
+    $(".mobile-menu").on('click', function() {
+        $(".mobile-dropdown").slideToggle("fast");
+    });
+
+    $(".mobile-menu-sub").on('click', function() {
+        $(".mobile-dropdown-sub").slideToggle("fast");
+    });
+
+</script>
+
+
+<div class="nav">
+
+    <div class="logo">
+        
+    <div style="cursor: pointer;" onclick="location.href='./index.html';"><img class="logo-icon" src="./img/logo_v4.svg"></div>
+
+
+    </div>
+    <div class="nav-btn"  onclick="location.href='./index.html';">
+        <div class="nav-btn-sub">홈</div>
+    </div>
+    <div class="nav-btn" onclick="location.href='./design-system.html';">
+        <div class="nav-btn-sub" >디자인 가이드</div>
+    </div>
+    <div class="nav-btn" onclick="location.href='./sketch-tutorial.html';">
+        <div class="nav-btn-sub">스케치 가이드</div>
+    </div>
+
+ <div class="nav-btn" onclick="location.href='./article.html';">
+        <div class="nav-btn-sub">아카이브</div>
+    </div>
+
+    <div class="mobile-menu">
+        <a class="dropdown-link"><img style="padding-top:18px;width:30px;"src="./img/icon/icon-menu.svg"></a>
+        <ul class="mobile-dropdown">
+            <li><a href="./index.html">홈</a></li>
+            
+            <li><a href="./design-system.html">디자인 가이드</a></li>
+            <li><a href="./sketch-tutorial.html">스케치 가이드</a></li>
+<li><a href="./article.html">아카이브</a></li>
+        </ul>
+    </div>
+
+</div>
