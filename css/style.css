@@ -211,6 +211,11 @@ h2 {
     color: white !important;
 }
 
+.nav-btn:focus {
+    background-color: black;
+    color: white !important;
+}
+
 .nav-btn-sub {
     font-size: 18px;
     font-weight: 400;
@@ -228,7 +233,6 @@ h2 {
 .logo-icon {
     width: 60px;
     padding-top: 20px;
-
 }
 
 .outlink {
