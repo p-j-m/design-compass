@@ -231,6 +231,12 @@ h2 {
 
 }
 
+.outlink {
+    float:left;
+    width:100%;
+    border-bottom:1px solid black;
+}
+
 .share {
     position: fixed;
     bottom: 0;
