@@ -33,9 +33,9 @@ body {
 
 
 .logo {
-    border-bottom:1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     color: black;
     letter-spacing: 0;
     text-align: center;
@@ -83,7 +83,7 @@ body {
 }
 
 .menu-sub li a {
-    color:black;
+    color: black;
     font-weight: 400;
 }
 
@@ -234,7 +234,7 @@ h2 {
 }
 
 .outlink {
-    border-bottom:1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .share {
@@ -447,7 +447,7 @@ h2 {
         position: fixed;
         left: 0;
         width: 100%;
-        height: 48px;
+        height: 56px;
         text-align: left;
         border-bottom: 1px solid #e6e6e6;
     }
@@ -478,10 +478,10 @@ h2 {
 
     .logo-icon {
         width: 36px;
-    padding: 6px 0px 0px 16px;
+        padding: 8px 0px 0px 16px;
     }
     .logo-title {
-        display:none;
+        display: none;
     }
 
     .nav-btn {
