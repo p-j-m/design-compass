@@ -682,7 +682,7 @@ h2 {
 
     .article-title {
         margin-top: 50px;
-
+font-size:24px;
     }
 
     .article-subtitle {
@@ -694,9 +694,9 @@ h2 {
     }
 
     .article-h1 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 25px;
         margin-bottom: 24px;
         color: #4e4e4e;
     }
