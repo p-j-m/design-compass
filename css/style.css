@@ -29,6 +29,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     word-break: keep-all;
+    background-color:#f7f7f7;
 }
 
 
@@ -36,7 +37,7 @@ body {
     border-bottom: 1px solid #E6E6E6;
     font-size: 20px;
     font-weight: 600;
-    color: black;
+    color:#3e3e3e;
     letter-spacing: 0;
     text-align: center;
     padding: 10px 0px 40px 0px;
@@ -47,7 +48,7 @@ body {
     left: 0;
     width: 200px;
     height: 100%;
-    background-color: white;
+    background-color:#f7f7f7;
     border-right: 1px solid #E6E6E6;
     z-index: 999;
     text-align: center;
@@ -79,11 +80,11 @@ body {
 }
 
 .menu-sub li {
-    padding: 10px 20px 10px 0px;
+    padding: 16px 20px 10px 0px;
 }
 
 .menu-sub li a {
-    color: black;
+    color:#3e3e3e;
     font-weight: 400;
 }
 
@@ -134,7 +135,7 @@ hr {
 
 a {
     text-decoration: none;
-    color: black;
+    color:#3e3e3e;
 }
 
 li a {
@@ -146,26 +147,26 @@ li a {
     font-size: 28px;
     font-weight: 400;
     padding: 16px 0px 24px 16px;
-    color: black;
+    color:#3e3e3e;
 }
 
 .title {
     font-size: 24px;
-    color: black;
+    color:#3e3e3e;
     letter-spacing: 0;
     font-weight: 400;
 }
 
 .sub-title {
     font-size: 28px;
-    color: black;
+    color:#3e3e3e;
     letter-spacing: 0;
     font-weight: 100;
 }
 
 h1 {
     font-size: 18px;
-    color: black;
+    color:#3e3e3e;
     letter-spacing: 0;
     margin: 6px 0px 6px 0px;
     font-weight: 400;
@@ -184,7 +185,7 @@ h1 {
 h2 {
     opacity: 0.5;
     font-size: 16px;
-    color: black;
+    color:#3e3e3e;
     letter-spacing: 0;
     margin: 0;
     font-weight: 200;
@@ -197,7 +198,7 @@ h2 {
     border-bottom: 1px solid #E6E6E6;
     font-family: "Noto Sans KR", sans-serif;
     font-size: 24px;
-    color: black;
+    color:#3e3e3e;
     letter-spacing: 0;
     text-align: left;
     padding: 20px;
@@ -205,7 +206,7 @@ h2 {
 
 
 .nav-btn:hover {
-    background-color: black;
+    background-color:#3e3e3e;
     color: white !important;
 }
 
@@ -234,7 +235,7 @@ h2 {
 }
 
 .outlink {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid#3e3e3e;
 }
 
 .share {
@@ -278,7 +279,7 @@ h2 {
     float: none;
     width: auto;
     font-size: 24px;
-    color: black;
+    color:#3e3e3e;
     letter-spacing: 0;
     font-weight: 400;
 }
@@ -302,7 +303,7 @@ h2 {
     line-height: 48px;
     margin-top: 32px;
     margin-bottom: 8px;
-    color: black;
+    color:#3e3e3e;
 }
 
 .article-subtitle {
@@ -314,9 +315,9 @@ h2 {
 }
 
 .article-h1 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 30px;
     margin-bottom: 24px;
     color: #4e4e4e;
 }
@@ -440,7 +441,7 @@ h2 {
     .article-container {
         max-width: 750px;
         padding: 20px;
-        padding-top: 120px;
+        padding-top: 100px;
         margin: 0;
     }
     .nav {
@@ -457,7 +458,7 @@ h2 {
     }
     .container {
         float: none;
-        padding: 80px 0px 0px 0px;
+        padding: 60px 0px 0px 0px;
     }
     .con-title {
         /*float: left;*/
@@ -510,7 +511,7 @@ h2 {
         display: block;
         height: 48px;
         padding: 0 20px;
-        color: black;
+        color:#3e3e3e;
         font-size: 20px;
         cursor: pointer;
         text-align: right;
@@ -545,7 +546,7 @@ h2 {
 
     .mobile-dropdown li a {
         padding: 0;
-        color: black;
+        color:#3e3e3e;
         display: block;
         padding: 20px 40px;
         height: 40px;
@@ -563,9 +564,8 @@ h2 {
         position: fixed;
         display: inline;
         width: 100%;
-        margin-top: 70px;
+        margin-top: 56px;
         height: 80px;
-        line-height: 50px;
         background-color: white;
         /* disable text selection by clicking */
         -webkit-user-select: none;
@@ -581,21 +581,22 @@ h2 {
 
 
     .mobile-menu-sub-dropdown {
-        display: block;
-        margin: 12px 16px 12px 16px;
-        padding: 0px 16px 0px 16px;
-        margin-right: 20px;
-        color: black;
-        border: 1px solid #d4d4d4;
-        border-radius: 5px;
-        background-color: white;
+             display: block;
+    margin: 12px 16px 12px 16px;
+    padding: 16px 0px 0px 16px;
+    margin-right: 20px;
+    color:#3e3e3e;
+    border: 0.5px solid #d4d4d4;
+    border-radius: 4px;
+    background-color: #ffffff;
+    height: 32px;
     }
 
     .mobile-menu-sub a.dropdown-link {
         display: block;
         height: 48px;
         padding: 0 20px;
-        color: black;
+        color:#3e3e3e;
         font-size: 20px;
         cursor: pointer;
         text-align: right;
@@ -628,7 +629,7 @@ h2 {
     .mobile-menu-sub ul {
         list-style: none;
         margin-left: 0px;
-        color: black;
+        color:#3e3e3e;
         overflow-y: scroll;
     }
 
@@ -639,13 +640,13 @@ h2 {
 
     .mobile-dropdown-sub li a {
         padding: 0;
-        color: black;
+        color:#3e3e3e;
         display: block;
         padding: 8px 24px;
         height: 40px;
         line-height: 40px;
         font-size: 16px;
-        font-weight: 200;
+        font-weight: 400;
         text-decoration: none;
     }
 
