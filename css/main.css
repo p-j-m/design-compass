@@ -16,6 +16,7 @@
     border-radius: 10px;
     box-shadow: 0px 10px 40px #dad8d5;
     transition: ease 0.5s;
+    margin-bottom:10px;
 }
 
 .topic-img:hover {

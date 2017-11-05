@@ -174,14 +174,14 @@ li a {
 
 .introduction {
     font-size: 26px;
-    line-height: 36px;
+    line-height: 34px;
     font-weight: 400;
-    padding: 16px 0px 24px 16px;
+    padding: 16px 0px 0px 16px;
     color: #232323;
 }
 
 .title {
-    font-size: 24px;
+    font-size: 20px;
     color: #232323;
     letter-spacing: 0;
     font-weight: 400;
@@ -259,13 +259,12 @@ h2 {
 
 /* icon */
 
-.logo-icon {
-    display: none;
-}
 
 .logo-title {
+    width:30px;
     font-size: 32px;
-    padding-left: 20px;
+    padding-top:24px;
+    padding-left: 16px;
 }
 
 .outlink {
@@ -518,7 +517,10 @@ h2 {
         padding: 10px 0px 0px 16px;
     }
     .logo-title {
-        display: none;
+        width:300px;
+        padding-top:18px;
+        font-size:18px;
+        font-weight:700;
     }
 
     .nav-btn {
