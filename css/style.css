@@ -1,9 +1,10 @@
 @import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
 
 /* layout */
-.active{
- background: #2b90f5;
-    color:yellow;
+
+.active {
+    background: #2b90f5;
+    color: yellow;
 }
 
 
@@ -173,7 +174,7 @@ li a {
 
 .introduction {
     font-size: 26px;
-    line-height:36px;
+    line-height: 36px;
     font-weight: 400;
     padding: 16px 0px 24px 16px;
     color: #232323;
@@ -342,7 +343,7 @@ h2 {
 .article-subtitle {
     font-size: 20px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 27px;
     margin-bottom: 20px;
     color: #949494;
 }
@@ -350,7 +351,7 @@ h2 {
 .article-h1 {
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 29px;
     margin-bottom: 24px;
     color: #4e4e4e;
 }
@@ -690,15 +691,15 @@ h2 {
 
     .article-title {
         margin-top: 50px;
-font-size:24px;
+        font-size: 24px;
     }
 
     .article-subtitle {
         font-size: 20px;
-        font-weight: 500;
-        line-height: 32px;
-        margin-bottom: 24px;
-        color: #4e4e4e;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 20px;
+        color: #949494;
     }
 
     .article-h1 {
