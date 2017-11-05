@@ -141,7 +141,7 @@ body {
     height: 52px;
     padding: 12px 24px 24px 24px;
     transition: ease 0.5s;
-    margin: 8px;
+    margin: 8px 8px 8px 16px;
     background-color: white;
     border-radius: 8px;
     border: 1px solid #E6E6E6;
@@ -311,7 +311,7 @@ h2 {
 .archive-list-title {
     float: none;
     width: auto;
-    font-size: 24px;
+    font-size: 20px;
     color: #232323;
     letter-spacing: 0;
     font-weight: 400;
@@ -495,9 +495,9 @@ h2 {
         padding: 60px 0px 0px 0px;
     }
     .con-title {
-        /*float: left;*/
         width: 100%;
-        padding-left: 20px;
+        font-size:18px;
+        padding:16px 16px 16px 16px;
     }
 
     .col {
@@ -517,10 +517,11 @@ h2 {
         padding: 10px 0px 0px 16px;
     }
     .logo-title {
-        width:300px;
+        width:90px;
         padding-top:18px;
         font-size:18px;
         font-weight:700;
+        padding-left:16px;
     }
 
     .nav-btn {
@@ -719,5 +720,16 @@ h2 {
         display: none;
     }
 
-
+.introduction {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 24px 0px 10px 16px;
+    color: #232323;
+}
+    .col{
+        
+        margin:8px 16px 8px 16px;
+    }
+    
 }
