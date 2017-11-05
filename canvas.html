@@ -17,7 +17,8 @@
     <title>디자인 책장</title>
 
     <!-- connect with other files -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" /><link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
@@ -45,38 +46,10 @@
     <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
 </head>
 
-<body> <div class="se-pre-con"></div>
-   <div id="nav"></div>
-    <div class="menu-sub">
-        <div class="menu-sub-dropdown">스케치 가이드</div>
-        <ul class="dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
-    <div class="mobile-menu-sub">
-        <div class="mobile-menu-sub-dropdown">스케치 가이드</div>
-        <ul class="mobile-dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
+<body>
+    <div class="se-pre-con"></div>
+    <div id="nav"></div>
+    <div id="submenu-sketch"></div>
     <div class="article-container">
         <div class="article-title">
             캔버스</div>
@@ -102,7 +75,7 @@
             픽셀 확대/축소</div>
         <div class="article-h1">
             스케치에서 벡터와 픽셀의 두 가지 모드로 디자인을 볼 수 있습니다. 처리하려는 업무의 성격에 따라 다르게 사용될 것입니다.
-            <br><br> 이 모드는 언제든지 전환할 수 있습니다. 메뉴에서 View > Canvas > Zoom에 Show Pixles를 선택하거나 Ctrl-P를 누릅니다. 또한 툴바에 Show Pixels가 표시되도록  할 수 있습니다.<br><br> 참고 : Show Pixels를 사용하는 경우 효과를 보려면 100%까지 확대해야합니다.<br><br> Pixel Zoom은 작업물을 미리 볼 수 있는 좋은 방법입니다. 픽셀이 정확하게 표시되는지 확인하면서 아이콘을 만들 때 이상적입니다.</div>
+            <br><br> 이 모드는 언제든지 전환할 수 있습니다. 메뉴에서 View > Canvas > Zoom에 Show Pixles를 선택하거나 Ctrl-P를 누릅니다. 또한 툴바에 Show Pixels가 표시되도록 할 수 있습니다.<br><br> 참고 : Show Pixels를 사용하는 경우 효과를 보려면 100%까지 확대해야합니다.<br><br> Pixel Zoom은 작업물을 미리 볼 수 있는 좋은 방법입니다. 픽셀이 정확하게 표시되는지 확인하면서 아이콘을 만들 때 이상적입니다.</div>
 
         <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/canvas@2x.jpg">
 
@@ -196,13 +169,19 @@
         <div class="article-title">
             크기</div>
         <div class="article-h1">
-            레이어의 크기를 조정할 때 너비나 높이가 같은 레이어가 있으면 함께 표시해주어 도움이 됩니다. 
+            레이어의 크기를 조정할 때 너비나 높이가 같은 레이어가 있으면 함께 표시해주어 도움이 됩니다.
         </div>
         <img class="article-img" src="https://www.sketchapp.com/images/documentation/canvas/size@2x.jpg">
         <div class="article-h1"> 기본적으로 스케치에서 스마트 가이드가 활성화됩니다. 메뉴를 끄려면 메뉴에서 View> Canvas> Show Smart Guides를 선택하거나 Command 키를 눌러 드래그하여 무시하십시오.</div>
 
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
- <script> $("#nav").load("nav.html");     $("#menu-sub").load("menu-sub.html");     </script></body>
+    <script>
+        $("#nav").load("nav.html");
+        $("#submenu-theory").load("submenu-theory.html");
+        $("#submenu-sketch").load("submenu-sketch.html");
+
+    </script>
+</body>
 
 </html>

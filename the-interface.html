@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <!-- meta preset-->
     <meta charset="utf-8">
@@ -16,7 +17,8 @@
     <title>디자인 책장</title>
 
     <!-- connect with other files -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" /><link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
@@ -43,54 +45,11 @@
     <meta name="msapplication-wide310x150logo" content="./img/favicon/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
 </head>
-<body> <div class="se-pre-con"></div>
-   <div id="nav"></div>
-    <div class="menu-sub">
-        <div class="menu-sub-dropdown">스케치 가이드</div>
-        <ul class="dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
-    
-    <div class="mobile-menu-sub">
-        <div class="mobile-menu-sub-dropdown">스케치 가이드</div>
-        <ul class="mobile-dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
-    <div class="mobile-menu-sub">
-        <div class="mobile-menu-sub-dropdown">스케치 가이드</div>
-        <ul class="mobile-dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
+
+<body>
+    <div class="se-pre-con"></div>
+    <div id="nav"></div>
+    <div id="submenu-sketch"></div>
     <div class="article-container">
         <div class="article-title">인터페이스</div>
         <div class="article-subtitle">스케치 인터페이스는 미니멀하게 디자인되었습니다.</div>
@@ -175,9 +134,12 @@
         <div class="article-title">레이어 스타일</div>
         <div class="article-h1">
             각 레이어에는 Fills, Borders, Shadows, Blur 스타일 속성 따로 지정할 수 있습니다.<br> 레이어에 새 스타일 속성을 추가하려면, 각 섹션 오른쪽에 있는 + 버튼을 누르면 됩니다.</div>
-            <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/style-properties.jpg">  <div class="article-h1">새로운 Fill, Border, Shadow 속성을 추가하면 색상을 선택하는 팝오버 창이 뜹니다.</div>
-            <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill.jpg">  <div class="article-h1">각 속성은 왼쪽에 있는 visibility 체크박스를 해제해 가릴 수 있습니다. Fills, Borders, Shadows 값을 선택해제 후 섹션 타이틀에 뜨는 휴지통 버튼으로 속성을 삭제할 수 있습니다.</div>
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill-remove.jpg">  <div class="article-h1">같은 방식으로 blur를 적용할 수 있습니다. visibility 체크박스를 선택하면, 팝업 메뉴에서 blur 타입을 선택하고 blur radius를 적용할 수 있습니다.</div>
+        <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/style-properties.jpg">
+        <div class="article-h1">새로운 Fill, Border, Shadow 속성을 추가하면 색상을 선택하는 팝오버 창이 뜹니다.</div>
+        <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill.jpg">
+        <div class="article-h1">각 속성은 왼쪽에 있는 visibility 체크박스를 해제해 가릴 수 있습니다. Fills, Borders, Shadows 값을 선택해제 후 섹션 타이틀에 뜨는 휴지통 버튼으로 속성을 삭제할 수 있습니다.</div>
+        <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill-remove.jpg">
+        <div class="article-h1">같은 방식으로 blur를 적용할 수 있습니다. visibility 체크박스를 선택하면, 팝업 메뉴에서 blur 타입을 선택하고 blur radius를 적용할 수 있습니다.</div>
 
 
 
@@ -285,7 +247,7 @@
             <br>
             <br> Forward and Backward으로 문서를 정리할 수 있습니다. Mirror는 iOS 기기에서 디자인을 미리볼 수 있게 해줍니다(업로드 되어 있다면 클라우드를 통해 문서가 공유됩니다). View 메뉴는 복잡한 문서를 작업할 때 필요한 옵션들을 설정할 수 있습니다. 마지막으로 ㄷExport버튼으로 asset을 내보낼 수 있습니다.
         </div>
-        <img class="article-img"  src="https://www.sketchapp.com/images/documentation/the-interface/icons.jpg">
+        <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/icons.jpg">
         <div class="article-h1">
             이러한 도구들은 스케치가 제공하는 것입니다. shortcut 메뉴에서 Control 클릭 - "Customize Toolbar..."을 선택해 나만의 툴바 레이아웃을 구성할 수 있습니다.
         </div>
@@ -294,5 +256,11 @@
     </div>
 
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
- <script> $("#nav").load("nav.html");     $("#menu-sub").load("menu-sub.html");     </script></body>
+    <script>
+        $("#nav").load("nav.html");
+        $("#submenu-theory").load("submenu-theory.html");
+        $("#submenu-sketch").load("submenu-sketch.html");
+    </script>
+</body>
+
 </html>

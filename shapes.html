@@ -17,7 +17,8 @@
     <title>디자인 책장</title>
 
     <!-- connect with other files -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" /><link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
@@ -45,38 +46,10 @@
     <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
 </head>
 
-<body> <div class="se-pre-con"></div>
-   <div id="nav"></div>
-    <div class="menu-sub">
-        <div class="menu-sub-dropdown">스케치 가이드</div>
-        <ul class="dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
-    <div class="mobile-menu-sub">
-        <div class="mobile-menu-sub-dropdown">스케치 가이드</div>
-        <ul class="mobile-dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
+<body>
+    <div class="se-pre-con"></div>
+    <div id="nav"></div>
+    <div id="submenu-sketch"></div>
     <div class="article-container">
 
         <div class="article-title">
@@ -127,19 +100,19 @@
             툴바의 팝업메뉴에서 Insert > Shapes > Rectangle 을 선택 (혹은 R 버튼)합니다. 캔버스에서 원하는 도형을 그린 뒤 더블클릭해 편집합니다.
         </div>
 
-        <video controls loop muted  class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/video/shape-edit@2x.mp4"></video>
+        <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/video/shape-edit@2x.mp4"></video>
 
         <div class="article-h1">
             각 모서리에 둥근 점이 나타납니다. 이 점을 클릭하고 드래그하여 위치를 변경하면 나머지 도형이 그에 따라 적절하게 변경됩니다. 점은 기존 점의 축에 스냅 할 수 있습니다. 두 점 사이의 패스를 클릭하면 독립적으로 이동할 수있는 새로운 점이 추가됩니다. 점을 삭제하려면 점을 선택하고 키보드의 백 스페이스 키를 누릅니다.
         </div>
 
-        <video controls loop muted  class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/video/shape-edit-points@2x.mp4"></video>
+        <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/video/shape-edit-points@2x.mp4"></video>
 
         <div class="article-h1">
             직선이 아닌 곡선을 사용하려면 점을 두 번 클릭하면 됩니다. 양쪽에 있는 패스의 곡률을 제어하는 점의 양쪽에 작은 핸들 두 개가 표시됩니다. 이를 핸들 제어점이라고 합니다. 이 핸들 컨트롤 포인트를 마치 자신을 향해 패스를 당기는 것처럼 생각하십시오.
         </div>
 
-        <video controls loop muted  class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/video/shape-edit-bezier@2x.mp4"></video>
+        <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/video/shape-edit-bezier@2x.mp4"></video>
 
         <div class="article-h1">
             Sketch에서 제어점이 작동하는 방법에 대해 더 자세히 알아보려면 Peter Nowell의 <a href="https://medium.com/sk">Mastering the Bézier Curve in Sketch</a>을 확인하세요.
@@ -151,11 +124,14 @@
 
         <div class="article-h1">
             핸들 조절 포인트의 이동을 제한하는 여러 가지 방법이 있으며, 생성되는 패스의 종류도 다릅니다.<br>
-            <br> 도형을 편집하는 동안 Inspector는 Straight, Mirrored, Asysmmetric, Disconnected 네 가지 유형을 표시합니다. 
+            <br> 도형을 편집하는 동안 Inspector는 Straight, Mirrored, Asysmmetric, Disconnected 네 가지 유형을 표시합니다.
         </div>
 
         <div class="article-h1">
-            <li>Straight : 도형에 첫 번째 모드로 제어점과 직선을 제어 할 필요가 없습니다.</li><li> Mirrored : 두 개의 제어점은 서로 대칭을 이루며 제어점과 제어점이 동일한 거리에 있습니다. 벡터 점이 직선이 아닌 경우 이것이 기본값입니다. <li>Asymmetric: 제어점이 대칭 모드일 때와 비슷하게 나타납니다. 하지만 비대칭으로 조절할 수 있습니다.</li><li> Disconnected : 두 개의 제어점이 서로 완전히 독립적입니다.</li>
+            <li>Straight : 도형에 첫 번째 모드로 제어점과 직선을 제어 할 필요가 없습니다.</li>
+            <li> Mirrored : 두 개의 제어점은 서로 대칭을 이루며 제어점과 제어점이 동일한 거리에 있습니다. 벡터 점이 직선이 아닌 경우 이것이 기본값입니다.
+                <li>Asymmetric: 제어점이 대칭 모드일 때와 비슷하게 나타납니다. 하지만 비대칭으로 조절할 수 있습니다.</li>
+                <li> Disconnected : 두 개의 제어점이 서로 완전히 독립적입니다.</li>
         </div>
 
         <div class="article-h1">
@@ -208,11 +184,10 @@
         </div>
 
         <div class="article-h1">
-            즉각적으로 명확하지 않은 점은 여러 점을 선택하여 한 번에 모두 이동할 수 있다는 것입니다. 여러 점을 선택하려면 Shift 키를 누른 상태에서 점을 클릭하십시오. 선택된 포인트는 선택되지 않은 포인트보다 크게 보입니다.<br><br>여러 점을 선택하는 또 다른 방법은 Shift 키를 누른 채로 보기에서 빈 영역을 클릭하고 드래그하여 사각형 선택을 하는 것입니다. 놓을 때 Shift 키를 계속 누르고 있으면 새로 선택한 점으로 드래그하기 전에 선택한 항목이 확장됩니다. 그렇지 않은 경우에는 이전 점을 선택 취소하고 새로 선택한 점만 선택하면 됩니다.<br><br>
-            한 번에 여러 벡터 도형을 편집 할 수 있다는 것도 주목할 필요가 있습니다. 하위 패스가 포함 된 레이어를 선택하거나 두 개 이상의 벡터 도형을 선택하고 Enter 키를 눌러 편집을 시작합니다. 각 도형을 개별적으로 선택하지 않고도 한 번에 편집 할 수있는 모든 도형의 벡터 점이 표시됩니다.
+            즉각적으로 명확하지 않은 점은 여러 점을 선택하여 한 번에 모두 이동할 수 있다는 것입니다. 여러 점을 선택하려면 Shift 키를 누른 상태에서 점을 클릭하십시오. 선택된 포인트는 선택되지 않은 포인트보다 크게 보입니다.<br><br>여러 점을 선택하는 또 다른 방법은 Shift 키를 누른 채로 보기에서 빈 영역을 클릭하고 드래그하여 사각형 선택을 하는 것입니다. 놓을 때 Shift 키를 계속 누르고 있으면 새로 선택한 점으로 드래그하기 전에 선택한 항목이 확장됩니다. 그렇지 않은 경우에는 이전 점을 선택 취소하고 새로 선택한 점만 선택하면 됩니다.<br><br> 한 번에 여러 벡터 도형을 편집 할 수 있다는 것도 주목할 필요가 있습니다. 하위 패스가 포함 된 레이어를 선택하거나 두 개 이상의 벡터 도형을 선택하고 Enter 키를 눌러 편집을 시작합니다. 각 도형을 개별적으로 선택하지 않고도 한 번에 편집 할 수있는 모든 도형의 벡터 점이 표시됩니다.
         </div>
 
-        <video controls loop muted  class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/video/shape-edit-multiple@2x.mp4"></video>
+        <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/video/shape-edit-multiple@2x.mp4"></video>
 
         <div class="article-title">
             레이어 병합
@@ -259,7 +234,7 @@
 
         <div class="article-h1">
             <li>Union : 결과는 두 벡터의 면적의 합인 벡터입니다.</li>
-            <li>Substract : 결과는 상단 도형의 영역이 그 아래의 영역에서 제거되는 벡터입니다.</li> 
+            <li>Substract : 결과는 상단 도형의 영역이 그 아래의 영역에서 제거되는 벡터입니다.</li>
             <li>Intersect : 결과는 원래 도형이 겹치는 부분으로 구성된 벡터입니다.</li>
             <li>Difference : 결과는 겹치지 않는 부분의 벡터입니다. 이것은 교차 연산의 역입니다.
         </div>
@@ -427,6 +402,12 @@
 
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
- <script> $("#nav").load("nav.html");     $("#menu-sub").load("menu-sub.html");     </script></body>
+    <script>
+        $("#nav").load("nav.html");
+        $("#submenu-theory").load("submenu-theory.html");
+        $("#submenu-sketch").load("submenu-sketch.html");
+
+    </script>
+</body>
 
 </html>

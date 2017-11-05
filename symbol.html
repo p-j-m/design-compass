@@ -17,7 +17,8 @@
     <title>디자인 책장</title>
 
     <!-- connect with other files -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" /><link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
@@ -45,38 +46,10 @@
     <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
 </head>
 
-<body> <div class="se-pre-con"></div>
+<body>
+    <div class="se-pre-con"></div>
     <div id="nav"></div>
-    <div class="menu-sub">
-        <div class="menu-sub-dropdown">스케치 가이드</div>
-        <ul class="dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
-    <div class="mobile-menu-sub">
-        <div class="mobile-menu-sub-dropdown">스케치 가이드</div>
-        <ul class="mobile-dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
+    <div id="submenu-sketch"></div>
     <div class="article-container">
 
         <div class="article-title">
@@ -87,7 +60,7 @@
             심볼은 두 부분으로 구성됩니다. 즉, 아트보드의 모양을 나타내는 "Master"와 병합된 "Instance"가 있습니다. 심볼을 만들 때 심볼 아트보드를 자동으로 보내거나 마스터를 별도의 페이지로 보낼 수 있습니다. Symbol의 마스터를 변경하면 문서의 모든 아트보드와 페이지에 변경 내용이 적용됩니다. 또한 마스터와 연결된 인스턴스 심볼에 사용자가 원하는대로 오버라이드할 수 있습니다. 아래 비디오에서는 심볼을 사용하여 시간을 절약하고 워크 플로를 향상시키는 방법에 대한 빠른 자습서를 만들었습니다.</div>
 
         <iframe class="article-img" src="https://www.youtube.com/embed/3fcIp5OXtVE" frameborder="0" allowfullscreen></iframe>
-        
+
         <div class="article-h1">
             인스턴스 심볼는 마스터 심볼을 미러링하는 단일 레이어입니다. 레이어 목록에는 자주색 새로고침 아이콘이 표시됩니다. 심볼의 일반적인 예는 버튼 또는 테이블보기의 셀과 같이 디자인 전체에서 재사용되는 요소입니다. 뿐만 아니라 인스턴스 심볼는 개별적으로 크기를 조정할 수 있으며 심볼 내부의 레이어에 크기 조정 제약 조건을 적용하여 크기를 조정할 때 어떻게 동작하는지 정할 수 있습니다.</div>
 
@@ -109,7 +82,7 @@ https://www.sketchapp.com/images/documentation/the-interface/layers@2x.jpg">
         <img class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/create@2x.jpg">
 
         <div class="article-h1">
-            심볼을 만들 때 이 대화 상자가 나타나 마스터를 다른 페이지로 보낼 수 있습니다. 이제 팝업 메뉴에서 insert> symbol을 선택하고 심볼의 새 인스턴스를 캔버스에 삽입 할 수 있습니다. 마찬가지로 심볼의 기존 인스턴스를 복사하여 붙여 넣거나 복제 할 수 있으며 스케치는 이를 함께 연결합니다.<br><br> 다른 심볼이 포함된 심볼을 만들려면 인스턴스를 다른 심볼의 마스터에 넣으면됩니다.<br><br> 심볼 마스터를 일반 아트보드로 다시 변환하려면 레이어 목록에서 심볼 아트보드를 선택하고 메뉴에서 Layer> Make symbol을 선택합니다. 그러면이 심볼의 인스턴스가 그룹이 되어  해당 심볼을 편집해도 복사한 심볼에 업데이트되지 않습니다.<br><br> 인스턴스 심볼를 마스터로부터 아예 분리하려면 메뉴에서 Layer> Detach from symbol을 선택하거나 Ctrl 키를 누른 상태에서 바로 가기 메뉴를 선택하여 같은 항목을 누르면됩니다.</div>
+            심볼을 만들 때 이 대화 상자가 나타나 마스터를 다른 페이지로 보낼 수 있습니다. 이제 팝업 메뉴에서 insert> symbol을 선택하고 심볼의 새 인스턴스를 캔버스에 삽입 할 수 있습니다. 마찬가지로 심볼의 기존 인스턴스를 복사하여 붙여 넣거나 복제 할 수 있으며 스케치는 이를 함께 연결합니다.<br><br> 다른 심볼이 포함된 심볼을 만들려면 인스턴스를 다른 심볼의 마스터에 넣으면됩니다.<br><br> 심볼 마스터를 일반 아트보드로 다시 변환하려면 레이어 목록에서 심볼 아트보드를 선택하고 메뉴에서 Layer> Make symbol을 선택합니다. 그러면이 심볼의 인스턴스가 그룹이 되어 해당 심볼을 편집해도 복사한 심볼에 업데이트되지 않습니다.<br><br> 인스턴스 심볼를 마스터로부터 아예 분리하려면 메뉴에서 Layer> Detach from symbol을 선택하거나 Ctrl 키를 누른 상태에서 바로 가기 메뉴를 선택하여 같은 항목을 누르면됩니다.</div>
 
         <div class="article-title">
             심볼 편집</div>
@@ -133,7 +106,7 @@ https://www.sketchapp.com/images/documentation/the-interface/layers@2x.jpg">
         <iframe lass="article-img" src="https://www.youtube.com/embed/3fcIp5OXtVE" frameborder="0" allowfullscreen></iframe>
 
         <div class="article-h1">
-            이미지 오버라이드를 적용하려면 비트맵 레이어 또는 마스터에 이미지 채우기가 있는 오브젝트가 있으면 됩니다. 인스턴스를 선택한 상태에서 Inspector에서 이미지 선택 버튼을 클릭하거나 스케치 외부에서 이미지 미리보기로 이미지를 드래그 할 수 있습니다. 동일한 디자인에 다른 컨텐츠를 인스턴스에 적용해야하는 상황에  좋은 방법입니다.<br><br> 텍스트 오버라이드 업데이트 시 전체 길이가 변경될 수 있습니다. 결과적으로 스케치는 왼쪽 또는 오른쪽으로 정렬된 텍스트 뒤에 위치한 레이어가 텍스트 레이어와의 거리를 유지한채 밀려나가 심볼 및 오버라이드 이점을 완전히 활용할 수 있습니다.<br><br> 텍스트 오버라이드를 편집 할 때 뒤에 위치한 레이어의 위치가 업데이트되지 않도록 하려면 Ctrl 키를 누른 상태에서 바로 가기 메뉴에서 "Lock layer"를 선택하여 레이어를 잠급니다.<br><br>
+            이미지 오버라이드를 적용하려면 비트맵 레이어 또는 마스터에 이미지 채우기가 있는 오브젝트가 있으면 됩니다. 인스턴스를 선택한 상태에서 Inspector에서 이미지 선택 버튼을 클릭하거나 스케치 외부에서 이미지 미리보기로 이미지를 드래그 할 수 있습니다. 동일한 디자인에 다른 컨텐츠를 인스턴스에 적용해야하는 상황에 좋은 방법입니다.<br><br> 텍스트 오버라이드 업데이트 시 전체 길이가 변경될 수 있습니다. 결과적으로 스케치는 왼쪽 또는 오른쪽으로 정렬된 텍스트 뒤에 위치한 레이어가 텍스트 레이어와의 거리를 유지한채 밀려나가 심볼 및 오버라이드 이점을 완전히 활용할 수 있습니다.<br><br> 텍스트 오버라이드를 편집 할 때 뒤에 위치한 레이어의 위치가 업데이트되지 않도록 하려면 Ctrl 키를 누른 상태에서 바로 가기 메뉴에서 "Lock layer"를 선택하여 레이어를 잠급니다.<br><br>
 
             <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/override@2x.mp4"></video> 텍스트를 오버라이드 할 때 스타 아이콘이 여백 거리를 어떻게 사용하는지 살펴보세요. 오버라이드가 가능한 세가지 레이어 타입인 중첩된 심볼, 텍스트, 이미지 레이어를 잠그면 Inspector에 작성 항목이 나오지 않습니다.
         </div>
@@ -221,7 +194,7 @@ https://www.sketchapp.com/images/documentation/the-interface/layers@2x.jpg">
         <div class="article-h1">
             라이브러리 목록의 맨 아래에서 설정 아이콘을 클릭하면 라이브러리 열기, 비활성화, 제거를 선택할 수있는 메뉴가 나타납니다. 라이브러리의 수에 제한이 없으며 각 라이브러리의 심볼은 심볼 메뉴에서 깔끔하게 구분됩니다.
         </div>
-        
+
         <div class="article-title">
             외부 라이브러리</div>
         <div class="article-h1">
@@ -293,6 +266,12 @@ https://www.sketchapp.com/images/documentation/libraries/imported-symbols@2x.jpg
 
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
- <script> $("#nav").load("nav.html");     $("#menu-sub").load("menu-sub.html");     </script></body>
+    <script>
+        $("#nav").load("nav.html");
+        $("#menu-sub").load("menu-sub.html");
+        $("#submenu-sketch").load("submenu-sketch.html");
+
+    </script>
+</body>
 
 </html>

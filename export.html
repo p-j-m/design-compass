@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
- 
+
     <!-- FAVICON -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/favicon/apple-touch-icon-57x57.png" />
@@ -46,38 +46,10 @@
     <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
 </head>
 
-<body> <div class="se-pre-con"></div>
+<body>
+    <div class="se-pre-con"></div>
     <div id="nav"></div>
-    <div class="menu-sub">
-        <div class="menu-sub-dropdown">스케치 가이드</div>
-        <ul>
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-
-        </ul>
-    </div>
-    <div class="mobile-menu-sub">
-        <div class="mobile-menu-sub-dropdown">스케치 가이드</div>
-        <ul class="mobile-dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-
-        </ul>
-    </div>
+    <div id="submenu-sketch"></div>
     <div class="article-container">
         <div class="article-title">
             내보내기</div>
@@ -237,50 +209,18 @@
             표시된 것 중 하나를 클릭하면 인쇄 설정을 구성 할 수있는 시스템의 창이 뜹니다.
             <br><br> 참고 : A4, A5 및 A6 용지 크기의 아트 보드 사전 설정이 있습니다.
         </div>
-
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
- <script> $("#nav").load("nav.html");     $("#menu-sub").load("menu-sub.html");     </script>
-    
     <script>
-$(function(){
-  var getMatchingUri = function(){
-    this.init();
-  };
+        $("#nav").load("nav.html");
+        $("#menu-sub").load("menu-sub.html");
+        $("#submenu-sketch").load("submenu-sketch.html");
 
-  getMatchingUri.prototype = {
-    init : function(){
-      this.cacheElement();
-      this.setEvent();
-    },
-    cacheElement : function(){
-      this.wel = $("#gnb");
-      this.el = this.wel.find("a");
-    },
-    click : function(e){
-      var uri = e.currentTarget.href,
-          pattern = /\#(?:.*)/g,
-          pageString = uri.match(pattern)[0];
+    </script>
 
-      $.each(this.el, function(){
-        var $this = $(this);
-        if(pageString === $this.attr("href")){
-          $this.parent().addClass("current");
-        } else {
-          $this.parent().removeClass("current");
-        }
 
-      });
-    },
-    setEvent : function(){
-      this.el.on("click", $.proxy(this.click, this));
-    }
-  };
 
-  var getmatchuri = new getMatchingUri();
-}());</script>
-    
-       
-    </body>
+
+</body>
 
 </html>

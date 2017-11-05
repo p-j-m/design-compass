@@ -17,7 +17,8 @@
     <title>디자인 책장</title>
 
     <!-- connect with other files -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" /><link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
@@ -45,38 +46,10 @@
     <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
 </head>
 
-<body> <div class="se-pre-con"></div>
+<body>
+    <div class="se-pre-con"></div>
     <div id="nav"></div>
-    <div class="menu-sub">
-        <div class="menu-sub-dropdown">스케치 가이드</div>
-        <ul class="dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
-    <div class="mobile-menu-sub">
-        <div class="mobile-menu-sub-dropdown">스케치 가이드</div>
-        <ul class="mobile-dropdown-sub">
-            <li><a href="./the-interface.html">인터페이스</a></li>
-            <li><a href="./layers.html">레이어</a></li>
-            <li><a href="./shapes.html">도형</a></li>
-            <li><a href="./text.html">텍스트,이미지</a></li>
-            <li><a href="./group-layer.html">레이어 그룹화</a></li>
-            <li><a href="./styling.html">스타일링</a></li>
-            <li><a href="./symbol.html">심볼,라이브러리</a></li>
-            <li><a href="./canvas.html">캔버스</a></li>
-            <li><a href="./export.html">내보내기</a></li>
-            
-        </ul>
-    </div>
+    <div id="submenu-sketch"></div>
     <div class="article-container">
 
         <div class="article-title">
@@ -114,7 +87,7 @@
             서식이 있는 텍스트
         </div>
         <div class="article-h1">
-            스케치는 다른 응용 프로그램에서 붙여 넣은 서식있는 텍스트를 표시하는 기능을 지원합니다. 예를 들어 Safari에서 웹 사이트의 일부 텍스트를 선택하여 복사 한 경우 스케치에서  Edit › Paste › Paste as Rich Text (또는 Option-Shift-Command-V 누르기)를 선택하십시오. 새로 붙여 넣은 텍스트 레이어에는 설정된 글꼴, 크기 및 색상의 단어가 포함됩니다.</div>
+            스케치는 다른 응용 프로그램에서 붙여 넣은 서식있는 텍스트를 표시하는 기능을 지원합니다. 예를 들어 Safari에서 웹 사이트의 일부 텍스트를 선택하여 복사 한 경우 스케치에서 Edit › Paste › Paste as Rich Text (또는 Option-Shift-Command-V 누르기)를 선택하십시오. 새로 붙여 넣은 텍스트 레이어에는 설정된 글꼴, 크기 및 색상의 단어가 포함됩니다.</div>
 
         <div class="article-title">
             텍스트 크기 조절하기
@@ -230,8 +203,7 @@
             이미지 편집을 시작하려면 캔버스에서 이미지를 선택한 뒤 더블 클릭합니다. 그려면 Inspector에 몇 가지 특수한 툴이 표시됩니다. 먼저 캔버스에서 편집하려는 하는 영역을 선택한 뒤 원하는 도구를 선택합니다.<br><br>
             <li>Selection : 이미지에서 직사각형 영역을 선택합니다.</li>
             <li>Magic Wand : 이미지를 클릭하고 드래그하여 영역을 선택합니다. 클릭한 첫 지점부터 멀리 드래그할 수록 tolerance도 커집니다.</li>
-            <br><br>
-            Shift 키를 누르면서 선택하면 영역이 더 추가되며  Option 키를 눌러 영역을 뺄 수 있습니다. 선택이 완료되면 영역을 잘라내거나 복사하여 새로운 비트맵 레이어에 사용하거나 아래 4가지 도구 중 하나를 선택할 수 있습니다.
+            <br><br> Shift 키를 누르면서 선택하면 영역이 더 추가되며 Option 키를 눌러 영역을 뺄 수 있습니다. 선택이 완료되면 영역을 잘라내거나 복사하여 새로운 비트맵 레이어에 사용하거나 아래 4가지 도구 중 하나를 선택할 수 있습니다.
             <br><br>
             <li>Invert : 현재 선택한 영역의 반대가 선택됩니다.
             </li>
@@ -250,6 +222,12 @@
 
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
- <script> $("#nav").load("nav.html");     $("#menu-sub").load("menu-sub.html");     </script></body>
+    <script>
+        $("#nav").load("nav.html");
+        $("#menu-sub").load("menu-sub.html");
+        $("#submenu-sketch").load("submenu-sketch.html");
+
+    </script>
+</body>
 
 </html>

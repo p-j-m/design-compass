@@ -18,13 +18,13 @@
 
     <!-- connect with other files -->
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href=".../img/favicon/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/favicon/apple-touch-icon-114x114.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/favicon/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/favicon/apple-touch-icon-144x144.png" />
@@ -52,47 +52,58 @@
     <div id="submenu-theory"></div>
     <div class="article-container">
 
-
-            <div class="article-title">
-                시작하기</div>
-            <div class="article-h1">
-                다양한 스크린에서 사용될 서비스 디자인 프로젝트를 위한 이론들입니다. 다양한 변수가 존재하는 UX 외에 서비스 디자인 작업에 필요한 것들을 정리해나가고 있습니다. 되도록 실제 작업 시에 필요한 것들을 찾기 편하도록 제가 작업할 때의 생각을 흐름대로 기록하고 있습니다.
-            </div>
-
-            <img class="article-img" src="  ../img/main_thumnail.png">
-
-
         <div class="article-title">
-            폴더 관리</div>
-        <div class="article-h1">
-            PSD가 10기가가 되는 아름다운 일을 겪지 않으려면 폴더를 소중히 해야합니다. 파일 하나에 모든 리소스를 포함시키지 않고 외부에서 링크하는 방식을 해야합니다. 다양한 작업을 수행하기 위한 폴더 구조로 앱 디자인뿐만 아니라, 프로젝트를 수행할 때 필요한 문서 작업, 인터랙션, 코딩 등에 활용하기 위한 폴더 구조입니다.
-        </div>
-        <img class="article-img" src=" ../img/design-system/folder.png">
+            디자인 구조</div>
 
         <div class="article-h1">
-            <ul>
-            <li><b>design:</b> 시각적인 구현과 연관된 모든 것들</li>
-            <li><b>doc:</b> 시나리오, 조사 결과 등 내외부에서 활용되는 모든 종류의 문서</li>
-            <li><b>resource:</b> 문서와 디자인에 사용될 수 있는 외부 자료</li></ul>
+            가장 이해하기 편한 방식으로 Bradfrost에서 제시한 Atomic Design 방법론이 있습니다. 작은 단위부터 만들어서 전체를 구성하는 방식입니다. 서비스 디자인을 시작하기 전에 디자인 요소들이 어떤식으로 구성되는지 이해하는데 도움이 됩니다. 
+            
         </div>
 
-        <div class="article-h1">
-            <ul>
-            <li><b>_assets:</b>.png .svg .jpg 디자인 요소들</li>
-            <li><b>_exports:</b> .png .jpg 프로토타이핑 및 마케팅에서 활용할 수 있는 각종 이미지들</li>
-            <li><b>_library:</b> .sketch .lib 작업에 필요한 가이드 라인 및 라이브러리 모음</li>
-            <li><b>gui:</b> .sketch .psd 등 실제 GUI 작업 파일</li>
-            <li><b>interaction:</b> .html .prj .framer 애니메이션, 실제 동작 등 인터랙션 디자인 작업 파일</li></ul>
-        </div> 
+          <img class="article-img" src=".../img/design-system/atomic-design.png">
         
+       <div class="article-title">
+        원자
+        </div>
+             <div class="article-h1">
+            색, 글자, 이미지 등 디자인을 구성하는 요소
+        </div>
+             <img class="article-img" src="  ../img/design-system/atomic_design_01.png">
             
             
+            <div class="article-title">분자</div> 
+        <div class="article-h1">컴포넌트와 같은 기능을 수행하기 위해 디자인 원자가 조합된 형태<br>
+              (ex.이건 대충 내용이 뭐지? -> 컨텐츠의 내용을 파악할 수 있는 요약 보여주기)</div>
+         <img class="article-img" src="  ../img/design-system/atomic_design_molecules.png">
+        
+        
+            <div class="article-title">유기체</div>
+        <div class="article-h1">디자인 분자가 모여 기능을 수행하는 형태
+            <br>(ex.이런거 더 없나? -> 비슷한 성격의 컨텐츠를 모아서 보여주기)</div>
+        
+         <img class="article-img" src="  ../img/design-system/atomic_design_organism.png">
+        
+        
+            <div class="article-title">구조</div>
+        <div class="article-h1">특정 페이지에서 목적을 위해 원자, 분자, 유기체가 조합되어 구조적으로 배치된 형태<br>(ex. 딴거 더 없나? -> 이 공간에서 사용자가 무엇을 볼 수 있는지 전체를 파악할 수 있게하기)</div>
+        
+         <img class="article-img" src="  ../img/design-system/atomic_design_structure.png">
+         
+        
+          
+         <div class="article-title">
+            참고</div>
+        <div class="article-h1">
+
+            <a class="outlink" href="http://bradfrost.com/blog/post/atomic-web-design/">Atomic Design by Bradfrost
+           </a>
+        </div>
     </div>
-        
-    <script href="../js/index.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
     <script>
-        $("#nav").load("nav.html");
-        $("#submenu-theory").load("submenu-theory.html");
+        $("#nav").load("../nav.html");
+        $("#submenu-theory").load("../submenu-theory.html");
     </script>
 </body>
 
