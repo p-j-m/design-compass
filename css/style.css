@@ -86,8 +86,6 @@ body {
     padding: 50px 40px 0px 40px;
     top: 0;
     height: 100%;
-
-    font-size: 18px;
 }
 
 .menu-sub-dropdown {
@@ -238,8 +236,8 @@ h2 {
 }
 
 .nav-btn-sub {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     letter-spacing: 0;
 }
 
@@ -467,7 +465,7 @@ h2 {
     .article-container {
         max-width: 750px;
         padding: 20px;
-        padding-top: 100px;
+        padding-top: 80px;
         margin: 0;
     }
     .nav {
@@ -592,7 +590,7 @@ h2 {
         display: inline;
         width: 100%;
         margin-top: 56px;
-        height: 80px;
+        height: 64px;
         background-color: #ffffff;
         /* disable text selection by clicking */
         -webkit-user-select: none;
@@ -609,14 +607,13 @@ h2 {
 
     .mobile-menu-sub-dropdown {
         display: block;
-        margin: 12px 16px 12px 16px;
-        padding: 16px 0px 0px 16px;
+        margin: 22px 0px 20px 16px;
         margin-right: 20px;
         color: #232323;
-        border: 0.5px solid #d4d4d4;
         border-radius: 4px;
         background-color: #ffffff;
-        height: 32px;
+        font-size:18px;
+        font-weight:600;
     }
 
     .mobile-menu-sub a.dropdown-link {
@@ -647,7 +644,7 @@ h2 {
         z-index: 100;
         margin: 0;
         text-align: left;
-        box-shadow: 0px 1px 2px #dedfe6;
+        box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.2);
         height: 300px;
         overflow-y: scroll;
     }
@@ -663,13 +660,14 @@ h2 {
     .mobile-dropdown-sub li {
         padding: 0;
         height: auto;
+            border-top: 1px solid #e6e6e6;
     }
 
     .mobile-dropdown-sub li a {
         padding: 0;
         color: #232323;
         display: block;
-        padding: 8px 24px;
+        padding: 8px 16px;
         height: 40px;
         line-height: 40px;
         font-size: 16px;
@@ -682,6 +680,7 @@ h2 {
     }
 
     .article-title {
+        font-size: 24px;
         margin-top: 50px;
 
     }
@@ -695,9 +694,9 @@ h2 {
     }
 
     .article-h1 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 26px;
         margin-bottom: 24px;
         color: #4e4e4e;
     }
