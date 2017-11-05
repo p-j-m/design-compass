@@ -33,20 +33,19 @@ body {
 
 
 .logo {
-    background: rgba(0, 0, 0, 0.00);
-    border-bottom: 1px solid #E6E6E6;
-    font-family: "Noto Sans KR", sans-serif;
-    font-size: 16px;
+    border-bottom:1px solid #E6E6E6;
+    font-size: 20px;
+    font-weight:600;
     color: black;
     letter-spacing: 0;
     text-align: center;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0px 40px 0px;
 }
 
 .nav {
     position: fixed;
     left: 0;
-    width: 180px;
+    width: 200px;
     height: 100%;
     background-color: white;
     border-right: 1px solid #E6E6E6;
@@ -60,7 +59,7 @@ body {
 
 .menu-sub {
     position: fixed;
-    left: 180px;
+    left: 200px;
     padding: 50px 40px 0px 40px;
     top: 0;
     height: 100%;
@@ -91,7 +90,7 @@ body {
 .container {
     float: left;
     padding-top: 50px;
-    padding-left: 200px;
+    padding-left: 240px;
     padding-bottom: 50px;
 }
 
@@ -230,7 +229,7 @@ h2 {
 /* icon */
 
 .logo-icon {
-    width: 60px;
+    width: 56px;
     padding-top: 20px;
 }
 
@@ -285,7 +284,7 @@ h2 {
 }
 
 .article-container {
-    margin-left: 400px;
+    margin-left: 440px;
     padding: 40px;
     max-width: 750px;
 }
@@ -448,7 +447,7 @@ h2 {
         position: fixed;
         left: 0;
         width: 100%;
-        height: 70px;
+        height: 48px;
         text-align: left;
         border-bottom: 1px solid #e6e6e6;
     }
@@ -478,8 +477,11 @@ h2 {
     }
 
     .logo-icon {
-        width: 46px;
-        padding: 10px 0px 0px 20px;
+        width: 36px;
+    padding: 6px 0px 0px 16px;
+    }
+    .logo-title {
+        display:none;
     }
 
     .nav-btn {
@@ -506,7 +508,7 @@ h2 {
 
     .mobile-menu a.dropdown-link {
         display: block;
-        height: 70px;
+        height: 48px;
         padding: 0 20px;
         color: black;
         font-size: 20px;
@@ -591,7 +593,7 @@ h2 {
 
     .mobile-menu-sub a.dropdown-link {
         display: block;
-        height: 80px;
+        height: 48px;
         padding: 0 20px;
         color: black;
         font-size: 20px;
