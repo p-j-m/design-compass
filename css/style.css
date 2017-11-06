@@ -92,6 +92,7 @@ body {
     padding: 80px 40px 0px 40px;
     top: 0;
     height: 100%;
+    border-right: 1px solid #E6E6E6;
 }
 
 .menu-sub-dropdown {
@@ -232,14 +233,14 @@ h2 {
     letter-spacing: 0;
     text-align: left;
     padding: 24px;
-     transition: ease 0.5s;
+    transition: ease 0.5s;
 }
 
 
 .nav-btn:hover {
     background-color: #232323;
     color: white !important;
-     transition: ease 0.1s;
+    transition: ease 0.1s;
 }
 
 
@@ -666,11 +667,11 @@ h2 {
 
 
     .mobile-menu-sub ul {
-       list-style: none;
-    color: #232323;
-    overflow-y: scroll;
-    margin: 10px 0px 0px -14px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2)
+        list-style: none;
+        color: #232323;
+        overflow-y: scroll;
+        margin: 10px 0px 0px -14px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2)
     }
 
     .mobile-dropdown-sub li {
