@@ -547,7 +547,7 @@ h2 {
 
     .mobile-menu a.dropdown-link {
         display: block;
-        height: 48px;
+        height: 56px;
         padding: 0 16px;
         color: #232323;
         font-size: 20px;
@@ -671,7 +671,7 @@ h2 {
         color: #232323;
         overflow-y: scroll;
         margin: 10px 0px 0px -14px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2)
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
     .mobile-dropdown-sub li {
