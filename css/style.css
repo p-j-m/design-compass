@@ -107,7 +107,7 @@ body {
 }
 
 .menu-sub li {
-    padding: 16px 20px 10px 0px;
+    padding: 22px 16px;
 }
 
 .menu-sub li a {
@@ -333,7 +333,7 @@ h2 {
     font-size: 30px;
     font-weight: 600;
     line-height: 48px;
-    margin-top: 56px;
+    margin-top: 50px;
     margin-bottom: 8px;
     color: #232323;
 }
