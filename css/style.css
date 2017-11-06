@@ -89,7 +89,7 @@ body {
 .menu-sub {
     position: fixed;
     left: 200px;
-    padding: 80px 40px 0px 40px;
+    padding: 60px 40px 0px 40px;
     top: 0;
     height: 100%;
     border-right: 1px solid #E6E6E6;
