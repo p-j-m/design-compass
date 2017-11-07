@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    
+    
     $('.animate').scrolla({
 		mobile: true,
 		once: true
@@ -15,10 +17,16 @@ $(document).ready(function() {
 
 		return false;
 	}); 
+
+    
+    
     
 });
 
 $(window).load(function() {
 		$(".se-pre-con").fadeOut("slow");
+
 });
+
+       
 

@@ -2,7 +2,7 @@
 
 /* layout */
 
-.active {
+.active>a {
     background: #2b90f5;
     color: yellow;
 }
@@ -113,6 +113,12 @@ body {
 .menu-sub li a {
     color: #232323;
     font-weight: 500;
+    font-size: 18px;
+}
+
+.menu-sub li a:active {
+    color: #232323;
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -653,7 +659,7 @@ h2 {
     .mobile-dropdown-sub {
         display: none;
         list-style-type: none;
-        background: #fbfbfb;
+        background: #ffffff;
         padding: 0;
         z-index: 100;
         margin: 0;
