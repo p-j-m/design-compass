@@ -40,7 +40,6 @@ body {
 
 
 .logo {
-    border-bottom: 1px solid #E6E6E6;
     font-size: 20px;
     font-weight: 600;
     color: #232323;
@@ -55,14 +54,13 @@ body {
     width: 200px;
     height: 100%;
     background-color: #ffffff;
-    border-right: 1px solid #E6E6E6;
+    box-shadow:inset -4px 0px 40px #f7f7f7;
     z-index: 999;
     text-align: center;
 }
 
 .footer {
     width: 200px;
-    border-top: 1px solid #E6E6E6;
     opacity: 1;
     position: fixed;
     bottom: 20px;
@@ -92,7 +90,6 @@ body {
     padding: 60px 40px 0px 40px;
     top: 0;
     height: 100%;
-    border-right: 1px solid #E6E6E6;
 }
 
 .menu-sub-dropdown {
@@ -152,7 +149,7 @@ body {
     margin: 8px 8px 8px 16px;
     background-color: white;
     border-radius: 8px;
-    border: 1px solid #E6E6E6;
+    box-shadow: 0px 4px 20px #efefef;
 }
 
 .col:hover {
@@ -233,7 +230,6 @@ h2 {
     cursor: pointer;
     background: #ffffff;
     background: rgba(0, 0, 0, 0.00);
-    border-bottom: 1px solid #E6E6E6;
     font-family: "Noto Sans KR", sans-serif;
     font-size: 24px;
     color: #232323;
@@ -491,6 +487,7 @@ h2 {
         height: 56px;
         text-align: left;
         border-bottom: 1px solid #ececec;
+        box-shadow:none;
     }
 
     .wrapper {
