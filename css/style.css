@@ -128,7 +128,7 @@ body {
     float: left;
     padding-top: 50px;
     padding-left: 240px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
 }
 
 .con-title {
@@ -140,6 +140,7 @@ body {
 .wrapper {
     float: left;
     width: 100%;
+    max-width:1600px;
 }
 
 .col {
