@@ -2,7 +2,11 @@
 
 /* layout */
 
-.active>a {
+.current>a{
+  font-weight:bold;
+  background:#ff0;
+}
+.active > a {
     background: #2b90f5;
     color: yellow;
 }
@@ -54,7 +58,7 @@ body {
     width: 200px;
     height: 100%;
     background-color: #ffffff;
-    box-shadow:inset -4px 0px 40px #f7f7f7;
+    box-shadow: inset -4px 0px 40px #f1f1f3;
     z-index: 999;
     text-align: center;
 }
@@ -110,15 +114,8 @@ body {
 .menu-sub li a {
     color: #232323;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 17px;
 }
-
-.menu-sub li a:active {
-    color: #232323;
-    font-weight: 600;
-    font-size: 18px;
-}
-
 
 
 .container {
@@ -137,7 +134,7 @@ body {
 .wrapper {
     float: left;
     width: 100%;
-    max-width:1600px;
+    max-width: 1600px;
 }
 
 .col {
@@ -149,12 +146,12 @@ body {
     margin: 8px 8px 8px 16px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0px 4px 20px #efefef;
+    box-shadow: 0px 4px 20px #f1f1f3;
 }
 
 .col:hover {
     color: white;
-    box-shadow: 0px 10px 30px #cecece;
+    box-shadow: 0px 10px 30px #e9e9ea;
     transition: ease 0.5s;
     transform: translateY(-10px)
 }
@@ -487,7 +484,7 @@ h2 {
         height: 56px;
         text-align: left;
         border-bottom: 1px solid #ececec;
-        box-shadow:none;
+        box-shadow: none;
     }
 
     .wrapper {

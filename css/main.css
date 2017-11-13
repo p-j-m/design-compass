@@ -32,7 +32,7 @@
     padding: 14px;
     margin: 12px -2px 12px 18px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 40px #efefef;
+    box-shadow: 0px 4px 40px #f1f1f3;
     border-radius: 8px;
     text-align: center;
     transition: ease 0.5s;
@@ -41,9 +41,9 @@
 
 .service-box:hover {
     color: white;
-    box-shadow: 0px 10px 40px #dad8d5;
+    box-shadow: 0px 10px 40px #e9e9ea;
     transition: ease 0.5s;
-    transform: translateY(-5px)
+    transform: translateY(-10px)
 }
 
 
@@ -76,7 +76,7 @@
     position: fixed;
     right: 0px;
     bottom: 0px;
-    width:240px;
+    width: 240px;
 }
 
 
@@ -91,9 +91,9 @@
         padding: 0px;
     }
 
-.bg-illust {
-   display:none;
-}
+    .bg-illust {
+        display: none;
+    }
 
 
 }
