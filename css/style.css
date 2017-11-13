@@ -2,15 +2,10 @@
 
 /* layout */
 
-.current>a{
-  font-weight:bold;
-  background:#ff0;
+.active {
+    color: black;
+    font-weight: 800;
 }
-.active > a {
-    background: #2b90f5;
-    color: yellow;
-}
-
 
 .no-js #loader {
     display: none;
@@ -91,7 +86,7 @@ body {
 .menu-sub {
     position: fixed;
     left: 200px;
-    padding: 60px 40px 0px 40px;
+    padding: 70px 40px 0px 40px;
     top: 0;
     height: 100%;
 }
@@ -112,8 +107,6 @@ body {
 }
 
 .menu-sub li a {
-    color: #232323;
-    font-weight: 500;
     font-size: 17px;
 }
 
@@ -299,12 +292,9 @@ h2 {
 }
 
 .archive-title {
-
     float: left;
     width: 90%;
-
     padding: 40px 20px 20px 20px;
-
 }
 
 .archive-list-title {
@@ -316,8 +306,12 @@ h2 {
     font-weight: 400;
 }
 
+.article-outer {
+    margin-left: 0px;
+}
+
 .article-container {
-    margin-left: 440px;
+    margin-left: 460px;
     padding: 40px;
     max-width: 750px;
 }
@@ -696,6 +690,11 @@ h2 {
         text-decoration: none;
     }
 
+
+
+    .article-outer {
+       margin:0px;
+    }
     .article-title {
         margin-top: 50px;
         font-size: 24px;

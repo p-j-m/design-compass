@@ -3,12 +3,39 @@
         $(".mobile-dropdown-sub").slideToggle("fast");
     });
 
-</script>
+    // Get current page URL
+    var url = window.location.href;
 
+    // remove # from URL
+    url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
+
+    // remove parameters from URL
+    url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
+
+    // select file name
+    url = url.substr(url.lastIndexOf("/") + 1);
+
+    // If file name not avilable
+    if (url == '') {
+        url = 'index.html';
+    }
+    // Loop all menu items
+    $('.menu-sub li').each(function() {
+        // select href
+        var href = $(this).find('a').attr('href');
+
+        // Check filename
+        if (url == href) {
+
+            // Add active class
+            $(this).addClass('active');
+        }
+    });
+</script>
 
 <div class="menu-sub">
     <div class="menu-sub-dropdown">앱 디자인<img style="  opacity:1;    float: right;     padding-right: 14px;     width: 12px;     padding-top: 2px;" src="./img/icon/icon-dropdown.svg"> </div>
-    <ul class="dropdown-sub">
+    <ul>
         <li><a href="design-theory.html">시작하기</a></li>
         <li><a href="atomic-design.html">디자인 요소</a></li>
         <li><a href="color.html">색</a></li>
@@ -18,11 +45,11 @@
         <li><a href="component.html">레이아웃</a></li>
         <li><a href="component.html">페이지</a></li>
     </ul>
-       
 </div>
+
 <div class="mobile-menu-sub">
     <div class="mobile-menu-sub-dropdown">
-앱 디자인
+        앱 디자인
         <img style="  opacity:1;    float: right;     padding-right: 14px;     width: 12px;     padding-top: 2px;" src="./img/icon/icon-dropdown.svg"></div>
     <ul class="mobile-dropdown-sub">
         <li><a href="design-theory.html">시작하기</a></li>

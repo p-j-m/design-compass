@@ -18,9 +18,10 @@
 
     <!-- connect with other files -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="./animate.min.css">
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -50,7 +51,7 @@
     <div class="se-pre-con"></div>
     <div id="nav"></div>
     <div id="submenu-sketch"></div>
-    <div class="article-container">
+    <div class="article-outer"><div class="article-container">
          
         <div class="article-title">인터페이스</div>
         <div class="article-subtitle">스케치 인터페이스는 미니멀하게 디자인되었습니다.</div>
@@ -253,14 +254,18 @@
             이러한 도구들은 스케치가 제공하는 것입니다. shortcut 메뉴에서 Control 클릭 - "Customize Toolbar..."을 선택해 나만의 툴바 레이아웃을 구성할 수 있습니다.
         </div>
         <hr>
-
+  </div>
     </div>
 
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="dist/scrolla.jquery.min.js"></script>
+
+
     <script>
-        $("#nav").load("nav.html");
-        $("#submenu-theory").load("submenu-theory.html");
-        $("#submenu-sketch").load("submenu-sketch.html");
+        $("#nav").load("./nav.html");
+        $("#submenu-sketch").load("./submenu-sketch.html");
+
     </script>
    
 </body>
