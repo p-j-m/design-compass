@@ -37,6 +37,8 @@ body {
     background-color: #ffffff;
 }
 
+ul{padding-left:24px;}
+
 
 .logo {
     font-size: 20px;
@@ -477,7 +479,7 @@ h2 {
         width: 100%;
         height: 56px;
         text-align: left;
-        border-bottom: 1px solid #ececec;
+        /*border-bottom: 1px solid #ececec;*/
         box-shadow: none;
     }
 
@@ -606,7 +608,7 @@ h2 {
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        border-bottom: 1px solid #ececec;
+        /*border-bottom: 1px solid #ececec;*/
         left: 0px;
         padding: 0px;
         top: 0;
