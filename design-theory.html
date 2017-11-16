@@ -18,6 +18,7 @@
 
     <!-- connect with other files -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
@@ -50,10 +51,13 @@
 <body>
     <div class="se-pre-con"></div>
     <div id="nav"></div>
-    <div id="submenu-theory"></div>
 
     <div class="article-outer">
+        <div id="submenu-theory"></div>
         <div class="article-container">
+
+            <img style="margin-top:60px;" class="article-img" src="img/main-thumnail/main_thumnail_v2.png">
+
             <div class="article-title">
                 시작하기</div>
             <div class="article-h1">
@@ -93,43 +97,37 @@
                 8pt 그리드 시스템이 가장 유용하게 쓰입니다. 단위가 너무 작으면 1px 2px 씩 조정하는데 낭비되는 시간이 많습니다.
             </div>
             <img class="article-img" src=" ./img/design-system/8-grid.png">
-
-
-
             <div class="sidebar-con">
                 <div class="sidebar-wrapper">
                     <div class="sidebar-title">
                         더 자세히 알아보기
                     </div>
-              
-                    <div class="sidebar-outlink" >
+
+                    <div class="sidebar-outlink">
                         <img class="sidebar-icon" src="./img/icon/icon_outlink.svg"> Getting Typography Right in Digital Design by Nick Babich
                     </div>
-                    
-                    <div class="sidebar-outlink" >
+
+                    <div class="sidebar-outlink">
                         <img class="sidebar-icon" src="./img/icon/icon_outlink.svg"> Getting Typography Right in Digital Design by Nick Babich
                     </div>
                 </div>
 
                 <div class="sidebar-wrapper">
-                    <div style="font-weight:bold;padding:18px 0px">
+                    <div class="sidebar-title">
                         샘플 파일
                     </div>
                     <img class="sidebar-icon" src="./img/icon/icon_download.svg"> 다운로드
                 </div>
             </div>
-
         </div>
-
     </div>
+
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="dist/scrolla.jquery.min.js"></script>
-
-
     <script>
-        $("#nav").load("./nav.html");
-        $("#submenu-theory").load("./submenu-theory.html");
+        $("#nav").load("nav.html");
+        $("#submenu-theory").load("submenu-theory.html");
 
     </script>
 </body>

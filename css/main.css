@@ -1,22 +1,61 @@
+.header{
+height:60px;width:100%;position:fixed;top:0;background-color:white;z-index:998;
+}
+
+.header-icon{
+float:left;vertical-align:middle;padding:10px;width:32px;
+}
+
+.header-logo{
+position:absolute;left:50%;margin-left:-55px;font-size:24px;font-weight:700;padding-top:16px;
+}
+
+.header-share{
+float:right;right:0;padding-top:6px;
+}
+
+.header-share-icon{
+float:left;vertical-align:middle;padding:10px;width:24px;
+}
+
+
+.introduction {
+    text-align: center;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 400;
+    padding: 0px 16px;
+    color: #232323;
+}
+
+.topic-outer {
+    position: absolute;
+    width: 750px;
+    height: 800px;
+    left: 50%;
+    top: 50%;
+    margin-left: -375px;
+    margin-top: -380px;
+}
+
 .topic-container {
-    width: 100%;
+    width: 750px;
     height: 180px;
-    margin: 20px 0px;
+    margin: 0 auto;
 }
 
 .topic-box {
-    float: left;
-    margin-left: 14px;
-    margin-right: 14px;
+    margin: 0 auto;
 }
 
 .topic-img {
     width: 100%;
-    max-width: 420px;
+    max-width: 750px;
     border-radius: 10px;
     box-shadow: 0px 10px 40px #dad8d5;
     transition: ease 0.5s;
     margin-bottom: 10px;
+    margin: 24px 0px;
 }
 
 .topic-img:hover {
@@ -25,11 +64,25 @@
     box-shadow: 0px 20px 80px #989898;
 }
 
+.topic-title {
+    float: left;
+    width: 260px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.topic-desc {
+    float: left;
+    width: 480px;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 300;
+}
 
 .service-box {
     float: left;
-    width: 140px;
-    height: 140px;
+    width: 154px;
+    height: 154px;
     padding: 14px;
     margin: 12px -2px 12px 18px;
     background: #FFFFFF;
@@ -85,6 +138,39 @@
 
 @media screen and (max-width: 840px) {
 
+    .introduction {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 500;
+        color: #232323;
+    }
+
+    .topic-box {
+        margin: 0 auto;
+        padding: 0px 20px;
+    }
+    .topic-outer {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .topic-container {
+        width: 100%;
+    }
+
+    .topic-title {
+        width: 100%;
+    }
+
+    .topic-desc {
+        width: 100%;
+    }
+
     .service-box {
         width: 43%;
         height: 150px;
@@ -93,8 +179,13 @@
     }
 
     .bg-illust {
-        display: none;
-    }
+    z-index: -1;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
 
 
 }
