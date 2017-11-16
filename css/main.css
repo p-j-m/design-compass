@@ -17,7 +17,10 @@ float:right;right:0;padding-top:6px;
 .header-share-icon{
 float:left;vertical-align:middle;padding:10px;width:24px;
 }
-
+ 
+    .icon-menu{
+     padding-top:16px;width:24px;   
+    }
 
 .introduction {
     text-align: center;
@@ -165,10 +168,14 @@ float:left;vertical-align:middle;padding:10px;width:24px;
 
     .topic-title {
         width: 100%;
+        padding-bottom:16px;
+        font-size:22px;
     }
 
     .topic-desc {
+        font-size:17px;
         width: 100%;
+        
     }
 
     .service-box {
@@ -187,5 +194,17 @@ float:left;vertical-align:middle;padding:10px;width:24px;
 }
 
 
+    
+    .icon-menu{
+     padding-top:16px;width:18px;   
+    }
+.header-logo{
+position:absolute;left:50%;margin-left:-45px;font-size:18px;font-weight:700;padding-top:16px;
+}
 
+    .header-share-icon{
+float:left;vertical-align:middle;padding:10px;width:18px;
+}
+    
+    
 }

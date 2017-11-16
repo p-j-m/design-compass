@@ -42,7 +42,7 @@
         margin: 0;
         text-align: left;
         width:200px;
-        padding:20px;
+        padding: 0px;
         margin-left:10px;
         border-radius:10px;
         box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
@@ -671,6 +671,9 @@ h2 {
         text-align: left;
         box-shadow: none;
     }
+    
+ 
+
 
     .wrapper {
         padding: 0px;
@@ -707,6 +710,11 @@ h2 {
         font-weight: 700;
         margin-top: 19px;
         margin-left: 16px;
+    }
+
+     .mobile-dropdown li {
+        padding: 16px 24px;
+        height: auto;
     }
 
   
