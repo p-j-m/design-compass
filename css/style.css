@@ -46,7 +46,6 @@
     width: 230px;
     padding: 0px;
     margin-left: 16px;
-    border-radius: 10px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
 }
 
@@ -296,7 +295,7 @@ ul {
 .container {
     margin: 0 auto;
     width: 1200px;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .con-title {
