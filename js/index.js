@@ -1,6 +1,16 @@
+
+$(window).load(function() {
+		$(".se-pre-con").fadeOut("slow");
+
+});
+
+
 $(document).ready(function() {
 
-    
+      $('.animate').scrolla({
+		mobile: true,
+		once: true
+	});
 
 	$('#button-show-window').click(function() {
 		var template = $('#modal-template').html();
@@ -14,11 +24,6 @@ $(document).ready(function() {
 	}); 
 
     
-});
-
-$(window).load(function() {
-		$(".se-pre-con").fadeOut("slow");
-
 });
 
        

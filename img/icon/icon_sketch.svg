@@ -7,9 +7,9 @@
     <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="main-copy" transform="translate(-52.000000, -287.000000)" stroke="#000000">
             <g id="icon_sketch" transform="translate(52.000000, 287.000000)">
-                <polygon id="Path-4" stroke-width="1.2" points="1.51177143 8.9794161 11.9797164 21.4235683 22.4702535 8.99812569 18.0257505 3.00482457 11.9751961 2.20993799 5.69466749 3.00505367"></polygon>
-                <path d="M2.57142857,8.71428571 L21.4285714,8.71428571" id="Line-3" stroke-linecap="square"></path>
-                <polygon id="Rectangle-28" transform="translate(11.995497, 11.357274) rotate(45.000000) translate(-11.995497, -11.357274) " points="5.63289474 4.99409441 6.38822613 12.5384757 18.3580998 17.7204537 13.1340062 5.79078192"></polygon>
+                <polygon id="Path-4" stroke-width="2" points="1.51177143 8.9794161 11.9797164 21.4235683 22.4702535 8.99812569 18.0257505 3.00482457 11.9751961 2.20993799 5.69466749 3.00505367"></polygon>
+                <path d="M2.57142857,8.71428571 L21.4285714,8.71428571" id="Line-3" stroke-width="1.5" stroke-linecap="square"></path>
+                <polygon id="Rectangle-28" stroke-width="1.5" transform="translate(11.995497, 11.357274) rotate(45.000000) translate(-11.995497, -11.357274) " points="5.63289474 4.99409441 6.38822613 12.5384757 18.3580998 17.7204537 13.1340062 5.79078192"></polygon>
             </g>
         </g>
     </g>

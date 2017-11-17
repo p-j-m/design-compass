@@ -15,6 +15,7 @@
 }
 
 .header-logo {
+    cursor: pointer;
     position: absolute;
     left: 50%;
     margin-left: -90px;
@@ -24,12 +25,12 @@
     width: 180px;
 }
 
- .header-logo-icon {
-        padding: 0px 5px;
-        width: 36px;
-        vertical-align: middle;
-        margin-top: -0.3em;
-    }
+.header-logo-icon {
+    padding: 0px 5px;
+    width: 36px;
+    vertical-align: middle;
+    margin-top: -0.3em;
+}
 
 .header-share {
     float: right;
@@ -50,11 +51,12 @@
 
 .introduction {
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 34px;
     font-weight: 400;
     padding: 0px 16px;
     color: #232323;
+    opacity:0.8;
 }
 
 .topic-outer {
@@ -64,7 +66,7 @@
     left: 50%;
     top: 50%;
     margin-left: -375px;
-    margin-top: -380px;
+    margin-top: -320px;
 }
 
 .topic-container {
@@ -95,17 +97,33 @@
 
 .topic-title {
     float: left;
-    width: 260px;
+    width: 220px;
     font-size: 26px;
     font-weight: 600;
 }
 
 .topic-desc {
     float: left;
-    width: 480px;
+    width: 520px;
     font-size: 18px;
     line-height: 29px;
     font-weight: 300;
+}
+
+.topic-bg {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -120px;
+}
+
+.topic-bg-text {
+    text-align: center;
+    opacity: 0.05;
+    font-size: 180px;
+    font-weight: 800;
+    z-index: -2;
+    letter-spacing: 0px;
 }
 
 .service-box {
@@ -152,14 +170,15 @@
     color: #363B5D;
     opacity: 0.6;
 }
+.bg-illust-con{
+    width: 750px;margin: 0 auto;
 
+}
 .bg-illust {
-    opacity: 1;
+       opacity: 1;
     z-index: -1;
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    width: 420px;
+    margin: 0 auto;
+    float: right;
 }
 
 
@@ -193,17 +212,37 @@
     }
 
     .topic-title {
+        text-align: center;
         width: 100%;
         padding-bottom: 16px;
         font-size: 20px;
     }
 
     .topic-desc {
+        text-align: center;
         font-size: 16px;
         line-height: 26px;
         width: 100%;
         opacity: 0.8;
     }
+    
+
+.topic-bg {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -120px;
+}
+
+.topic-bg-text {
+    text-align: center;
+    opacity: 0.05;
+    font-size: 70px;
+    font-weight: 800;
+    z-index: -2;
+    letter-spacing: 0px;
+}
+
 
     .service-box {
         width: 43%;
@@ -222,8 +261,8 @@
 
 
     .icon-menu {
-           padding: 18px;
-    width: 20px;
+        padding: 18px;
+        width: 20px;
 
     }
 
@@ -239,13 +278,13 @@
 
     .header-logo {
 
-    margin-left: -65px;
-    font-size: 18px;
-    font-weight: 700;
-    padding-top: 18px;
-    width: 130px;
-}
-    
+        margin-left: -65px;
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 18px;
+        width: 130px;
+    }
+
 
     .header-logo-icon {
         padding: 0px 5px;
@@ -256,6 +295,7 @@
 
 
     .header-share {
+        display: none;
         float: right;
         padding: 12px;
     }
@@ -266,6 +306,9 @@
         padding: 8px;
         width: 16px;
     }
+.bg-illust-con{
+    width: 100%;
 
+}
 
 }
