@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/icon_about</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="2.74129985 20.7071068 0.292893219 15.7071068 5.18970649 15.7071068"></polygon>
+    </defs>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-copy" transform="translate(-52.000000, -464.000000)">
+            <g id="icon_about" transform="translate(51.000000, 464.000000)">
+                <path d="M3,19 L23,19" id="Line-6" stroke="#000000"></path>
+                <g id="Group-11" transform="translate(10.545942, 12.253048) rotate(45.000000) translate(-10.545942, -12.253048) translate(7.045942, 1.253048)">
+                    <g id="Group-3" transform="translate(0.353553, 0.353553)">
+                        <rect id="Rectangle-31" stroke="#000000" stroke-width="1.2" x="0.892893219" y="1.30710678" width="3.69681327" height="13.8"></rect>
+                        <g id="Triangle-4" fill-rule="nonzero">
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#000000" stroke-width="1.2" d="M2.74129985,19.342802 L4.22782314,16.3071068 L1.25477657,16.3071068 L2.74129985,19.342802 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

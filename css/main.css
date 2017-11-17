@@ -1,26 +1,52 @@
-.header{
-height:60px;width:100%;position:fixed;top:0;background-color:white;z-index:998;
+.header {
+    height: 76px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 998;
 }
 
-.header-icon{
-float:left;vertical-align:middle;padding:10px;width:32px;
+.header-icon {
+    float: left;
+    vertical-align: middle;
+    padding: 10px;
+    width: 32px;
 }
 
-.header-logo{
-position:absolute;left:50%;margin-left:-55px;font-size:24px;font-weight:700;padding-top:16px;
+.header-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 24px;
+    width: 180px;
 }
 
-.header-share{
-float:right;right:0;padding-top:6px;
-}
-
-.header-share-icon{
-float:left;vertical-align:middle;padding:10px;width:24px;
-}
- 
-    .icon-menu{
-     padding-top:16px;width:24px;   
+ .header-logo-icon {
+        padding: 0px 5px;
+        width: 36px;
+        vertical-align: middle;
+        margin-top: -0.3em;
     }
+
+.header-share {
+    float: right;
+    padding: 16px 16px;
+}
+
+.header-share-icon {
+    float: left;
+    vertical-align: middle;
+    padding: 12px;
+    width: 24px;
+}
+
+.icon-menu {
+    padding: 24px;
+    width: 24px;
+}
 
 .introduction {
     text-align: center;
@@ -142,8 +168,8 @@ float:left;vertical-align:middle;padding:10px;width:24px;
 @media screen and (max-width: 840px) {
 
     .introduction {
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 20px;
+        line-height: 28px;
         font-weight: 500;
         color: #232323;
     }
@@ -168,14 +194,15 @@ float:left;vertical-align:middle;padding:10px;width:24px;
 
     .topic-title {
         width: 100%;
-        padding-bottom:16px;
-        font-size:22px;
+        padding-bottom: 16px;
+        font-size: 20px;
     }
 
     .topic-desc {
-        font-size:17px;
+        font-size: 16px;
+        line-height: 26px;
         width: 100%;
-        
+        opacity: 0.8;
     }
 
     .service-box {
@@ -186,25 +213,59 @@ float:left;vertical-align:middle;padding:10px;width:24px;
     }
 
     .bg-illust {
-    z-index: -1;
-    position: relative;
-    right: 0px;
-    bottom: 0px;
-    width: 100%;
-}
-
-
-    
-    .icon-menu{
-     padding-top:16px;width:18px;   
+        z-index: -1;
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
     }
-.header-logo{
-position:absolute;left:50%;margin-left:-45px;font-size:18px;font-weight:700;padding-top:16px;
-}
 
-    .header-share-icon{
-float:left;vertical-align:middle;padding:10px;width:18px;
+
+    .icon-menu {
+           padding: 18px;
+    width: 20px;
+
+    }
+
+    .header {
+        height: 56px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        z-index: 998;
+    }
+
+
+    .header-logo {
+
+    margin-left: -65px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 18px;
+    width: 130px;
 }
     
-    
+
+    .header-logo-icon {
+        padding: 0px 5px;
+        width: 24px;
+        vertical-align: middle;
+        margin-top: -0.3em;
+    }
+
+
+    .header-share {
+        float: right;
+        padding: 12px;
+    }
+
+    .header-share-icon {
+        float: left;
+        vertical-align: middle;
+        padding: 8px;
+        width: 16px;
+    }
+
+
 }
