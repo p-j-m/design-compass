@@ -190,12 +190,29 @@
 
 .se-pre-con {
     position: fixed;
-    left: 0px;
-    top: 0px;
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url(preloader.svg) center no-repeat #fff;
+    opacity:0.5;
+    background-color:white;
+}
+.loader{
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin: -50px 0px 0px -50px;
+    width: 100px;
+    height: 100px;
+     -webkit-animation: rotation 1.5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
 
 body {
@@ -491,7 +508,7 @@ h2 {
     width: 100%;
     max-width: 750px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .article-title {

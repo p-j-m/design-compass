@@ -1,12 +1,10 @@
 
 $(window).load(function() {
-		$(".se-pre-con").fadeOut("slow");
+		$(".se-pre-con").fadeOut("1200");
 
 });
 
-
 $(document).ready(function() {
-
       $('.animate').scrolla({
 		mobile: true,
 		once: true
