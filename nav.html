@@ -2,7 +2,12 @@
     $(".mobile-menu").on('click', function() {
         $(".mobile-dropdown").slideToggle("fast");
     });
+    
     $(".mobile-menu-sub").on('click', function() {
+        $(".mobile-dropdown-sub").slideToggle("fast");
+    });
+    
+        $(".mobile-menu-sub-dropdown").on('click', function() {
         $(".mobile-dropdown-sub").slideToggle("fast");
     });
 </script>
@@ -14,26 +19,42 @@
             <img class="icon-menu" src="./img/icon/icon-menu.svg">
             </a>
             <ul class="mobile-dropdown">
-                 <li class="nav-btn" onclick="location.href='index.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_home.svg">홈</div></li>
+                <li class="nav-btn" onclick="location.href='index.html';">
+                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_home.svg">홈</div>
+                </li>
                 <li class="nav-btn" onclick="location.href='design-theory.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_service.svg">서비스 디자인</div></li>        
+                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_service.svg">서비스 디자인</div>
+                </li>
                 <li class="nav-btn" onclick="location.href='sketch-tutorial.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_sketch.svg">스케치 가이드</div></li>
-                 <li class="nav-btn" onclick="location.href='archive.html';">
-                     <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_archive.svg">아카이브</div></li>
+                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_sketch.svg">스케치 가이드</div>
+                </li>
+                <li class="nav-btn" onclick="location.href='archive.html';">
+                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_archive.svg">아카이브</div>
+                </li>
                 <li class="nav-btn" onclick="location.href='about.html';">
-                     <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_about.svg">소개글</div></li>
+                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_about.svg">소개글</div>
+                </li>
             </ul>
         </div>
 
         <div class="header-logo" onclick="location.href='index.html';">
-        디자인<img class="header-logo-icon" src="./img/icon/icon_compass.svg">나침반
+            디자인<img class="header-logo-icon" src="./img/icon/icon_compass.svg">나침반
         </div>
 
         <div class="header-share">
-            <a href="http://www.facebook.com/sharer/sharer.php?u=http://blckschrl.github.io/design-book-shelf"><img class="header-share-icon" src="./img/icon/share_facebook.svg"></a>
-            <a href="https://twitter.com/intent/tweet?text=TEXT&url=http://blckschrl.github.io/design-book-shelf"><img class="header-share-icon" src="./img/icon/share_twitter.svg"></a>
+            <a href="http://www.facebook.com/sharer/sharer.php?u=http://blckschrl.github.io/design-book-shelf">
+                <img class="header-share-icon" src="./img/icon/share_facebook.svg"></a>
+            <a href="https://twitter.com/intent/tweet?text=TEXT&url=http://blckschrl.github.io/design-book-shelf">
+                <img class="header-share-icon" src="./img/icon/share_twitter.svg"></a>
         </div>
+    </div>
+
+    <div class="body-border" style="top:0;bottom:0px;width:4px;">
+    </div>
+    <div class="body-border" style="top:0;right:0px;width:4px;height:100%;">
+    </div>
+    <div class="body-border" style="top:0;width:100%;height:4px;">
+    </div>
+    <div class="body-border" style="bottom:0;width:100%;height:4px;">
     </div>
 </div>
