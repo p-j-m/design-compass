@@ -321,5 +321,9 @@
         width: 100%;
 
     }
+    
+    .body-border {
+    display:none;
+}
 
 }
