@@ -282,7 +282,7 @@ ul {
 
 .menu-sub {
     position: fixed;
-    padding: 100px 40px 0px 70px;
+    padding: 100px 40px 0px 22px;
     top: 0;
     height: 100%;
 }
@@ -313,14 +313,14 @@ ul {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    width: 960px;
     margin-top: 90px;
 }
 
 .con-title {
     float: left;
     width: 100%;
-    padding: 30px 20px 10px 20px;
+    padding: 30px 0px;
 }
 
 .wrapper {
@@ -351,9 +351,9 @@ ul {
 /* font styles */
 
 hr {
-    border: 0.5px solid #e6e6e6;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    border: 1px solid #e6e6e6;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -375,7 +375,7 @@ li a {
 
 
 .title {
-    font-size: 18px;
+    font-size: 20px;
     color: #232323;
     letter-spacing: 0;
     font-weight: 600;
@@ -500,7 +500,7 @@ h2 {
 }
 
 .article-outer {
-    width: 1400px;
+    width: 1200px;
     padding-top: 70px;
     margin: 0 auto;
 }
