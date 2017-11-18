@@ -290,8 +290,8 @@ ul {
 .menu-sub-dropdown {
     padding: 26px 0px 20px 0px;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 34px;
     color: black;
 }
 
@@ -351,7 +351,7 @@ ul {
 /* font styles */
 
 hr {
-    border: 1px solid #e6e6e6;
+    border: 0.5px solid #e6e6e6;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -520,9 +520,9 @@ h2 {
 }
 
 .article-title {
-    font-size: 30px;
+        font-size: 24px;
     font-weight: 600;
-    line-height: 48px;
+    line-height: 40px;
     margin-top: 50px;
     margin-bottom: 8px;
     color: #232323;
@@ -540,7 +540,7 @@ h2 {
 .article-h1 {
     font-size: 18px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 32px;
     margin-bottom: 24px;
     color: #4e4e4e;
 }
@@ -676,16 +676,16 @@ h2 {
 }
 
 .sidebar-icon {
-    padding-right: 4px;
+    padding-right: 6px;
 }
 
 .sidebar-outlink {
     cursor: pointer;
     width: 100%;
     margin: 8px 0px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 27px;
     opacity: 1;
     transition: ease 0.5s;
 }

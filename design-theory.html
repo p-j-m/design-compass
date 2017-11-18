@@ -58,7 +58,7 @@
             <div class="article-title">
                 시작하기</div>
             <div class="article-h1">
-                다양한 스크린에서 보이는 서비스 디자인에 대한 글 묶음입니다. 디자인 툴을 사용하는 방법보다는 디자인할 때 적용되는 다양한 규칙들이 어떤 원리로 동작하는지에 중점을 두었습니다.
+                다양한 스크린에서 보이는 서비스 디자인에 대한 글 묶음입니다. 디자인 툴을 사용하는 방법보다는 디자인할 때 적용되는 다양한 규칙들이 어떤 원리로 동작하는지에 중점을 두었습니다. 어떤 개념들이 있는지 살펴보고 본래 가지고 있는 디자인 방법론이나 프로젝트의 성격에 맞춰 알맞게 변형하길 추천합니다.
             </div>
 
            <img class="article-img" src="img/main-thumnail/main_thumnail_v2.png">
@@ -66,7 +66,7 @@
             <div class="article-title">
                 폴더 관리</div>
             <div class="article-h1">
-                .psd가 10기가가 되거나 .sketch가 100메가를 넘어가는 아름다운 일을 겪지 않으려면 폴더를 소중히 해야합니다. 파일 하나에 모든 리소스를 포함시키지 않고 외부에서 링크하는 방식을 해야합니다. 다양한 작업을 수행하기 위한 폴더 구조로 앱 디자인뿐만 아니라, 프로젝트를 수행할 때 필요한 문서 작업, 인터랙션, 코딩 등에 활용하기 위한 폴더 구조입니다.
+                프로젝트를 시작할 때 폴더를 명확하게 정의하지 않으면 파일이 어디에 있는지 찾기가 어려워집니다. 또한 같은 파일이 중복되지 않도록 하나의 리소스로 GUI, 프로토타이핑, 마케팅 등에 사용할 수 있는 폴더 구조입니다.
             </div>
             <img class="article-img" src=" ./img/design-system/folder.png">
 
@@ -80,18 +80,19 @@
 
             <div class="article-h1">
                 <ul>
-                    <li><b>_assets:</b>.png .svg .jpg 디자인 요소들</li>
-                    <li><b>_exports:</b> .png .jpg 프로토타이핑 및 마케팅에서 활용할 수 있는 각종 이미지들</li>
-                    <li><b>_library:</b> .sketch .lib 작업에 필요한 가이드 라인 및 라이브러리 모음</li>
-                    <li><b>gui:</b> .sketch .psd 등 실제 GUI 작업 파일</li>
-                    <li><b>interaction:</b> .html .prj .framer 애니메이션, 실제 동작 등 인터랙션 디자인 작업 파일</li>
+                    <li><b>_assets:</b>  실제 코드에 적용될 디자인 요소</li>
+                    <li><b>_exports:</b> 페이지 스크린샷 및 이미지</li>
+                    <li><b>_library:</b>  디자인 가이드 라인 및 라이브러리</li>
+                    <li><b>gui:</b> GUI 작업 파일</li>
+                    <li><b>interaction:</b>  애니메이션, 인터랙션 작업 파일</li>
                 </ul>
             </div>
 
             <div class="article-title">
-                단위</div>
+            단위</div>
             <div class="article-h1">
-                8pt 그리드 시스템이 가장 유용하게 쓰입니다. 단위가 너무 작으면 1px 2px 씩 조정하는데 낭비되는 시간이 많습니다.
+            작은 화면부터 큰 화면까지 지원하기 위해 서비스가 지원할 가장 작은 화면 크기를 기준으로 작업합니다. 스마트폰, 모니터, 티비 등 스크린의 크기나 픽셀 밀도가 같지 않기 때문에 기본 단위는 곱하거나 나누어도 정수가 될 수 있는 짝수를 사용합니다. 짝수 중에서도 8 포인트 그리드 시스템이 널리 쓰이고 있습니다. 단 iOS의 경우 375, 750 등 8로 나눠지지 않기 때문에 그리드를 완벽하게 적용하긴 어렵습니다.
+            (2pt나 4pt은 단위가 너무 작아 결국 8pt를 기준으로 작업하는 경우가 많았습니다.)
             </div>
             <img class="article-img" src=" ./img/design-system/8-grid.png">
             <div class="sidebar-con">
@@ -103,25 +104,22 @@
                         <img class="sidebar-icon" src="./img/icon/icon_outlink.svg">픽셀 밀도에 대한 설명 - 정윤선
                     </div>
                     
-                    <div class="sidebar-outlink" onclick="location.href='https://brunch.co.kr/@blackindigo-red/8">
+                    <div class="sidebar-outlink" onclick="location.href='https://brunch.co.kr/@blackindigo-red/8';">
                         <img class="sidebar-icon" src="./img/icon/icon_outlink.svg">8-Point 그리드 시스템 - 정윤선
                     </div>
                     
-                     <div class="sidebar-outlink" onclick="location.href='http://sebastien-gabriel.com/designers-guide-to-dpi/#menu">
+                     <div class="sidebar-outlink" onclick="location.href='http://sebastien-gabriel.com/designers-guide-to-dpi/#menu';">
                         <img class="sidebar-icon" src="./img/icon/icon_outlink.svg">Designer's guide to DPI - sebastien-gabriel
                     </div>
-                    
-                    <div class="sidebar-outlink">
-                        <img class="sidebar-icon" src="./img/icon/icon_outlink.svg"> Getting Typography Right in Digital Design by Nick Babich
-                    </div>
+
                 </div>
 
-                <div class="sidebar-wrapper">
+                <!--<div class="sidebar-wrapper">
                     <div class="sidebar-title">
                         샘플 파일
                     </div>
                     <img class="sidebar-icon" src="./img/icon/icon_download.svg"> 다운로드
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

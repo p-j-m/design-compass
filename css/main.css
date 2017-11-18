@@ -151,7 +151,7 @@
 
 .icon-logo {
     width: auto;
-    height: 34px;
+    height: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -160,14 +160,14 @@
     margin: 0;
     padding-top: 4px;
     padding-bottom: 4px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     color: #363B5D;
 }
 
 .service-desc {
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 400;
     color: #363B5D;
     opacity: 0.6;
 }
