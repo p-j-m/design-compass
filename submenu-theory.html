@@ -1,11 +1,13 @@
 <script type="text/javascript">
-    $(".mobile-menu-sub-dropdown").on('click', function() {
+    $(".mobile-menu-sub").on('click', function() {
         $(".mobile-dropdown-sub").slideToggle("fast");
     });
+    
+</script>
 
+<script>
     // Get current page URL
     var url = window.location.href;
-
     // remove # from URL
     url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
 
@@ -23,7 +25,6 @@
     $('.menu-sub li').each(function() {
         // select href
         var href = $(this).find('a').attr('href');
-
         // Check filename
         if (url == href) {
 

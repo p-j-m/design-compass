@@ -1,7 +1,6 @@
 
 $(window).load(function() {
-		$(".se-pre-con").fadeOut("1200");
-
+		$(".se-pre-con").fadeOut(800);
 });
 
 $(document).ready(function() {
