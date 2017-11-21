@@ -131,14 +131,15 @@
     float: left;
     width: 120px;
     height: 120px;
-    padding: 10px;
-    margin: 9px;
+    padding: 30px 30px;
+    margin: 10px 30px;
     background: #FFFFFF;
-    /*box-shadow: 0px 4px 40px #f1f1f3;*/
+    /* box-shadow: 0px 4px 40px #f1f1f3; */
     border-radius: 8px;
     text-align: center;
     transition: ease 0.5s;
     cursor: pointer;
+
 }
 
 .service-box:hover {
@@ -151,7 +152,7 @@
 
 .icon-logo {
     width: auto;
-    height: 30px;
+    height: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -162,13 +163,13 @@
     padding-bottom: 4px;
     font-size: 17px;
     font-weight: 500;
-    color: #363B5D;
+    color: black;
 }
 
 .service-desc {
     font-size: 16px;
-    font-weight: 400;
-    color: #363B5D;
+    font-weight: 300;
+    color: black;
     opacity: 0.6;
 }
 
@@ -257,10 +258,10 @@
 
 
     .service-box {
-        width: 30%;
-        margin: 1% 1% 2% 4%;
-        padding: 0px;
-        margin:3% 1.6%;
+            width: 47%;
+    margin: 1% 1% 2% 4%;
+    padding: 0px;
+    margin: 8% 1%;
     }
 
     .bg-illust {
