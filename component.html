@@ -78,45 +78,69 @@
                     </li>
                 </ul>
             </div>
-
+             
             <div class="article-title">
-                컴포넌트 만들기
+            고르기
             </div>
             <div class="article-h1">
-                컴포넌트가 어떻게 구성되는지 알아보기 위해 영화 컨텐츠를 제공하는 서비스에 쓰일 컴포넌트를 디자인할 때를 가정해보겠습니다. 가장 많이 쓰이게될 영화 컨텐츠 썸네일을 어떻게 보여줄지에 대한 내용입니다.
-                <ul>
-                    <li><b>목적 (Purpose):</b> 비슷한 컨텐츠 구분하고 선택하기</li>
+                모바일 디자인에 대한 연구가 많이 진행되면서 일반적으로 쓰이는 목적에 알맞는 컴포너트들이 많습니다. 서비스를 제작하면서 패턴, 페이지에서 필요한 기능을 가진 컴포넌트를 골라 적용하는 것이 좋습니다.
+            <div class="sidebar-outlink" onclick="location.href='https://material.io/guidelines/components/text-fields.html#text-fields-layout';">
+                        <img class="sidebar-icon" src="./img/icon/icon_outlink.svg">Google Material Design - Components
+            </div>        
+            </div>
+              <img class="article-img" src="./img/design-system/component/component_components@2x.png">
+            
+            
+            <div class="article-title">
+                만들기
+            </div>
+            <div class="article-h1">
+                일반적으로 사용되는 컴포넌트로 해결할 수 없을 때가 있습니다. 만약 새로운 개념의 컴포넌트가 필요하다면 먼저 "목적을 달성하기 위해 어떤 흐름으로 행동을 유도하가"를 정의해야합니다. 예시로 영화 컨텐츠를 제공하는 서비스에 쓰일 컴포넌트를 디자인할 때를 가정해보겠습니다. 가장 많이 쓰이게될 영화 컨텐츠 썸네일을 어떻게 보여줄지에 대한 내용입니다.
+            </div>
+            
+             <img class="article-img" src="./img/design-system/component/component_character@2x.png">
+
+             <div class="article-h1">
+              <ul>
+                    <li><b>목적 (Purpose):</b> 컨텐츠 중에서 하나 골라서 재생하기</li>
                     <li><b>흐름 (Flow):</b> 다른 것과 구분 > 재생 > 자세히 보기</li>
                     <li><b>형태 (Types):</b> 이미지, 제목, 아이콘, 아이콘</li>
                     <li><b>행동 (Action):</b> 터치</li>
                 </ul>
-            </div>
-
+            </div> 
+                
             <div class="article-title">
                 재료 고르기
             </div>
             <div class="article-h1">
-                최종 목적인 '선택하기'를 달성하기 위해 사용자에게 필요한 정보가 무엇인지를 정의합니다. 제목, 감독, 배우, 장르 등 영화를 구분할 수 있는 정보는 많습니다. 이 중 어떤 정보가 사용자가 컨텐츠를 선택하는데 가장 큰 영향을 끼치는지 판단해야합니다. 행동을 유도할 수 있는 시각적 단서들을 고릅니다.
+                '선택하고 재생하기'를 달성하기 위해 사용자에게 필요한 정보가 무엇인지 정의합니다. 제목, 감독, 배우, 장르 등 영화를 구분할 수 있는 정보는 많습니다. 이 중 어떤 정보가 사용자가 컨텐츠를 선택하는데 가장 큰 영향을 끼치는지 정의하고 '재생' 행동을 유도할지 방법을 정합니다.
+            </div>
+             <img class="article-img" src="./img/design-system/component/component_elemental@2x.png">
+              <div class="article-h1">
+            <b>선택하고 재생하기 = 다른 것과 구분 -> 자세히 보기 -> 재생</b>
                  <ul>
-                    <li><b>다른 것과 구분:</b> 포스터, 영화제목, 감독</li>
-                    <li><b>재생, 자세히 보기:</b> 재생 아이콘, 더보기 아이콘 </li>
+                    <li><b>다른 것과 구분:</b> 포스터, 영화제목 </li>
+                    <li><b>자세히 보기, 재생:</b> 재생 아이콘, 더보기 아이콘 </li>
                 </ul>
             </div>
+            
 
              <div class="article-title">
                 형태 짜기
             </div>
             <div class="article-h1">
-                사용할 정보를 정한 뒤 시각적으로 배치합니다. 작은 단위인 컴포넌트가 차지하는 영역이 넓으면 페이지 전체에 영향을 끼칠 수 있기 때문에 영역을 최대한 절약해야합니다. 현재 컴포넌트는 주된 요소인 포스터의 형태가 직사각형 형태이기 때문에 정보의 배치도 직사각형으로 구성합니다. 
+                사용할 정보를 정한 뒤 각 정보가 어느 영역에 표시될지 정합니다. 배치하기로 한 정보가 어떤 특성을 가지고 있는지 파악한 뒤 어떻게 보일지를 확인해야합니다. 아래 예시처럼 이미지의 밝고 어두울 경우, 제목이 길 경우 등을 고려하여 형태를 배치합니다.
             </div>
+            
+             <img class="article-img" src="./img/design-system/component/component_composition@2x.png">
             
             <div class="article-title">
-                불필요한 것 빼기
+                효과 확인하기
             </div>
             <div class="article-h1">
-                사용자가 행동하는데 방해가 될만한 시각적 요소를 최대한 제거합니다. 구분을 위한 선은 네모 이미지로 충분히 구분이 되므로 삭제.
+                 "컨텐츠 중에서 하나 골라서 재생하기" 목적을 달성하기 위해 어떤 것을 강조하고 어떤 것을 생략할지 고민하면서 시각 원리에 따라 위치와 그래픽 스타일을 변경합니다. 디자인 요소는 주변에 어떤 요소가 있느냐에 따라 효과가 다릅니다.  이 과정에서는 실제로 사용될 환경에 배치해 형태가 의도한대로 보이고 읽히는지 확인해야합니다.
             </div>
-            
+             <img class="article-img" src="./img/design-system/component/component_remove@2x.png">
 
             <div class="sidebar-con">
                 <div class="sidebar-wrapper">
@@ -125,10 +149,6 @@
                     </div>
                     <div class="sidebar-outlink" onclick="location.href='https://material.io/guidelines/components/text-fields.html#text-fields-layout';">
                         <img class="sidebar-icon" src="./img/icon/icon_outlink.svg">Google Material Design - Components
-                    </div>
-
-                    <div class="sidebar-outlink" onclick="location.href='https://developer.apple.com/design/resources/#ios-apps';">
-                        <img class="sidebar-icon" src="./img/icon/icon_outlink.svg">Apple Human Interface Guidelines - iOS Apps Resources
                     </div>
                 </div>
 
