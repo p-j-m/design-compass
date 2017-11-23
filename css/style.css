@@ -282,7 +282,7 @@ ul {
 
 .menu-sub {
     position: fixed;
-    padding: 100px 40px 0px 22px;
+    padding: 100px 40px 0px 26px;
     top: 0;
     height: 100%;
 }
@@ -688,6 +688,7 @@ h2 {
     line-height: 27px;
     opacity: 1;
     transition: ease 0.5s;
+    color:#28ab8f;
 }
 
 .sidebar-outlink:hover {
