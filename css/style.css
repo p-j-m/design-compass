@@ -298,12 +298,12 @@ ul {
 
 .menu-sub ul {
     list-style: none;
-    margin-left: -40px;
+    margin: 0px 0px 0px -40px;
     /*overflow-y:scroll;*/
 }
 
 .menu-sub li {
-    padding: 16px 16px;
+    padding: 14px 16px;
 }
 
 .menu-sub li a {
