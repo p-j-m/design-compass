@@ -7,19 +7,21 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="author" content="박종민" />
-    <meta name="description" content="디자인을 할 때 알아두면 좋은 것들을  모아 놓은 곳입니다. " />
+    <meta name="description" content="디자인을 할 때 알아두면 좋은 것들을  모아 놓은 곳입니다." />
     <meta name="keywords" content="portfolio,designer,interactive,visual 디자인,색,앱디자인,서비스,원리,디자인 요소" />
+
+
     <meta property="og:image" content="./img/site_thumnail.png" />
     <meta name="Resource-type" content="Document">
+
     <title>디자인 나침반</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <!-- connect with other files -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-    <link rel="stylesheet" href="./animate.min.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/favicon/apple-touch-icon-57x57.png" />
@@ -36,7 +38,7 @@
     <link rel="icon" type="image/png" href="./img/favicon/favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="./img/favicon/favicon-128.png" sizes="128x128" />
     <meta name="application-name" content="&nbsp;" />
-    <meta name="msapplication-Tileservice-boxor" content="#FFFFFF" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="./img/favicon/mstile-144x144.png" />
     <meta name="msapplication-square70x70logo" content="./img/favicon/mstile-70x70.png" />
     <meta name="msapplication-square150x150logo" content="./img/favicon/mstile-150x150.png" />
@@ -45,47 +47,31 @@
 </head>
 
 <body>
-    
-     <div class="animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.1s">
-    <div class="topic-bg">
-        <div class="topic-bg-text">
-            아이콘 8PT<br>RGBA 레이아웃
-        </div>
-    </div>
-    </div>
-
-
-    <div class="se-pre-con">
-    <img class="loader" src="./img/icon/icon_compass.svg">
-    </div>
+    <div class="se-pre-con"> <img class="loader" src="./img/icon/icon_compass.svg"> </div>
     <div id="nav"></div>
 
-    <div class="container">
-        <div class="animate" data-animate="fadeIn" data-duration="1s" data-delay="1.5s">
-            <div class="topic-outer">
-                <div class="topic-container">
-                    <div class="topic-box">
-                        <img class="topic-img" src="img/main-thumnail/main_thumnail_v2.png" onclick="location.href='./preference.html';">
-                    </div>
-
-                    <div class="topic-box">
-                        <div class="topic-title">
-                            서비스 디자인
-                        </div>
-                        <div class="topic-desc">
-                            다양한 스크린에서 보이는 서비스 디자인에 대한 글 묶음입니다. 디자인 툴을  사용하는 방법보다는 디자인할 때 적용되는 다양한 규칙들이 어떤 원리로 동작하는지에 중점을 두었습니다.
-                        </div>
-                    </div>
-                </div>
+    <div class="article-outer">
+        <div id="submenu-theory"></div>
+        <div class="article-container">
+            <div class="article-title">
+                서비스 디자인</div>
+            <div class="article-h1">
+                서비스 디자인에 대한 글 묶음입니다. 디자인 툴을 사용하는 방법보다는 디자인할 때 적용되는 다양한 규칙들이 어떤 원리로 동작하는지에 중점을 두었습니다. 어떤 개념들이 있는지 살펴보고 본래 가지고 있는 디자인 방법론이나 프로젝트의 성격에 맞춰 변형하길 바랍니다.
             </div>
+
+            <img class="article-img" src="img/main-thumnail/main_thumnail_v2.png">
+
+            
+            </div>
+
         </div>
-    </div>
+
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="dist/scrolla.jquery.min.js"></script>
     <script>
         $("#nav").load("nav.html");
         $("#submenu-theory").load("submenu-theory.html");
+
     </script>
 </body>
+
 </html>
