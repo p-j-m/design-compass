@@ -173,8 +173,8 @@
 /* layout */
 
 .active {
-    color: black;
-    font-weight: 800;
+    color: #232323 !important;
+    font-weight: 800 !important;
 }
 
 .no-js #loader {
@@ -223,7 +223,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     word-break: keep-all;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 ul {
@@ -292,7 +292,7 @@ ul {
     font-weight: 600;
     font-size: 24px;
     line-height: 34px;
-    color: black;
+    color: #232323;
 }
 
 

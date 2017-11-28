@@ -163,13 +163,13 @@
     padding-bottom: 4px;
     font-size: 17px;
     font-weight: 500;
-    color: black;
+    color: #232323;
 }
 
 .service-desc {
     font-size: 16px;
     font-weight: 300;
-    color: black;
+    color: #232323;
     opacity: 0.6;
 }
 
@@ -191,7 +191,7 @@
 .body-border {
     position: fixed;
     z-index: 999;
-    background-color: black;
+    background-color: #232323;
 }
 
 
