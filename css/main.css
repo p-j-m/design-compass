@@ -221,9 +221,10 @@
     }
 
     .topic-container {
-        width: 100%;
+        width: 90%;
     }
-
+    
+    
     .topic-title {
         text-align: center;
         width: 100%;
