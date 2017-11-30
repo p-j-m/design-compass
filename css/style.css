@@ -303,13 +303,15 @@ ul {
 }
 
 .pagination-left:hover{
-   transform: translateX(10px)
+   transform: translateX(4px)
 }
 
-.pagination-left-icon {
-    float: left;
-    width: 20px;
-    margin-right: 8px;
+.pagination-icon {
+    display:inline-block;vertical-align:middle;width:20px;
+}
+
+.pagination-text {
+    display:inline-block;vertical-align:middle;margin-top:2px;
 }
 
 .pagination-right {
@@ -325,7 +327,7 @@ ul {
 }
 
 .pagination-right:hover{
-   transform: translateX(-10px)
+   transform: translateX(-4px)
 }
 
 .pagination-right-icon {
