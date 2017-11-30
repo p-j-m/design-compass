@@ -249,6 +249,10 @@ ul {
     text-align: center;
 }
 
+.nav-up{
+    top:-70px;  
+}
+
 .nav-icon {
     width: 20px;
     padding-right: 12px;
@@ -277,6 +281,60 @@ ul {
     margin: 12px 0px;
     margin-left: -8px;
 }
+
+.pagination {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    width: 50%;
+    padding: 2rem 0rem;
+    color: #28ab8f;
+}
+
+.pagination-left {
+    float: left;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    width: 50%;
+    padding: 2rem 0rem;
+    color: #28ab8f;
+    transition:ease 0.5s;
+}
+
+.pagination-left:hover{
+   transform: translateX(10px)
+}
+
+.pagination-left-icon {
+    float: left;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.pagination-right {
+    float: right;
+    text-align:right;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    width: 50%;
+    padding: 2rem 0rem;
+    color: #28ab8f;
+    transition:ease 0.5s;
+}
+
+.pagination-right:hover{
+   transform: translateX(-10px)
+}
+
+.pagination-right-icon {
+    float: right;
+    width: 20px;
+    margin-left: 8px;
+}
+
+
 
 .mobile-menu-sub {}
 
@@ -501,7 +559,7 @@ h2 {
 
 .article-outer {
     width: 1200px;
-    padding-top: 70px;
+    padding: 70px 0px;
     margin: 0 auto;
 }
 
@@ -520,7 +578,7 @@ h2 {
 }
 
 .article-title {
-        font-size: 24px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 40px;
     margin-top: 50px;
@@ -653,7 +711,7 @@ h2 {
 
     float: left;
     width: 750px;
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px;
 }
 
 
@@ -688,7 +746,7 @@ h2 {
     line-height: 27px;
     opacity: 1;
     transition: ease 0.5s;
-    color:#28ab8f;
+    color: #28ab8f;
 }
 
 .sidebar-outlink:hover {
