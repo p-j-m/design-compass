@@ -52,12 +52,13 @@ header {
     right: 16px;
     bottom: 16px;
     color: black;
+    border:2px solid #4e4e4e;
     background-color: white;
     border-radius: 30px;
-    padding: 14px 18px;
+    padding: 10px 14px;
     font-weight: 500;
     font-size: 18px;
-    box-shadow:0px 10px 40px #dad8d5;
+    box-shadow:0px 10px 40px rgba(0, 0, 0, 0.2);
     transition: ease 0.5s;
 }
 
