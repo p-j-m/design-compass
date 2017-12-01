@@ -174,7 +174,8 @@
 
 .active {
     color: #232323 !important;
-    font-weight: 800 !important;
+    font-weight: 600 !important;
+    opacity: 1 !important;
 }
 
 .no-js #loader {
@@ -249,8 +250,8 @@ ul {
     text-align: center;
 }
 
-.nav-up{
-    top:-60px !important;  
+.nav-up {
+    top: -60px !important;
 }
 
 .nav-icon {
@@ -299,35 +300,39 @@ ul {
     width: 50%;
     padding: 2rem 0rem;
     color: #28ab8f;
-    transition:ease 0.5s;
+    transition: ease 0.5s;
 }
 
-.pagination-left:hover{
-   transform: translateX(4px)
+.pagination-left:hover {
+    transform: translateX(4px)
 }
 
 .pagination-icon {
-    display:inline-block;vertical-align:middle;width:20px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
 }
 
 .pagination-text {
-    display:inline-block;vertical-align:middle;margin:2px 4px 2px 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2px 4px 2px 4px;
 }
 
 .pagination-right {
     float: right;
-    text-align:right;
+    text-align: right;
     cursor: pointer;
     display: inline-block;
     font-size: 20px;
     width: 50%;
     padding: 2rem 0rem;
     color: #28ab8f;
-    transition:ease 0.5s;
+    transition: ease 0.5s;
 }
 
-.pagination-right:hover{
-   transform: translateX(-4px)
+.pagination-right:hover {
+    transform: translateX(-4px)
 }
 
 .pagination-right-icon {
@@ -348,7 +353,7 @@ ul {
 }
 
 .menu-sub-dropdown {
-    padding: 26px 0px 20px 0px;
+    padding: 26px 0px 10px 0px;
     font-weight: 600;
     font-size: 24px;
     line-height: 34px;
@@ -364,11 +369,20 @@ ul {
 
 .menu-sub li {
     padding: 14px 16px;
+    opacity: 0.5;
+    transition: ease 0.3s;
+}
+
+.menu-sub li:hover{
+    opacity:1;
+    transition: ease 0.3s;
 }
 
 .menu-sub li a {
-    font-size: 18px;
+    font-size: 19px;
 }
+
+
 
 
 .container {
@@ -411,7 +425,7 @@ ul {
 /* font styles */
 
 hr {
-    border: 0.5px solid #e6e6e6;
+    border: 0.5px solid #cecece;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -561,7 +575,7 @@ h2 {
 
 .article-outer {
     width: 1200px;
-    padding: 70px 0px;
+    padding: 70px 0px 120px 0px;
     margin: 0 auto;
 }
 
