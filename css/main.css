@@ -267,11 +267,11 @@ header {
         left: 0;
         top: 0;
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .topic-container {
-        width: 90%;
+        width: 100%;
     }
 
 

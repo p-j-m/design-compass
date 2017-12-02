@@ -1,5 +1,12 @@
 $(window).load(function () {
     $(".se-pre-con").fadeOut(800);
+     
+        $(function() {
+            $("img").lazyload({
+                placeholder: "img/grey.gif"
+            });
+        });
+
 });
 
 $(document).ready(function () {
