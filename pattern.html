@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<head><!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50444148-1"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'UA-50444148-1'); </script>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50444148-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-50444148-1');
+
+    </script>
     <!-- meta preset-->
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, initial-scale=1">
@@ -51,9 +63,9 @@
     <div id="nav"></div>
 
     <div class="article-outer">
-         <div id="submenu-theory"></div>
+        <div id="submenu-theory"></div>
         <div class="article-container">
-            
+
             <div class="article-title">
                 패턴</div>
             <div class="article-h1">
@@ -108,7 +120,7 @@
             <div class="article-title">
                 맥락 짜기</div>
             <div class="article-h1">
-                사용자가 속해 있는 상황을 정리합니다. 육하원칙에 따라 정리하는 것이 편리하며 웹, 모바일과 같이 환경이 제한적일 경우에는 다른 원칙보다 "무엇을 어떻게"가 중요합니다. 이 과정을 통해 '목적'을 정의합니다.
+                사용자가 속해 있는 상황을 정리합니다. 육하원칙에 따라 정리하는 것이 편리하며 웹, 모바일과 같이 환경이 제한적일 경우(스마트폰이나 모니터로 서비스를 이용하는 환경)에는 다른 원칙보다 "무엇을 어떻게"에 집중합니다. 이 과정을 통해 '목적'을 정의합니다.
             </div>
             <img class="article-img" src="./img/design-system/pattern/pattern_context@2x.png">
 
@@ -123,11 +135,11 @@
             <div class="article-title">
                 경우의 수</div>
             <div class="article-h1">
-                흐름에서 찾은 "단계별 목적"에 맞춰 발생할 수 있는 경우의 수를 예측합니다. 서비스에서는 사용자의 행동에 의해 많은 경우의 수가 발생합니다. 어떤 변수가 있는지 찾아낸 뒤 그에 따른 예측 결과를 정리합니다. 
+                흐름에서 찾은 "단계별 목적"에 맞춰 발생할 수 있는 경우의 수를 예측합니다. 서비스에서는 사용자의 행동에 의해 많은 경우의 수가 발생합니다. 단계별로 어떤 변수가 있는지 찾아내고 예측되는 결과를 정리합니다.
             </div>
             <img class="article-img" src="./img/design-system/pattern/pattern_variable@2x.png">
-            
-            
+
+
             <div class="article-title">
                 알고리즘 짜기(선택적)</div>
             <div class="article-h1">
@@ -139,26 +151,30 @@
             <div class="article-title">
                 형태 짜기</div>
             <div class="article-h1">
-                "흐름"과 "경우의 수"를 기준으로 페이지를 제작합니다. 예측되는 화면 사이즈에 어떤 기능을 수행할지 상상합니다. 해당 영역에 가장 적합한 컴포넌트를 적용한뒤 변수에 따른 변화를 정합니다.
-                
-                지속적으로 검색할 수 있도록 언제 어디서나 검색을 발견할 수 있어야합니다.
-                
-                형태를 짠 이후에는 상태에 대해서 표시되는 방식을 정합니다. 입력-출력 만약 검색이 중요하다면 검색을 계속 할 수 있는 형태여야 합니다. 언제 어디서나 검색을 발견할 수 있어야합니다.
-                기본 시나리오로 텍스트 필드에 자신의 단서를 입력하고 서비스는 그에 대한 피드백을 줍니다.
+                "흐름"과 "경우의 수"를 기준으로 페이지를 제작합니다. 기준이 되는 화면 사이즈에서 영역별로 달성해야할 단계별 목적을 지정합니다. 해당 영역에 단계별 목적을 달성할 수 있는 적합한 컴포넌트를 적용한뒤 변수를 고려하여 제작합니다.
             </div>
-            
+
             <img class="article-img" src="./img/design-system/pattern/pattern_conceptbox@2x.png">
-            
-            
-            
-             <div class="article-title">
+
+            <div class="article-h1">
+                <ul>
+                    <li><b>단어 입력: </b> 타 플랫폼 및 서비스에서 반복적으로 사용되는 컴포넌트로 상단 고정</li>
+                    <li><b>결과 확인:</b> 최대한 많은 결과를 보여주기 위해 넓은 영역 지정</li>
+                    <li><b>선택 후 재생:</b> 포스터와 제목 만으로도 영화를 선택하고 재생할 수 있지만 더 자세한 내용을 확인하고 재생하는 경우를 위해 최대한 많은 정보를 줄 수 있도록 별도 페이지 제작</li>
+
+                </ul>
+            </div>
+
+
+
+            <div class="article-title">
                 레이아웃 짜기</div>
             <div class="article-h1">
-                각 페이지에서 필요한 목적을 달성하기 위해 컴포넌트를 배치합니다. 지속적으로 검색할 수 있도록 언제 어디서나 검색을 발견할 수 있어야합니다. 형태를 짠 이후에는 상태에 대해서 표시되는 방식을 정합니다. 입력-출력 만약 검색이 중요하다면 검색을 계속 할 수 있는 형태여야 합니다. 언제 어디서나 검색을 발견할 수 있어야합니다.
+                형태에 대한 개념이 정리가 된 뒤에는 시각적인 컴포넌트를 배치합니다. 배치만으로도 GUI 디자인이 완성됩니다.
             </div>
-             <img class="article-img" src="./img/design-system/pattern/pattern_visualize@2x.png">
-            
-            
+            <img class="article-img" src="./img/design-system/pattern/pattern_visualize@2x.png">
+
+
 
             <div class="sidebar-con">
                 <div class="sidebar-wrapper">
@@ -170,21 +186,21 @@
                     </div>
                 </div>
             </div>
-            
-             <!--pagination -->
-                <hr>
-                <div class="pagination-left" onclick="location.href='preference.html';">
-                   <img class="pagination-icon" src="./img/icon/icon_previous.svg">
-                    <span class="pagination-text">사전 설정</span>
-                </div>
 
-                <div class="pagination-right" onclick="location.href='component.html';">
-                    <span class="pagination-text">컴포넌트</span>
-                    <img class="pagination-icon" src="./img/icon/icon_next.svg">
-                </div>
-            
-            
-            
+            <!--pagination -->
+            <hr>
+            <div class="pagination-left" onclick="location.href='preference.html';">
+                <img class="pagination-icon" src="./img/icon/icon_previous.svg">
+                <span class="pagination-text">사전 설정</span>
+            </div>
+
+            <div class="pagination-right" onclick="location.href='component.html';">
+                <span class="pagination-text">컴포넌트</span>
+                <img class="pagination-icon" src="./img/icon/icon_next.svg">
+            </div>
+
+
+
         </div>
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
