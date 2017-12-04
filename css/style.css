@@ -50,7 +50,7 @@
 }
 
 .mobile-dropdown li {
-    padding: 20px;
+    padding: 16px;
     height: auto;
 }
 
@@ -289,7 +289,7 @@ ul {
     font-size: 20px;
     width: 50%;
     padding: 2rem 0rem;
-    color: #28ab8f;
+    color: #10a973;
 }
 
 .pagination-left {
@@ -792,7 +792,7 @@ h2 {
     .nav {
         position: fixed;
         left: 0;
-
+height:60px;
         text-align: left;
         box-shadow: none;
     }
