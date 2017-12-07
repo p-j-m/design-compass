@@ -51,8 +51,8 @@ header {
     position: fixed;
     right: 16px;
     bottom: 16px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     border-radius: 30px;
     padding: 10px 14px;
     font-weight: 500;
