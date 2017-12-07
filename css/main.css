@@ -20,11 +20,11 @@ header {
     cursor: pointer;
     position: absolute;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -150px;
     font-size: 24px;
     font-weight: 700;
     padding-top: 24px;
-    width: 200px;
+    width: 300px;
 }
 
 .header-logo-icon {

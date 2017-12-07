@@ -47,7 +47,7 @@
 </head>
 
 <body>
-     <div class="se-pre-con">     <img class="loader" src="./img/icon/icon_compass.svg">     </div>
+     <div class="se-pre-con"><img class="loader" src="./img/icon/icon_compass.svg">     </div>
     <div id="nav"></div>
 
 
@@ -56,39 +56,39 @@
         <div class="article-container">
 
             <div class="article-title">
-               디자인 구조</div>
-
+               디자인 시스템</div>
             <div class="article-h1">
-                디자인은 어떻게 구성될까요? 이해하기 쉬운 방식으로 Bradfrost에서 제시한 Atomic Design 방법론이 있습니다. 작은 단위가 합쳐져 전체가 되는 방식으로 웹,모바일 서비스가 어떤 디자인 요소로 구성되는지 이해하는데 도움이 됩니다.
+                디자인은 어떻게 구성될까요? 일관되고 효율적인 작업을 위한 디자인 시스템에 대한 이론이 많습니다. 이해하기 쉬운 방식으로 Bradfrost에서 제시한 Atomic Design 방법론이 있습니다. 작은 단위가 합쳐져 전체가 되는 방식으로 웹,모바일 서비스가 어떤 디자인 요소로 구성되는지 이해하는데 도움이 됩니다.  
             </div>
-
-            <img class="article-img" src="./img/design-system/design-elemental/atomic@2x.png">
+            
+            <img class="lazy img-responsive" src="./img/img_placeholder.png"  data-original="./img/design-system/design-elemental/atomic@2x.png"  width="100%" height="auto">
 
             <div class="article-title">
                 원자
             </div>
             <div class="article-h1">
-                디자인을 구성하는 가장 작은 단위 요소<br>(색, 서체, 아이콘, 이미지 등 )
+                디자인을 구성하는 가장 작은 단위 요소.<br>색상표, 서체, 아이콘, 일러스트레이션, 이미지 등으로 구성됩니다.
             </div>
-            <img class="article-img" src="./img/design-system/design-elemental/atoms@2x.png">
+             
+            <img class="lazy img-responsive" src="./img/img_placeholder.png"  data-original="./img/design-system/design-elemental/atoms@2x.png"  width="100%" height="auto">
 
             <div class="article-title">분자</div>
-            <div class="article-h1">디자인 원자가 조합된 형태<br>(썸네일, 검색 박스와 같은 컴포넌트) 
+            <div class="article-h1">디자인 원자가 조합된 형태<br>폼, 썸네일, 검색 박스와 같은 컴포넌트로 구성됩니다. 
             </div>
-                <img class="article-img" src="./img/design-system/design-elemental/molecules@2x.png">
+
+            <img class="lazy img-responsive" src="./img/img_placeholder.png"  data-original="./img/design-system/design-elemental/molecules@2x.png"  width="100%" height="auto">
 
 
             <div class="article-title">유기체</div>
             <div class="article-h1">디자인 분자가 모여 더 복합적인 기능을 수행하는 형태
-                <br>(리스트, 네비게이션 박스와 같은 컴포넌트)  </div>
-
-            <img class="article-img" src="./img/design-system/design-elemental/organism@2x.png">
+                <br>리스트, 네비게이션 박스와 같이 컴포넌트가 합쳐진 컴포넌트</div>
+            <img class="lazy img-responsive" src="./img/img_placeholder.png"  data-original="./img/design-system/design-elemental/organism@2x.png"  width="100%" height="auto">
 
 
             <div class="article-title">구조</div>
-            <div class="article-h1">1-2가지 이상의 목적을 달성하기 위해 원자, 분자, 유기체가 구조적으로 배치한 형태<br>(메인페이지, 검색페이지 등과 같은 패턴에 속한 페이지) </div>
-
-            <img class="article-img" src="./img/design-system/design-elemental/structure@2x.png">
+            <div class="article-h1">더 큰 목적을 달성하기 위해 원자, 분자, 유기체가 구조적으로 배치된 형태<br>메인페이지, 검색페이지 등과 같이 다양한 컴포넌트가 조합된 페이지 </div>
+            
+             <img class="lazy img-responsive" src="./img/img_placeholder.png"  data-original="./img/design-system/design-elemental/structure@2x.png"  width="100%" height="auto">
             
               <div class="sidebar-con">
                 <div class="sidebar-wrapper">
@@ -102,13 +102,13 @@
             
             <!--pagination -->
                 <hr>
-                <div class="pagination-left" onclick="location.href='design-thinking.html';">
+                <div class="pagination-left" onclick="location.href='preference.html';">
                      <img class="pagination-icon" src="./img/icon/icon_previous.svg">
-                    <span class="pagination-text">디자인 사고</span>
+                    <span class="pagination-text">사전 설정</span>
                 </div>
 
-                <div class="pagination-right" onclick="location.href='preference.html';">
-                     <span class="pagination-text">사전 설정</span>
+                <div class="pagination-right" onclick="location.href='pattern.html';">
+                     <span class="pagination-text">패턴</span>
                     <img class="pagination-icon" src="./img/icon/icon_next.svg">
                 </div>
             
@@ -123,6 +123,6 @@
         $("#nav").load("./nav.html");
         $("#submenu-theory").load("./submenu-theory.html");
     </script>
-</body>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>     <script src="jquery.lazyload.js?v=1.9.1"></script>     <script type="text/javascript" charset="utf-8">         $(function() {             $("img.lazy").lazyload({                 effect: "fadeIn"             });         });     </script>
+    </body>
 </html>

@@ -57,14 +57,15 @@
             <div class="article-h1">
                 서비스 디자인에 대한 글 묶음입니다. 툴을 사용하는 방법보다는 디자인에 적용되는 규칙이 어떤 원리로 동작하는지에 중점을 두었습니다. 삽화와 짧은 문장으로 설명할 수 없다면 아직 이해하지 못했다고 생각하며 정리하고 있습니다.
             </div>
-            <img class="article-img" src="img/main-thumnail/main_thumnail_v2.png">
+            <img class="article-img lazy img-responsive" src="img/main-thumnail/main_thumnail_v2.png">
+            
 
             <div class="article-title">
                 디자이너의 역할</div>
             <div class="article-h1">
                 서비스 디자인은 눈에 보이는 것을 그리는 것에서 총체적인 경험을 설계하는 것에 가까워지고 있습니다. 앞으로 결과물을 만들어내는 것은 더욱 쉬워질 것입니다. 서비스 디자이너는 사람의 신체가 어떻게 정보를 얻고 의식이 정보를 어떻게 다루는지에 더 집중해야 할 것입니다.
             </div>
-            <img class="article-img" src="img/design-system/intro/service-role@2x.png">
+            <img class="article-img lazy" data-original="img/design-system/intro/service-role@2x.png">
            
 
                <div class="article-title">
@@ -75,38 +76,38 @@
 
                 <div class="wrapper" style="margin:10px 0px;float:none;">
                     <div class="service-box" style="box-shadow:0px 4px 12px #e6e6e6;" onclick="location.href='https://www.goabstract.com/';">
-                        <img class="icon-logo" style="width:80px;" src="img/icon/logo_abstract.svg">
+                        <img class="icon-logo" style="width:80px;" data-original="img/icon/logo_abstract.svg">
                         <div class="service-name">Abstract</div>
                         <div class="service-desc">버전 관리</div>
                     </div>
 
                     <div class="service-box" style="box-shadow:0px 4px 12px #e6e6e6;" onclick="location.href='http://www.adobe.com/kr/products/photoshop.html';">
-                        <img class="icon-logo" src="./img/icon/logo-photoshop.svg">
+                        <img class="icon-logo" data-original="./img/icon/logo-photoshop.svg">
                         <div class="service-name">Photoshop</div>
                         <div class="service-desc">그래픽 디자인</div>
                     </div>
 
                     <div class="service-box" style="box-shadow:0px 4px 12px #e6e6e6;" onclick="location.href='https://www.sketchapp.com/';">
-                        <img class="icon-logo" src="./img/icon/logo-sketch.svg">
+                        <img class="icon-logo" data-original="./img/icon/logo-sketch.svg">
                         <div class="service-name">Sketch</div>
                         <div class="service-desc">GUI 디자인</div>
                     </div>
 
                      <div class="service-box" style="box-shadow:0px 4px 12px #e6e6e6;" onclick="location.href='https://zeplin.io';">
-                        <img class="icon-logo" src="./img/icon/logo-zeplin.svg">
+                        <img class="icon-logo" data-original="./img/icon/logo-zeplin.svg">
                         <div class="service-name">Zeplin</div>
                         <div class="service-desc">디자인-개발 협업</div>
                     </div>
                     
                     <div class="service-box" style="box-shadow:0px 4px 12px #e6e6e6;" onclick="location.href='https://www.invisionapp.com/';">
-                        <img class="icon-logo" src="./img/icon/logo-invision.svg">
+                        <img class="icon-logo" data-original="./img/icon/logo-invision.svg">
                         <div class="service-name">Invision</div>
                         <div class="service-desc">프로토타이핑</div>
 
                     </div>
 
                     <div class="service-box" style="box-shadow:0px 4px 12px #e6e6e6;" onclick="location.href='https://framer.com/';">
-                        <img class="icon-logo" src="./img/icon/logo-framer.svg">
+                        <img class="icon-logo" data-original="./img/icon/logo-framer.svg">
                         <div class="service-name">Framer</div>
                         <div class="service-desc">인터랙션</div>
 
@@ -137,6 +138,15 @@
     <script>
         $("#nav").load("nav.html");
         $("#submenu-theory").load("submenu-theory.html");
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.lazyload.js?v=1.9.1"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+        });
     </script>
 </body>
 

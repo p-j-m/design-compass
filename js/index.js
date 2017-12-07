@@ -24,7 +24,7 @@ $(document).ready(function () {
                     hasScrolled();
                     didScroll = false;
                 }﻿
-            }, 200);
+            }, 100);
 
             function hasScrolled() {
                 var st = $(this).scrollTop();
