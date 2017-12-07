@@ -3,7 +3,7 @@ $(window).load(function () {
      
         $(function() {
             $("img").lazyload({
-                placeholder: "img/grey.gif"
+                placeholder: "img/img_placeholder.png"
             });
         });
 
