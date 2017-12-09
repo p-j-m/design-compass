@@ -223,7 +223,6 @@ body {
     font-family: "Noto Sans KR", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    word-break: keep-all;
     background-color: #fff;
 }
 
@@ -587,6 +586,7 @@ h2 {
 }
 
 .article-img {
+    height:auto;
     width: 100%;
     max-width: 750px;
     margin-bottom: 20px;
@@ -614,7 +614,7 @@ h2 {
 .article-h1 {
     font-size: 17px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 30px;
     margin-bottom: 18px;
     color: #4e4e4e;
 }
@@ -953,7 +953,7 @@ height:60px;
     }
     .article-title {
         margin-top: 50px;
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .article-subtitle {
@@ -966,9 +966,9 @@ height:60px;
 
 
     .article-h1 {
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 400;
-        line-height: 25px;
+        line-height: 30px;
         margin-bottom: 24px;
         color: #4e4e4e;
     }
