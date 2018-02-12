@@ -66,30 +66,39 @@
     <div class="article-outer">
         <div id="submenu-theory"></div>
         <div class="article-container">
+            
             <div class="article-title">
                 폴더</div>
             <div class="article-h1">
-                기준 없이 폴더를 사용하다 보면 파일을 찾기 어려워지고 중복된 파일이 많아집니다. 프로젝트에 사용될 GUI, 프로토타이핑, 마케팅 등 용도에 맞춰 정리한 폴더 구조입니다.
+                프로젝트 진행 시 사용하는 폴더 구조입니다. 브랜딩과 디자인 시스템을 적용한 서비스의 경우 작업 파일에 많은 디자이너와 개발자가 접근하게 되기 때문에 동일한 규칙으로 정리해 혼란을 최소화합니다. 각 폴더 내부는 <b>원본(Resources) 재료(Assets) 작업 (.sketch, .psd 등) 결과물 (_export)</b>로 이뤄집니다.
             </div>
-            <img class="article-img" data-original=" ./img/design-system/folder.png">
-
-            <div class="article-h1">
+            <img class="article-img" data-original=" ./img/design-system/preference/folder.png">
+             <div class="article-h1">
                 <ul>
-                    <li><b>design:</b> 시각적인 구현과 연관된 모든 것들</li>
-                    <li><b>doc:</b> 시나리오, 조사 결과 등 내외부에서 활용되는 모든 종류의 문서</li>
-                    <li><b>resource:</b> 문서와 디자인에 사용될 수 있는 모든 외부 자료</li>
-                </ul>
-            </div>
-
-            <div class="article-h1">
+                    <li><b>Project-Name:</b> 프로젝트 이름</li>
+                    <li><b>Documentation:</b> 프로젝트에 연관된 모든 종류의 문서 (word,ppt,hwp)</li>
+                    <li><b>External Works:</b> 프로젝트 내 리소스를 활용한 외부 업무 (마케팅, 홍보, 인쇄용 파일)</li>
+                    <li><b>Repository-OS:</b> 플랫폼별 디자인 및 코드</li>
+                    <li><b>Library:</b> 디자인 가이드라인 및 라이브러리</li> 
+                    <li><b>Resources:</b> 문서와 디자인에 사용될 수 있는 모든 외부 소스</li>
+                </ul> 
                 <ul>
-                    <li><b>_assets:</b> 실제 코드에 적용될 디자인 요소</li>
+                    <li><b>_assets:</b> 실제 코딩 시 사용하는 디자인 요소</li>
                     <li><b>_exports:</b> 페이지 스크린샷 및 이미지</li>
-                    <li><b>_library:</b> 디자인 가이드라인 및 라이브러리</li>
                     <li><b>gui:</b> GUI 작업 파일</li>
-                    <li><b>interaction:</b> 애니메이션, 인터랙션 작업 파일</li>
                 </ul>
             </div>
+
+            
+            <div class="article-title">
+                디바이스</div>
+            <div class="article-h1">
+                스마트워치, 스마트폰, 타블렛, 노트북, 데스크탑, TV, AI 스피커 등 사용자가 사용하는 제품들은 다양해지고 있습니다. 한정된 스크린에서 표시하는 시각언어 중심의 인터랙션에서 음성 언어 중심의 AI 스피커, 공간성과 깊이가 적용된 VR 인터랙션이 발전하고 있습니다.
+            </div>
+            <img class="article-img" data-original=" ./img/design-system/preference/devices.png">
+            
+          
+
             <div class="article-title">
                 단위</div>
             <div class="article-h1">
@@ -104,6 +113,14 @@
             </div>
 
             <img class="article-img" data-original=" ./img/design-system/pixel_density@2x.png">
+            
+              <div class="article-title">
+                스크린</div>
+            <div class="article-h1">
+                시각 인터랙션은 스마트폰과 PC를 중심으로 이뤄집니다. 서비스가 지원할 디바이스 중 가장 작은 스크린을 기준으로 PT,DP 단위로 작업하며 디바이스의 밀도(Density)만큼 곱해져 실제 디바이스에 표시됩니다. 작은 화면을 기준으로 디자인된 파일에서 사용한 에셋이 실제 디바이스에서는 큰 픽셀로 표시되기 때문에 각 밀도에 맞도록 에셋을 크게 만듭니다. 주로 iOS를 기준으로 x1 x2 x3 으로 에셋을 내보내며 안드로이드에서 함께 사용할 수도 있습니다.
+            </div>
+            <img class="article-img" data-original=" ./img/design-system/preference/ptdppx.png">
+            
             
              <div class="article-title">
                 안드로이드 & iOS</div>
