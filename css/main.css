@@ -47,7 +47,7 @@ header {
 }
 
 .contact {
-    cursor:pointer;
+    cursor: pointer;
     position: fixed;
     right: 16px;
     bottom: 16px;
@@ -57,14 +57,14 @@ header {
     padding: 10px 14px;
     font-weight: 500;
     font-size: 18px;
-    box-shadow:0px 10px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
     transition: ease 0.5s;
 }
 
-.contact:hover{
-    transform:translateY(-10px);
+.contact:hover {
+    transform: translateY(-10px);
     transition: ease 0.5s;
-    box-shadow:0px 10px 20px rgba(152, 152, 152, 0.2);
+    box-shadow: 0px 10px 20px rgba(152, 152, 152, 0.2);
 }
 
 .icon-menu {
@@ -122,7 +122,7 @@ header {
     float: left;
     width: 220px;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .topic-desc {
@@ -130,7 +130,7 @@ header {
     width: 520px;
     font-size: 18px;
     line-height: 29px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .topic-bg {
@@ -184,7 +184,7 @@ header {
 .movie-box {
     float: left;
     width: 180px;
-    height:240px;
+    height: 240px;
     padding: 30px 0px;
     margin: 10px 30px;
     background: #FFFFFF;
@@ -201,8 +201,8 @@ header {
     transform: translateY(-10px)
 }
 
-.movie{
-    width:auto;
+.movie {
+    width: auto;
     height: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -287,6 +287,7 @@ header {
         text-align: center;
         font-size: 16px;
         line-height: 26px;
+        font-weight: 400;
         width: 100%;
         opacity: 0.8;
     }
@@ -315,7 +316,7 @@ header {
         padding: 20px 0px;
         margin: 3% 1%;
     }
-    
+
     .movie-box {
         width: 47%;
         height: 280px;
@@ -351,7 +352,7 @@ header {
 
 
     .header-logo {
-        margin-left: -65px;
+        margin-left: -16px;
         font-size: 18px;
         font-weight: 700;
         padding-top: 18px;
@@ -378,8 +379,10 @@ header {
         padding: 8px;
         width: 16px;
     }
-    
-    .contact{display:none;}
+
+    .contact {
+        display: none;
+    }
     .bg-illust-con {
         width: 100%;
 
