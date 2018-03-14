@@ -19,9 +19,10 @@
     <!-- connect with other files -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
     <!-- FAVICON -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/favicon/apple-touch-icon-57x57.png" />
@@ -47,231 +48,238 @@
 </head>
 
 <body>
-     <div class="se-pre-con">     <img class="loader" src="./img/icon/icon_compass.svg">     </div>
+    <div class="se-pre-con"> <img class="loader" src="./img/icon/icon_compass.svg"> </div>
     <div id="nav"></div>
-   
-    <div class="article-outer"> <div id="submenu-sketch"></div><div class="article-container">
 
-        <div class="article-title">
-            심볼</div>
-        <div class="article-subtitle">
-            심볼은 스케치의 강력한 기능으로 문서의 아트보드와 페이지 또는 여러 문서에서 요소를 쉽게 재사용 할 수 있습니다.</div>
-        <div class="article-h1">
-            심볼은 두 부분으로 구성됩니다. 즉, 아트보드의 모양을 나타내는 "Master"와 병합된 "Instance"가 있습니다. 심볼을 만들 때 심볼 아트보드를 자동으로 보내거나 마스터를 별도의 페이지로 보낼 수 있습니다. Symbol의 마스터를 변경하면 문서의 모든 아트보드와 페이지에 변경 내용이 적용됩니다. 또한 마스터와 연결된 인스턴스 심볼에 사용자가 원하는대로 오버라이드할 수 있습니다. 아래 비디오에서는 심볼을 사용하여 시간을 절약하고 워크 플로를 향상시키는 방법에 대한 빠른 자습서를 만들었습니다.</div>
+    <div class="article-outer">
+        <div id="submenu-sketch"></div>
+        <div class="article-container">
 
-        <iframe width="750" height="400" class="article-img" src="https://www.youtube.com/embed/3fcIp5OXtVE" frameborder="0" allowfullscreen></iframe>
+            <div class="article-title">
+                심볼</div>
+            <div class="article-subtitle">
+                심볼은 스케치의 강력한 기능으로 문서의 아트보드와 페이지 또는 여러 문서에서 요소를 쉽게 재사용 할 수 있습니다.</div>
+            <div class="article-h1">
+                심볼은 두 부분으로 구성됩니다. 즉, 아트보드의 모양을 나타내는 "Master"와 병합된 "Instance"가 있습니다. 심볼을 만들 때 심볼 아트보드를 자동으로 보내거나 마스터를 별도의 페이지로 보낼 수 있습니다. Symbol의 마스터를 변경하면 문서의 모든 아트보드와 페이지에 변경 내용이 적용됩니다. 또한 마스터와 연결된 인스턴스 심볼에 사용자가 원하는대로 오버라이드할 수 있습니다. 아래 비디오에서는 심볼을 사용하여 시간을 절약하고 워크 플로를 향상시키는 방법에 대한 빠른 자습서를 만들었습니다.</div>
 
-        <div class="article-h1">
-            인스턴스 심볼는 마스터 심볼을 미러링하는 단일 레이어입니다. 레이어 목록에는 자주색 새로고침 아이콘이 표시됩니다. 심볼의 일반적인 예는 버튼 또는 테이블보기의 셀과 같이 디자인 전체에서 재사용되는 요소입니다. 뿐만 아니라 인스턴스 심볼는 개별적으로 크기를 조정할 수 있으며 심볼 내부의 레이어에 크기 조정 제약 조건을 적용하여 크기를 조정할 때 어떻게 동작하는지 정할 수 있습니다.</div>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/3fcIp5OXtVE" frameborder="0" allowfullscreen></iframe>
 
-        <img class="article-img" src="
+            <div class="article-h1">
+                인스턴스 심볼는 마스터 심볼을 미러링하는 단일 레이어입니다. 레이어 목록에는 자주색 새로고침 아이콘이 표시됩니다. 심볼의 일반적인 예는 버튼 또는 테이블보기의 셀과 같이 디자인 전체에서 재사용되는 요소입니다. 뿐만 아니라 인스턴스 심볼는 개별적으로 크기를 조정할 수 있으며 심볼 내부의 레이어에 크기 조정 제약 조건을 적용하여 크기를 조정할 때 어떻게 동작하는지 정할 수 있습니다.</div>
+
+            <img class="article-img" src="
 https://www.sketchapp.com/images/documentation/the-interface/layers@2x.jpg">
-        <div class="article-title">
-            심볼 및 기타 문서</div>
-        <div class="article-h1">
-            앞서 언급했듯이이 심볼는 라이브러리 기능을 사용하여 여러 문서에서 사용할 수 있습니다.다음 섹션으로 건너 뛰기 전에 심볼이 어떻게 작동하는지 잠시 고민해보시기 바랍니다.</div>
+            <div class="article-title">
+                심볼 및 기타 문서</div>
+            <div class="article-h1">
+                앞서 언급했듯이이 심볼는 라이브러리 기능을 사용하여 여러 문서에서 사용할 수 있습니다.다음 섹션으로 건너 뛰기 전에 심볼이 어떻게 작동하는지 잠시 고민해보시기 바랍니다.</div>
 
-        <div class="article-title">
-            심볼 만들기</div>
-        <div class="article-subtitle">
-            심볼을 만들려면 그룹, 아트보드 또는 여러 레이어를 선택하고 툴바에서 심볼 만들기 항목을 클릭하거나 메뉴에서 Layer> Make symbol를 선택합니다.</div>
-        <div class="article-h1">
-            심볼의 이름을 지정할 수 있는 대화 상자가 나타나며 심볼의 "Master"를 다른 페이지로 보낼 수있는 옵션이 제공됩니다. 심볼을 생성 한 후에는 레이어 목록에서 "Instance"라는 내용이 단일 레이어로 병합 된 것을 볼 수 있습니다.
-            <br><br> 확인란을 선택하지 않은 채로두면 심볼의 마스터가 현재 페이지에 배치되고 인스턴스가 대신 적용됩니다.</div>
+            <div class="article-title">
+                심볼 만들기</div>
+            <div class="article-subtitle">
+                심볼을 만들려면 그룹, 아트보드 또는 여러 레이어를 선택하고 툴바에서 심볼 만들기 항목을 클릭하거나 메뉴에서 Layer> Make symbol를 선택합니다.</div>
+            <div class="article-h1">
+                심볼의 이름을 지정할 수 있는 대화 상자가 나타나며 심볼의 "Master"를 다른 페이지로 보낼 수있는 옵션이 제공됩니다. 심볼을 생성 한 후에는 레이어 목록에서 "Instance"라는 내용이 단일 레이어로 병합 된 것을 볼 수 있습니다.
+                <br><br> 확인란을 선택하지 않은 채로두면 심볼의 마스터가 현재 페이지에 배치되고 인스턴스가 대신 적용됩니다.</div>
 
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/create@2x.jpg">
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/create@2x.jpg">
 
-        <div class="article-h1">
-            심볼을 만들 때 이 대화 상자가 나타나 마스터를 다른 페이지로 보낼 수 있습니다. 이제 팝업 메뉴에서 insert> symbol을 선택하고 심볼의 새 인스턴스를 캔버스에 삽입 할 수 있습니다. 마찬가지로 심볼의 기존 인스턴스를 복사하여 붙여 넣거나 복제 할 수 있으며 스케치는 이를 함께 연결합니다.<br><br> 다른 심볼이 포함된 심볼을 만들려면 인스턴스를 다른 심볼의 마스터에 넣으면됩니다.<br><br> 심볼 마스터를 일반 아트보드로 다시 변환하려면 레이어 목록에서 심볼 아트보드를 선택하고 메뉴에서 Layer> Make symbol을 선택합니다. 그러면이 심볼의 인스턴스가 그룹이 되어 해당 심볼을 편집해도 복사한 심볼에 업데이트되지 않습니다.<br><br> 인스턴스 심볼를 마스터로부터 아예 분리하려면 메뉴에서 Layer> Detach from symbol을 선택하거나 Ctrl 키를 누른 상태에서 바로 가기 메뉴를 선택하여 같은 항목을 누르면됩니다.</div>
+            <div class="article-h1">
+                심볼을 만들 때 이 대화 상자가 나타나 마스터를 다른 페이지로 보낼 수 있습니다. 이제 팝업 메뉴에서 insert> symbol을 선택하고 심볼의 새 인스턴스를 캔버스에 삽입 할 수 있습니다. 마찬가지로 심볼의 기존 인스턴스를 복사하여 붙여 넣거나 복제 할 수 있으며 스케치는 이를 함께 연결합니다.<br><br> 다른 심볼이 포함된 심볼을 만들려면 인스턴스를 다른 심볼의 마스터에 넣으면됩니다.<br><br> 심볼 마스터를 일반 아트보드로 다시 변환하려면 레이어 목록에서 심볼 아트보드를 선택하고 메뉴에서 Layer> Make symbol을 선택합니다. 그러면이 심볼의 인스턴스가 그룹이 되어 해당 심볼을 편집해도 복사한 심볼에 업데이트되지 않습니다.<br><br> 인스턴스 심볼를 마스터로부터 아예 분리하려면 메뉴에서 Layer> Detach from symbol을 선택하거나 Ctrl 키를 누른 상태에서 바로 가기 메뉴를 선택하여 같은 항목을 누르면됩니다.</div>
 
-        <div class="article-title">
-            심볼 편집</div>
-        <div class="article-subtitle">
-            심볼을 편집할 수있는 두 가지 방법이 있습니다. 심볼의 마스터를 편집하거나 override를 통해 개별 인스턴스를 편집 할 수 있습니다.</div>
-        <div class="article-title">
-            마스터 편집</div>
-        <div class="article-h1">
-            Symbol의 내용을 편집하려면 인스턴스를 두 번 클릭하면 문서의 페이지 나 위치에 관계없이 마스터로 곧바로 이동할 수 있습니다. 마스터를 심볼 페이지에 놓은 경우 레이어 목록의 페이지 선택 도구를 통해 마스터를 수동으로 탐색하고 아트보드 내에서 내용을 편집 할 수 있습니다.<br><br> Symbol의 마스터를 편집하면 문서의 모든 인스턴스에 즉시 반영됩니다. 원하는 사항을 변경 한 후 Return to Instance를 클릭하면 인스턴스가 표시됩니다.
-        </div>
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/return@2x.jpg">
-        <div class="article-h1">
-            반복되는 요소로 복잡한 문서 작업을 할 때 심볼을 사용하면 많은 시간을 절약 할 수 있습니다. 예를 들어, 심볼에 텍스트 레이어가 포함되어 있으면 심볼의 마스터에서 텍스트 레이어의 속성을 변경할 수 있습니다. 또는 Inspector에서 override를 통해 개별 인스턴스 만 업데이트 할 수 있습니다. 아래 섹션에서 어떻게 할 수 있는지 알아볼 수 있습니다.
-        </div>
+            <div class="article-title">
+                심볼 편집</div>
+            <div class="article-subtitle">
+                심볼을 편집할 수있는 두 가지 방법이 있습니다. 심볼의 마스터를 편집하거나 override를 통해 개별 인스턴스를 편집 할 수 있습니다.</div>
+            <div class="article-title">
+                마스터 편집</div>
+            <div class="article-h1">
+                Symbol의 내용을 편집하려면 인스턴스를 두 번 클릭하면 문서의 페이지 나 위치에 관계없이 마스터로 곧바로 이동할 수 있습니다. 마스터를 심볼 페이지에 놓은 경우 레이어 목록의 페이지 선택 도구를 통해 마스터를 수동으로 탐색하고 아트보드 내에서 내용을 편집 할 수 있습니다.<br><br> Symbol의 마스터를 편집하면 문서의 모든 인스턴스에 즉시 반영됩니다. 원하는 사항을 변경 한 후 Return to Instance를 클릭하면 인스턴스가 표시됩니다.
+            </div>
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/return@2x.jpg">
+            <div class="article-h1">
+                반복되는 요소로 복잡한 문서 작업을 할 때 심볼을 사용하면 많은 시간을 절약 할 수 있습니다. 예를 들어, 심볼에 텍스트 레이어가 포함되어 있으면 심볼의 마스터에서 텍스트 레이어의 속성을 변경할 수 있습니다. 또는 Inspector에서 override를 통해 개별 인스턴스 만 업데이트 할 수 있습니다. 아래 섹션에서 어떻게 할 수 있는지 알아볼 수 있습니다.
+            </div>
 
-        <div class="article-title">
-            오버라이드</div>
-        <div class="article-h1">
-            캔버스에서 텍스트 또는 이미지 레이어가 포함된 인스턴스 심볼를 선택하면 Inspector에서 Override 섹션을 볼 수 있습니다. override 섹션에서는 중첩된 심볼, 텍스트 레이어의 내용, 이미지 및 이미지 채우기, 해당 인스턴스의 불투명도 및 블렌드 모드를 오버라이드 할 수 있습니다. 오버라이드를 사용하면 각 인스턴스를 독립적으로 업데이트할 수 있습니다. 오버라이드가 없으면 심볼의 마스터에서 지정된 기본값을 볼 수 있습니다. 빠른 자습서를 보려면 아래 비디오를 참조하십시오.</div>
+            <div class="article-title">
+                오버라이드</div>
+            <div class="article-h1">
+                캔버스에서 텍스트 또는 이미지 레이어가 포함된 인스턴스 심볼를 선택하면 Inspector에서 Override 섹션을 볼 수 있습니다. override 섹션에서는 중첩된 심볼, 텍스트 레이어의 내용, 이미지 및 이미지 채우기, 해당 인스턴스의 불투명도 및 블렌드 모드를 오버라이드 할 수 있습니다. 오버라이드를 사용하면 각 인스턴스를 독립적으로 업데이트할 수 있습니다. 오버라이드가 없으면 심볼의 마스터에서 지정된 기본값을 볼 수 있습니다. 빠른 자습서를 보려면 아래 비디오를 참조하십시오.</div>
 
-        <iframe width="750" height="400" class="article-img" src="https://www.youtube.com/embed/3fcIp5OXtVE" frameborder="0" allowfullscreen></iframe>
+            <div class="article-h1">
+                이미지 오버라이드를 적용하려면 비트맵 레이어 또는 마스터에 이미지 채우기가 있는 오브젝트가 있으면 됩니다. 인스턴스를 선택한 상태에서 Inspector에서 이미지 선택 버튼을 클릭하거나 스케치 외부에서 이미지 미리보기로 이미지를 드래그 할 수 있습니다. 동일한 디자인에 다른 컨텐츠를 인스턴스에 적용해야하는 상황에 좋은 방법입니다.<br><br> 텍스트 오버라이드 업데이트 시 전체 길이가 변경될 수 있습니다. 결과적으로 스케치는 왼쪽 또는 오른쪽으로 정렬된 텍스트 뒤에 위치한 레이어가 텍스트 레이어와의 거리를 유지한채 밀려나가 심볼 및 오버라이드 이점을 완전히 활용할 수 있습니다.<br><br> 텍스트 오버라이드를 편집 할 때 뒤에 위치한 레이어의 위치가 업데이트되지 않도록 하려면 Ctrl 키를 누른 상태에서 바로 가기 메뉴에서 "Lock layer"를 선택하여 레이어를 잠급니다.<br><br>
 
-        <div class="article-h1">
-            이미지 오버라이드를 적용하려면 비트맵 레이어 또는 마스터에 이미지 채우기가 있는 오브젝트가 있으면 됩니다. 인스턴스를 선택한 상태에서 Inspector에서 이미지 선택 버튼을 클릭하거나 스케치 외부에서 이미지 미리보기로 이미지를 드래그 할 수 있습니다. 동일한 디자인에 다른 컨텐츠를 인스턴스에 적용해야하는 상황에 좋은 방법입니다.<br><br> 텍스트 오버라이드 업데이트 시 전체 길이가 변경될 수 있습니다. 결과적으로 스케치는 왼쪽 또는 오른쪽으로 정렬된 텍스트 뒤에 위치한 레이어가 텍스트 레이어와의 거리를 유지한채 밀려나가 심볼 및 오버라이드 이점을 완전히 활용할 수 있습니다.<br><br> 텍스트 오버라이드를 편집 할 때 뒤에 위치한 레이어의 위치가 업데이트되지 않도록 하려면 Ctrl 키를 누른 상태에서 바로 가기 메뉴에서 "Lock layer"를 선택하여 레이어를 잠급니다.<br><br>
-
-            <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/override@2x.mp4"></video> 텍스트를 오버라이드 할 때 스타 아이콘이 여백 거리를 어떻게 사용하는지 살펴보세요. 오버라이드가 가능한 세가지 레이어 타입인 중첩된 심볼, 텍스트, 이미지 레이어를 잠그면 Inspector에 작성 항목이 나오지 않습니다.
-        </div>
+                <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/override@2x.mp4"></video> 텍스트를 오버라이드 할 때 스타 아이콘이 여백 거리를 어떻게 사용하는지 살펴보세요. 오버라이드가 가능한 세가지 레이어 타입인 중첩된 심볼, 텍스트, 이미지 레이어를 잠그면 Inspector에 작성 항목이 나오지 않습니다.
+            </div>
 
 
-        <div class="article-title">
-            라이브러리 심볼 편집</div>
-        <div class="article-h1">
-            라이브러리에 속한 심볼을 편집하는 방법에 대해 자세히 알고 싶으면 라이브러리 심볼 페이지를 참조하십시오.</div>
+            <div class="article-title">
+                라이브러리 심볼 편집</div>
+            <div class="article-h1">
+                라이브러리에 속한 심볼을 편집하는 방법에 대해 자세히 알고 싶으면 라이브러리 심볼 페이지를 참조하십시오.</div>
 
 
-        <div class="article-title">
-            심볼 구성하기</div>
-        <div class="article-subtitle">
-            복잡한 문서를 작업 할 때 심볼 페이지에 심볼 마스터를 내보내면 전체적인 뷰를 보면서 정리하는 데 도움이됩니다.</div>
-        <div class="article-h1">
+            <div class="article-title">
+                심볼 구성하기</div>
+            <div class="article-subtitle">
+                복잡한 문서를 작업 할 때 심볼 페이지에 심볼 마스터를 내보내면 전체적인 뷰를 보면서 정리하는 데 도움이됩니다.</div>
+            <div class="article-h1">
 
-            또한 Insert> Symbol을 선택하면 문서의 심볼이 알파벳 순으로 정렬된 팝업 메뉴가 나타납니다. 심볼의 이름에 슬래시 (/)를 포함하면 심볼을 그룹으로 정리합니다. 예를 들어 Button / Normal 및 Button / Pressed라는 두 개의 심볼이 Button이라는 하위 메뉴로 함께 그룹화됩니다.</div>
+                또한 Insert> Symbol을 선택하면 문서의 심볼이 알파벳 순으로 정렬된 팝업 메뉴가 나타납니다. 심볼의 이름에 슬래시 (/)를 포함하면 심볼을 그룹으로 정리합니다. 예를 들어 Button / Normal 및 Button / Pressed라는 두 개의 심볼이 Button이라는 하위 메뉴로 함께 그룹화됩니다.</div>
 
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/organizing@2x.jpg">
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/organizing@2x.jpg">
 
-        <div class="article-h1">그룹으로 구성된 심볼</div>
+            <div class="article-h1">그룹으로 구성된 심볼</div>
 
-        <div class="article-title">
-            스와핑 심볼</div>
-        <div class="article-h1">
-            Inspector의 팝업 메뉴를 사용하여 Symbol을 바꿀 수 있습니다. 눌려진 버튼과 일반 버튼의 예에서 두 버튼을 쉽게 바꿀 수 있음을 알 수 있습니다. 그런 다음 오버라이드를 사용하여 각 인스턴스를 설정할 수 있습니다.</div>
-
-
-        <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/swap@2x.mp4"></video>
-        <div class="article-h1">
-            그 외에도 모든 레이어를 심볼로 바꿀 수 있습니다. 바꾸려는 레이어를 Control- 클릭하고 상황에 맞는 메뉴의 Replace with 옵션을 통해 심볼을 선택하십시오.</div>
+            <div class="article-title">
+                스와핑 심볼</div>
+            <div class="article-h1">
+                Inspector의 팝업 메뉴를 사용하여 Symbol을 바꿀 수 있습니다. 눌려진 버튼과 일반 버튼의 예에서 두 버튼을 쉽게 바꿀 수 있음을 알 수 있습니다. 그런 다음 오버라이드를 사용하여 각 인스턴스를 설정할 수 있습니다.</div>
 
 
-        <div class="article-title">
-            중첩 심볼</div>
-        <div class="article-subtitle">
-            심볼을 중첩해서 더 강력하게 사용할 수 있습니다.</div>
-        <div class="article-h1">
-            중첩된 심볼을 만들려면 인스턴스 레이어를 다른 심볼의 마스터 아트보드 내에 배치하십시오. 심볼의 마스터를 업데이트하면 변경 사항이 다른 Symbol 내부에 있는지 여부에 관계없이 디자인 전체에 적용됩니다. 인스턴스를 마스터에 배치하고 툴바 항목을 통해 삽입하는 것뿐만 아니라 다른 심볼의 인스턴스를 여러 개 선택하고 툴바에서 Create Symbol을 누를 수도 있습니다.<br><br> 심볼을 중첩 시킬 수 있는 범위에 제한이 없지만, 심볼 안에 마스터와 같은 심볼 자체가 포함될 수는 없습니다.</div>
-        <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/nested@2x.mp4"></video>
-        <div class="article-title">
-            중첩된 심볼 오버라이드</div>
-        <div class="article-h1">
-            심볼 편집하기에서 언급했듯이 중첩된 심볼에서 이미지 및 텍스트처럼 인스턴스 심볼를 오버드라이브할 수 있습니다.<br><br> 중첩된 심볼을 오버라이드하면 인스턴스에 포함된 심볼을 다른 심볼과 동일한 크기로 바꿀 수 있습니다. 아이콘 심볼이 포함된 툴바의 심볼이 있다고 가정했을 때, 오버라이드를 사용하면 심볼을 다른 아이콘 심볼로 바꿀 수 있습니다. 이러한 중첩된 오버라이드는 하나의 심볼에 포함된 비슷한 심볼의 숫자를 줄일 수 있으며 각 심볼을 더 자유롭게 제어할 수 있습니다.</div>
-
-        <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/nested-override@2x.mp4"></video>
-        <div class="article-h1">
-            문서에서 중첩된 심볼이 오버라이드 되지 않게 하려면 레이어 목록이나 바로 가기 메뉴에서 해당 레이어를 잠그십시오.
-        </div>
+            <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/swap@2x.mp4"></video>
+            <div class="article-h1">
+                그 외에도 모든 레이어를 심볼로 바꿀 수 있습니다. 바꾸려는 레이어를 Control- 클릭하고 상황에 맞는 메뉴의 Replace with 옵션을 통해 심볼을 선택하십시오.</div>
 
 
-        <div class="article-title">
-            라이브러리</div>
-        <div class="article-subtitle">
-            최상의 디자인은 여러 디자이너가 협업할 때 발생합니다. 라이브러리를 사용해 문서 전체에서 심볼을 공유하고 항상 동기화된 상태를 유지할 수 있습니다.</div>
+            <div class="article-title">
+                중첩 심볼</div>
+            <div class="article-subtitle">
+                심볼을 중첩해서 더 강력하게 사용할 수 있습니다.</div>
+            <div class="article-h1">
+                중첩된 심볼을 만들려면 인스턴스 레이어를 다른 심볼의 마스터 아트보드 내에 배치하십시오. 심볼의 마스터를 업데이트하면 변경 사항이 다른 Symbol 내부에 있는지 여부에 관계없이 디자인 전체에 적용됩니다. 인스턴스를 마스터에 배치하고 툴바 항목을 통해 삽입하는 것뿐만 아니라 다른 심볼의 인스턴스를 여러 개 선택하고 툴바에서 Create Symbol을 누를 수도 있습니다.<br><br> 심볼을 중첩 시킬 수 있는 범위에 제한이 없지만, 심볼 안에 마스터와 같은 심볼 자체가 포함될 수는 없습니다.</div>
+            <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/nested@2x.mp4"></video>
+            <div class="article-title">
+                중첩된 심볼 오버라이드</div>
+            <div class="article-h1">
+                심볼 편집하기에서 언급했듯이 중첩된 심볼에서 이미지 및 텍스트처럼 인스턴스 심볼를 오버드라이브할 수 있습니다.<br><br> 중첩된 심볼을 오버라이드하면 인스턴스에 포함된 심볼을 다른 심볼과 동일한 크기로 바꿀 수 있습니다. 아이콘 심볼이 포함된 툴바의 심볼이 있다고 가정했을 때, 오버라이드를 사용하면 심볼을 다른 아이콘 심볼로 바꿀 수 있습니다. 이러한 중첩된 오버라이드는 하나의 심볼에 포함된 비슷한 심볼의 숫자를 줄일 수 있으며 각 심볼을 더 자유롭게 제어할 수 있습니다.</div>
 
-        <iframe lass="article-img" src="https://www.youtube.com/embed/cz1t_oo6k9c" frameborder="0" allowfullscreen></iframe>
-
-        <div class="article-h1">
-            라이브러리는 다른 스케치 문서에서 사용할 수 있는 심볼이 포함된 스케치 문서입니다. 라이브러리 파일에서 해당 심볼을 업데이트하면 해당 심볼의 인스턴스가 포함 된 문서에 해당 심볼이 업데이트 될 수 있음을 알리는 알림이 전송됩니다. 여기에서 변경 사항을 미리보고 확인하고 확인할 수 있습니다. 이 방식으로 문서에서 항상 최근 버전의 구성 요소을 사용할 수 있습니다.</div>
-
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-changes@2x.jpg">
-
-        <div class="article-h1">
-            다른 디자이너들과 팀으로 일하고 있다면, 스케치의 라이브러리가 당신을 도움이 될 것입니다. Dropbox 폴더 나 GitHub의 저장소와 같은 읽기 권한이 있는 어딘가에 문서를 놓고 Libraries in Preferences에 문서를 추가하면 해당 심볼에 빠르고 쉽게 액세스 할 수 있습니다.</div>
-        <div class="article-title">
-            나를 위한 라이브러리가 있나요?</div>
-        <div class="article-h1">
-            혼자 설계하든 팀의 일원으로 설계하든 관계없이 모두가 사용할 수 있는 라이브러리를 구축했습니다. 개인 디자이너는 일반적으로 사용되는 구성 요소의 심볼을 Insert 메뉴에서 곧바로 삽입 할 수 있으므로 많은 이점을 얻을 수 있습니다. 'iOS UI 디자인'템플릿을 라이브러리로 추가했으므로 다음 디자인을 위해 빌딩 블록 디자인을 사용할 수 있습니다. 기존 문서를 라이브러리로 추가하거나 새 문서를 만들어 앞으로 사용할 모든 새 문서에서 심볼을 사용할 수 있습니다. 그렇게하면 변경한 사항이 쉽게 업데이트됩니다.<br><br> 팀으로 작업하는 디자이너는 최신 버전의 아이콘이나 회사의 스타일 가이드에서 제공하는 최신 브랜딩을 사용하고 있는지 확인할 때, 라이브러리의 기능을 최대한 활용할 수 있습니다. 라이브러리 문서를 안전하게 분리하면 심볼에 대한 업데이트만 가능하므로 실수로 모든 동료 문서에 곤란한 모양으로 수정하지 않습니다!<br><br> 다른 팀 멤버가 라이브러리 심볼을 변경하면 변경 사항을 검토하고 자신의 문서에 대한 업데이트를 수락하기 전에 모든 것이 정상적으로 표시되는지 확인해야 합니다.
-        </div>
+            <video controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/symbols/video/nested-override@2x.mp4"></video>
+            <div class="article-h1">
+                문서에서 중첩된 심볼이 오버라이드 되지 않게 하려면 레이어 목록이나 바로 가기 메뉴에서 해당 레이어를 잠그십시오.
+            </div>
 
 
-        <div class="article-title">
-            라이브러리 추가하기</div>
-        <div class="article-subtitle">
-            라이브러리를 추가하려면 심볼이 포함된 스케치 문서만 있으면 됩니다.</div>
+            <div class="article-title">
+                라이브러리</div>
+            <div class="article-subtitle">
+                최상의 디자인은 여러 디자이너가 협업할 때 발생합니다. 라이브러리를 사용해 문서 전체에서 심볼을 공유하고 항상 동기화된 상태를 유지할 수 있습니다.</div>
 
-        <div class="article-h1">
-            여러 문서에서 사용할 심볼이 포함된 문서를 만든 뒤 라이브러리로 사용하려면 Sketch 's Preferences (Command-Comma)를 열고 Libraries 탭으로 이동하십시오.<br><br> 여기서 이미 Library - Sketch's iOS UI 디자인 템플릿으로 설정된 문서가 있음을 확인할 수 있습니다. 목록의 확인란을 클릭하여 심볼이 Insert 메뉴에서 나타나지 않도록 설정하거나 해제할 수 있습니다. 미리보기를 통해 라이브러리를 더 잘 볼 수 있습니다. 목록의 오른쪽에 나타나는 훑어보기 아이콘을 클릭하면됩니다.<br><br> 문서를 라이브러리로 추가하려면 Preference 창의 오른쪽 하단에 나타나는 "Add Library..."버튼을 클릭하고 파일에서 문서를 선택하십시오. 이제 심볼을 다른 문서에 적용할 수 있습니다!<br><br>
-        </div>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/cz1t_oo6k9c" frameborder="0" allowfullscreen></iframe>
 
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-preferences@2x.jpg">
+            <div class="article-h1">
+                라이브러리는 다른 스케치 문서에서 사용할 수 있는 심볼이 포함된 스케치 문서입니다. 라이브러리 파일에서 해당 심볼을 업데이트하면 해당 심볼의 인스턴스가 포함 된 문서에 해당 심볼이 업데이트 될 수 있음을 알리는 알림이 전송됩니다. 여기에서 변경 사항을 미리보고 확인하고 확인할 수 있습니다. 이 방식으로 문서에서 항상 최근 버전의 구성 요소을 사용할 수 있습니다.</div>
 
-        <div class="article-h1">
-            라이브러리 목록의 맨 아래에서 설정 아이콘을 클릭하면 라이브러리 열기, 비활성화, 제거를 선택할 수있는 메뉴가 나타납니다. 라이브러리의 수에 제한이 없으며 각 라이브러리의 심볼은 심볼 메뉴에서 깔끔하게 구분됩니다.
-        </div>
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-changes@2x.jpg">
 
-        <div class="article-title">
-            외부 라이브러리</div>
-        <div class="article-h1">
-            스케치 문서의 심볼을 라이브러리를 통해 친구나 동료와 공유할 수 있습니다. 컴퓨터에 라이브러리로 사용하려는 문서를 저장하는 대신 로컬 서버, 클라우드 서비스 또는 접근할 수 있는 버전 제어 시스템에 문서를 추가하십시오.<br><br>예를 들어 Dropbox로 라이브러리 문서를 저장하면, 파일 위치를 라이브러리 리스트에 추가하면 됩니다.친구 및 동료가 Dropbox 폴더에서 같은 문서로 열면 동일한 라이브러리를 불러올 수 있습니다. 즉, 실시간으로 문서의 변경사항을 업데이트할 수 있습니다.</div>
+            <div class="article-h1">
+                다른 디자이너들과 팀으로 일하고 있다면, 스케치의 라이브러리가 당신을 도움이 될 것입니다. Dropbox 폴더 나 GitHub의 저장소와 같은 읽기 권한이 있는 어딘가에 문서를 놓고 Libraries in Preferences에 문서를 추가하면 해당 심볼에 빠르고 쉽게 액세스 할 수 있습니다.</div>
+            <div class="article-title">
+                나를 위한 라이브러리가 있나요?</div>
+            <div class="article-h1">
+                혼자 설계하든 팀의 일원으로 설계하든 관계없이 모두가 사용할 수 있는 라이브러리를 구축했습니다. 개인 디자이너는 일반적으로 사용되는 구성 요소의 심볼을 Insert 메뉴에서 곧바로 삽입 할 수 있으므로 많은 이점을 얻을 수 있습니다. 'iOS UI 디자인'템플릿을 라이브러리로 추가했으므로 다음 디자인을 위해 빌딩 블록 디자인을 사용할 수 있습니다. 기존 문서를 라이브러리로 추가하거나 새 문서를 만들어 앞으로 사용할 모든 새 문서에서 심볼을 사용할 수 있습니다. 그렇게하면 변경한 사항이 쉽게 업데이트됩니다.<br><br> 팀으로 작업하는 디자이너는 최신 버전의 아이콘이나 회사의 스타일 가이드에서 제공하는 최신 브랜딩을 사용하고 있는지 확인할 때, 라이브러리의 기능을 최대한 활용할 수 있습니다. 라이브러리 문서를 안전하게 분리하면 심볼에 대한 업데이트만 가능하므로 실수로 모든 동료 문서에 곤란한 모양으로 수정하지 않습니다!<br><br> 다른 팀 멤버가 라이브러리 심볼을 변경하면 변경 사항을 검토하고 자신의 문서에 대한 업데이트를 수락하기 전에 모든 것이 정상적으로 표시되는지 확인해야 합니다.
+            </div>
 
-        <div class="article-title">
-            라이브러리 심볼</div>
-        <div class="article-subtitle">
-            라이브러리가 추가되면 이제 문서에서 심볼을 사용할 수 있습니다. 라이브러리의 심볼은 일반 (로컬) 심볼과 완전히 동일한 방식으로 추가할 수 있습니다. 팝업 메뉴에서 Insert> Symbol을 선택하고 라이브러리의 인스턴스 심볼를 캔버스에 추가하십시오.</div>
 
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-insert@2x.jpg">
-        <div class="article-h1">
-            라이브러리 심볼은 심볼과 같으면서도 약간 다릅니다. 레이어 목록에서 가져온 라이브러리 심볼을 로컬 심볼과 쉽게 구별 할 수 있는 자체 아이콘이 표시됩니다.<br><br> 라이브러리를 설정하면 심볼을 문서에 삽입하는 하거나 Inspector를 이용해 심볼을 라이브러리의 심볼과 바꿀 수 있습니다. 심볼의 이름을 클릭하고 팝업 메뉴에서 라이브러리의 심볼을 선택하기만 하면됩니다.</div>
+            <div class="article-title">
+                라이브러리 추가하기</div>
+            <div class="article-subtitle">
+                라이브러리를 추가하려면 심볼이 포함된 스케치 문서만 있으면 됩니다.</div>
 
-        <img class="article-img" src="
+            <div class="article-h1">
+                여러 문서에서 사용할 심볼이 포함된 문서를 만든 뒤 라이브러리로 사용하려면 Sketch 's Preferences (Command-Comma)를 열고 Libraries 탭으로 이동하십시오.<br><br> 여기서 이미 Library - Sketch's iOS UI 디자인 템플릿으로 설정된 문서가 있음을 확인할 수 있습니다. 목록의 확인란을 클릭하여 심볼이 Insert 메뉴에서 나타나지 않도록 설정하거나 해제할 수 있습니다. 미리보기를 통해 라이브러리를 더 잘 볼 수 있습니다. 목록의 오른쪽에 나타나는 훑어보기 아이콘을 클릭하면됩니다.<br><br> 문서를 라이브러리로 추가하려면 Preference 창의 오른쪽 하단에 나타나는 "Add Library..."버튼을 클릭하고 파일에서 문서를 선택하십시오. 이제 심볼을 다른 문서에 적용할 수 있습니다!<br><br>
+            </div>
+
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-preferences@2x.jpg">
+
+            <div class="article-h1">
+                라이브러리 목록의 맨 아래에서 설정 아이콘을 클릭하면 라이브러리 열기, 비활성화, 제거를 선택할 수있는 메뉴가 나타납니다. 라이브러리의 수에 제한이 없으며 각 라이브러리의 심볼은 심볼 메뉴에서 깔끔하게 구분됩니다.
+            </div>
+
+            <div class="article-title">
+                외부 라이브러리</div>
+            <div class="article-h1">
+                스케치 문서의 심볼을 라이브러리를 통해 친구나 동료와 공유할 수 있습니다. 컴퓨터에 라이브러리로 사용하려는 문서를 저장하는 대신 로컬 서버, 클라우드 서비스 또는 접근할 수 있는 버전 제어 시스템에 문서를 추가하십시오.<br><br>예를 들어 Dropbox로 라이브러리 문서를 저장하면, 파일 위치를 라이브러리 리스트에 추가하면 됩니다.친구 및 동료가 Dropbox 폴더에서 같은 문서로 열면 동일한 라이브러리를 불러올 수 있습니다. 즉, 실시간으로 문서의 변경사항을 업데이트할 수 있습니다.</div>
+
+            <div class="article-title">
+                라이브러리 심볼</div>
+            <div class="article-subtitle">
+                라이브러리가 추가되면 이제 문서에서 심볼을 사용할 수 있습니다. 라이브러리의 심볼은 일반 (로컬) 심볼과 완전히 동일한 방식으로 추가할 수 있습니다. 팝업 메뉴에서 Insert> Symbol을 선택하고 라이브러리의 인스턴스 심볼를 캔버스에 추가하십시오.</div>
+
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-insert@2x.jpg">
+            <div class="article-h1">
+                라이브러리 심볼은 심볼과 같으면서도 약간 다릅니다. 레이어 목록에서 가져온 라이브러리 심볼을 로컬 심볼과 쉽게 구별 할 수 있는 자체 아이콘이 표시됩니다.<br><br> 라이브러리를 설정하면 심볼을 문서에 삽입하는 하거나 Inspector를 이용해 심볼을 라이브러리의 심볼과 바꿀 수 있습니다. 심볼의 이름을 클릭하고 팝업 메뉴에서 라이브러리의 심볼을 선택하기만 하면됩니다.</div>
+
+            <img class="article-img" src="
 https://www.sketchapp.com/images/documentation/libraries/library-symbol-swap@2x.jpg">
 
-        <div class="article-title">
-            라이브러리 심볼 편집</div>
-        <div class="article-h1">
-            라이브러리 심볼을 두 번 클릭하여 편집하려고 하면 해당 심볼이 외부 라이브러리에 속해 있음을 알리는 창이 뜨고 원하는 작업을 묻는 메시지가 나타납니다.</div>
+            <div class="article-title">
+                라이브러리 심볼 편집</div>
+            <div class="article-h1">
+                라이브러리 심볼을 두 번 클릭하여 편집하려고 하면 해당 심볼이 외부 라이브러리에 속해 있음을 알리는 창이 뜨고 원하는 작업을 묻는 메시지가 나타납니다.</div>
 
-        <img class="article-img" src="
+            <img class="article-img" src="
 https://www.sketchapp.com/images/documentation/libraries/library-symbol-editing@2x.jpg">
-        <div class="article-h1">
-            라이브러리 원본 문서에서 심볼을 열면 마스터 심볼이 있는 곳이므로 심볼을 편집 할 수 있습니다. 여기에서 변경하면 심볼이 사용된 모든 문서에 적용됩니다. 문서를 열 때 변경 사항이 수락하면 심볼이 적용된 모든 문서에 업데이트됩니다.
-        </div>
+            <div class="article-h1">
+                라이브러리 원본 문서에서 심볼을 열면 마스터 심볼이 있는 곳이므로 심볼을 편집 할 수 있습니다. 여기에서 변경하면 심볼이 사용된 모든 문서에 적용됩니다. 문서를 열 때 변경 사항이 수락하면 심볼이 적용된 모든 문서에 업데이트됩니다.
+            </div>
 
-        <div class="article-h1">
-            경고 : 팀의 일원으로 라이브러리 문서를 사용하는 경우 원본 문서에서 심볼을 편집할 때 특히 주의하십시오. 시니어 및 / 또는 프로덕션 디자이너는 일부 사용자의 액세스를 제한하여 파일이 읽기 전용이 되도록 할 수 있습니다 (즐겨 찾는 동기화 도구의 문서에서 이 작업을 수행하는 방법을 확인하십시오). 라이브러리 심볼에 대한 변경 사항은 문서를 저장 한 후 해당 라이브러리의 모든 사용자가 수신할 수 있습니다. 이에 대한 자세한 내용은 Library Update 페이지에서 확인할 수 있습니다.</div>
-        <div class="article-title">
-            라이브러리에서 심볼 분리</div>
-        <div class="article-h1">
-            라이브러리에서 가져온 심볼을 다른 문서에 영향이 가지 않으면서 편집하려면 심볼의 연결을 해제할 수 있습니다. 심볼을 로컬 심볼로 변환해 사용자의 문서에서 심볼을 편집할 수 있습니다. 라이브러리에서 심볼의 링크를 해제하면 마스터 심볼이 로컬 문서의 심볼 페이지에 추가됩니다.</div>
-        <div class="article-h1">
-            참고 : 라이브러리에서 심볼의 연결을 해제하면 라이브러리 문서에서 심볼에 대한 업데이트를 더 이상받을 수 없습니다. 가져온 라이브러리 심볼을 사용하는 다른 문서는 Symbol이 해당 파일에서도 연결 해제되지 않는 한 계속 업데이트됩니다.
-        </div>
-        <div class="article-title">
-            가져온 심볼 정리</div>
-        <div class="article-h1">
-            라이브러리에 관계없이 문서에서 사용 중인 모든 외부 심볼을 추적 할 수 있습니다. Inspector에서 심볼 이름을 클릭하고 팝업 메뉴에서 Organize Imported Symbols…을 선택합니다.<br><br> 모든 라이브러리 심볼 목록이 창에 뜹니다. 항목을 선택하면 라이브러리에서 심볼을 편집하거나 링크를 해제할 수 있습니다.
-        </div>
-        <img class="article-img" src="
+            <div class="article-h1">
+                경고 : 팀의 일원으로 라이브러리 문서를 사용하는 경우 원본 문서에서 심볼을 편집할 때 특히 주의하십시오. 시니어 및 / 또는 프로덕션 디자이너는 일부 사용자의 액세스를 제한하여 파일이 읽기 전용이 되도록 할 수 있습니다 (즐겨 찾는 동기화 도구의 문서에서 이 작업을 수행하는 방법을 확인하십시오). 라이브러리 심볼에 대한 변경 사항은 문서를 저장 한 후 해당 라이브러리의 모든 사용자가 수신할 수 있습니다. 이에 대한 자세한 내용은 Library Update 페이지에서 확인할 수 있습니다.</div>
+            <div class="article-title">
+                라이브러리에서 심볼 분리</div>
+            <div class="article-h1">
+                라이브러리에서 가져온 심볼을 다른 문서에 영향이 가지 않으면서 편집하려면 심볼의 연결을 해제할 수 있습니다. 심볼을 로컬 심볼로 변환해 사용자의 문서에서 심볼을 편집할 수 있습니다. 라이브러리에서 심볼의 링크를 해제하면 마스터 심볼이 로컬 문서의 심볼 페이지에 추가됩니다.</div>
+            <div class="article-h1">
+                참고 : 라이브러리에서 심볼의 연결을 해제하면 라이브러리 문서에서 심볼에 대한 업데이트를 더 이상받을 수 없습니다. 가져온 라이브러리 심볼을 사용하는 다른 문서는 Symbol이 해당 파일에서도 연결 해제되지 않는 한 계속 업데이트됩니다.
+            </div>
+            <div class="article-title">
+                가져온 심볼 정리</div>
+            <div class="article-h1">
+                라이브러리에 관계없이 문서에서 사용 중인 모든 외부 심볼을 추적 할 수 있습니다. Inspector에서 심볼 이름을 클릭하고 팝업 메뉴에서 Organize Imported Symbols…을 선택합니다.<br><br> 모든 라이브러리 심볼 목록이 창에 뜹니다. 항목을 선택하면 라이브러리에서 심볼을 편집하거나 링크를 해제할 수 있습니다.
+            </div>
+            <img class="article-img" src="
 https://www.sketchapp.com/images/documentation/libraries/imported-symbols@2x.jpg">
 
 
-        <div class="article-title">
-            라이브러리 업데이트</div>
-        <div class="article-subtitle">
-            라이브러리는 문서에서 심볼에 쉽게 액세스 할 수 있을뿐만 아니라 라이브러리에서 심볼을 업데이트 할 수 있으므로 디자인을 항상 최신 상태로 유지할 수 있습니다.</div>
-        <div class="article-title">
-            변경 사항 수락</div>
-        <div class="article-h1">
-            위에서 라이브러리에 속한 심볼 편집에 대해 이야기했지만 심볼을 변경 한 후 문서로 돌아 가면 해당 변경 사항을 문서에 적용할지 여부를 선택할 수 있습니다.<br><br> 라이브러리 심볼을 편집하고 문서로 돌아 오면 응용 프로그램 윈도우의 오른쪽 상단 모서리에 자주색 라이브러리 업데이트 가능 배지가 표시됩니다. 이 버튼을 클릭하면 문서의 일부 심볼이 오래된 것임을 알리는 대화 상자가 나타납니다.</div>
+            <div class="article-title">
+                라이브러리 업데이트</div>
+            <div class="article-subtitle">
+                라이브러리는 문서에서 심볼에 쉽게 액세스 할 수 있을뿐만 아니라 라이브러리에서 심볼을 업데이트 할 수 있으므로 디자인을 항상 최신 상태로 유지할 수 있습니다.</div>
+            <div class="article-title">
+                변경 사항 수락</div>
+            <div class="article-h1">
+                위에서 라이브러리에 속한 심볼 편집에 대해 이야기했지만 심볼을 변경 한 후 문서로 돌아 가면 해당 변경 사항을 문서에 적용할지 여부를 선택할 수 있습니다.<br><br> 라이브러리 심볼을 편집하고 문서로 돌아 오면 응용 프로그램 윈도우의 오른쪽 상단 모서리에 자주색 라이브러리 업데이트 가능 배지가 표시됩니다. 이 버튼을 클릭하면 문서의 일부 심볼이 오래된 것임을 알리는 대화 상자가 나타납니다.</div>
 
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-updates-available@2x.jpg">
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-updates-available@2x.jpg">
 
-        <div class="article-h1">
-            여기에는 갱신되기를 기다리는 라이브러리 심볼 목록과 "Old"및 "New"미리보기가 표시되어 변경 사항을 미리 확인할 수 있습니다. 확실하지 않거나 나중에 다시보고 싶은 변경 사항이 있는 경우 체크박스 선택을 해제하면 됩니다.</div>
+            <div class="article-h1">
+                여기에는 갱신되기를 기다리는 라이브러리 심볼 목록과 "Old"및 "New"미리보기가 표시되어 변경 사항을 미리 확인할 수 있습니다. 확실하지 않거나 나중에 다시보고 싶은 변경 사항이 있는 경우 체크박스 선택을 해제하면 됩니다.</div>
 
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-changes@2x.jpg">
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-changes@2x.jpg">
 
-        <div class="article-h1">
-            "Update Symbols"를 클릭하면 체크 박스가 체크된심볼이 업데이트됩니다. 그러면 문서의 모든 페이지에서 모든 인스턴스 심볼이 변경됩니다.<br><br> 변경하고 싶지 않은 내용이 있으면 캔버스에서 해당 인스턴스를 두 번 클릭하고 "Unlink from Library"를 클릭하십시오. 그러면 라이브러리 심볼이 "Symbol"페이지에 속한 'local'심볼로 바뀝니다.
+            <div class="article-h1">
+                "Update Symbols"를 클릭하면 체크 박스가 체크된심볼이 업데이트됩니다. 그러면 문서의 모든 페이지에서 모든 인스턴스 심볼이 변경됩니다.<br><br> 변경하고 싶지 않은 내용이 있으면 캔버스에서 해당 인스턴스를 두 번 클릭하고 "Unlink from Library"를 클릭하십시오. 그러면 라이브러리 심볼이 "Symbol"페이지에 속한 'local'심볼로 바뀝니다.
+            </div>
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-symbol-editing@2x.jpg">
+
+
         </div>
-        <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-symbol-editing@2x.jpg">
-
-
-  </div>
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
     <script>
         $("#nav").load("nav.html");
         $("#menu-sub").load("menu-sub.html");
         $("#submenu-sketch").load("submenu-sketch.html");
-
     </script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>     <script src="jquery.lazyload.js?v=1.9.1"></script>     <script type="text/javascript" charset="utf-8">         $(function() {             $("img.lazy").lazyload({                 effect: "fadeIn"             });         });     </script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.lazyload.js?v=1.9.1"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+        });
+    </script>
+</body>
 </html>
