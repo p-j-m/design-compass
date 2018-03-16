@@ -18,14 +18,12 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="author" content="박종민" />
-    <meta name="description" content="디자인에 대하여" />
-    <meta name="keywords" content="portfolio,designer,interactive,visual 디자인,색,앱디자인,서비스,원리,디자인 요소" />
-
-
+    <meta name="description" content="스케치 사용자 매뉴얼 비공식 번역입니다." />
+    <meta name="keywords" content="ux,ui,심볼,스케치,스케치앱,튜토리얼,디자인툴,디자인,gui,ui,ux,매뉴얼,번역,사용자 경험" />
     <meta property="og:image" content="./img/site_thumnail.png" />
     <meta name="Resource-type" content="Document">
 
-    <title>디자인 나침반</title>
+    <title>[번역] 스케치 사용자 매뉴얼 - 인터페이스</title>
 
     <!-- connect with other files -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -69,221 +67,223 @@
         <div id="submenu-sketch"></div>
         <div class="article-container">
             <div class="article-title">인터페이스</div>
-            <div class="article-subtitle">스케치 인터페이스는 미니멀하게 디자인되었습니다.</div>
+            <div class="article-subtitle">스케치의 인터페이스는 미니멀하게 디자인되었습니다.</div>
             <div class="article-h1">
-                상단 툴바에 중요한 Tool과 Action 버튼이 있습니다. 우측에 있는 Inspector에서 선택한 레이어의 속성을 조정할 수 있으며, 좌측에 있는 창에서 문서 상에 있는 모든 아트보드와 레이어를 볼 수 있습니다. 마지막으로 가운데 캔버스에 작업 중인 디자인이 보입니다.
+                상단 Tool Bar에 중요한 Tool과 Action 버튼이 있습니다. 오른쪽에 있는 Inspector에서 선택한 레이어의 속성을 조정할 수 있으며, 왼쪽에 있는 창에서 문서에 있는 모든 아트보드와 레이어를 볼 수 있습니다. 마지막으로 가운데 캔버스에서 작업 중인 디자인을 볼 수 있습니다.
             </div>
 
             <div class="article-h1">
-                따로 떠다니는 창이 없는 대신 당신에게 필요한 기능이 매 순간 Inspector에 보일 것입니다. 이 방식으로 언제나 캔버스를 뚜렷하게 볼 수 있습니다.
+                떠다니는 창이 없는 대신 필요한 기능이 Inspector에 표시됩니다. 이 방식으로 언제나 캔버스에 집중할 수 있습니다.
             </div>
 
             <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/the-interface.jpg" width="100%" height="auto">
 
 
             <div class="article-title">캔버스</div>
-            <div class="article-subtitle">스케치 캔버스는 사이즈 제한이 없습니다. 어떤 방향으로든 마음대로 스크롤할 수 있어 따로 작업 영역을 정할 필요가 없습니다.</div>
+            <div class="article-subtitle">스케치 캔버스는 사이즈 제한이 없습니다. 어떤 방향으로든 마음대로 스크롤할 수 있으며 따로 작업 영역을 정할 필요가 없습니다.</div>
             <div class="article-h1">
-                제한이 없는 캔버스에 정해진 프레임을 만들고 싶다면 아트보드를 추가하면 됩니다. 예를 들어 모바일 인터페이스를 디자인할 때 많은 디자이너들이 각 화면에 맞는 아트보드를 만들고 보여지는 외관에 맞게 아트보드를 정리합니다.
+                제한이 없는 캔버스에 정해진 프레임을 만들고 싶다면 아트보드를 추가하면 됩니다. 예를 들어 모바일 인터페이스를 디자인할 때 많은 디자이너들이 각 화면에 알맞은 아트보드를 만들고 외관에 맞게 아트보드를 정리합니다.
             </div>
 
             <div class="article-h1">
-                해상도에 기반해서 미리보거나 픽셀에 기반해서 볼 수 있습니다. 또한 비트맵 포맷( JPG 혹은 PNG )로 내보냈을 때, 픽셀이 어떻게 보이는지 확인할 수 있습니다. 이 모드에 대해서 픽셀 확대에서 더 알아볼 수 있습니다.
+                현재 사용하는 기기의 해상도에 맞춰 벡터로 미리보거나 비트맵 포맷( JPG 혹은 PNG )로 내보냈을 때 보이는 실제 픽셀로 미리 볼 수 있습니다. 이 모드에 대해서 픽셀 확대에서 더 알아볼 수 있습니다.
+
+
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/canvas.jpg" width="100%" height="auto">
+                <div class="article-h1">
+                    노트: blur와 같은 몇몇 효과는 미리보기 모드에서 캔버스 부분이 강제로 픽셀로 보입니다.(블러는 픽셀 기반 효과이기 때문입니다)
+                </div>
+
+
+                <div class="article-title">Inspector</div>
+                <div class="article-subtitle">오른쪽에 있는 Inspector는 현재 선택한 레이어의 설정이나 선택한 툴의 옵션을 조절할 수 있습니다. 레이어를 선택하면 자동으로 필요한 기능들이 Inspector에 분할되어 표시됩니다.</div>
+
+                <div class="article-title">정렬 옵션</div>
+                <div class="article-h1">
+                    Inspector 최상단 바에 있는 정렬과 분배를 위한 버튼이 있습니다. 이 버튼들은 하나 이상의 레이어를 선택했을 때 활성화됩니다.
+                </div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/align.jpg" width="100%" height="auto">
+
+                <div class="article-title">레이어 속성</div>
+                <div class="article-h1">
+                    레이어 속성은 Inspector의 상단 부분에 있습니다. 위치, 크기, 투명도. 블렌딩, 레이어 타입에 따른 옵션(ex:네모나 각이 있는 도형의 모서리 둥글게하기)를 조절할 수 있습니다.
+                </div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/general-attributes.jpg" width="100%" height="auto">
+
+                <div class="article-title">사이즈 조절 제한</div>
+                <div class="article-h1">
+                    그룹이나 아트보드 내에 있는 레이어를 선택했을 때만 볼 수 있는 기능입니다. 그룹이나 아트보드의 크기가 조절될 때 해당 레이어가 어떻게 작동할지 정할 수 있습니다.
+                </div>
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/constraints.jpg" width="100%" height="auto">
+
+
+                <div class="article-title">텍스트 필드</div>
+                <div class="article-h1">
+                    Inspector 내부의 텍스트 필드는 일반적인 텍스트 필드와 다릅니다. 해당 영역에 마우스 커서를 올리면 오른쪽에 화살표가 나옵니다. 이 영역을 클릭해 숫자값을 올리거나 줄일 수 있습니다. Shift 키를 누르고 조절하면 10단위로 조절됩니다. Option 키를 누르고 조절하면 0.1단위로 조절됩니다.
+                </div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/math.jpg" width="100%" height="auto">
+
+                <div class="article-title">위 아래</div>
+                <div class="article-h1">
+                    텍스트 필드 값을 수정하면, 위/아래 화살표가 사라지지만 기능은 유지됩니다. 쉬프트 키를 누르면서 위/아래 화살표 키를 누르면 10 단위로 조절할 수 있습니다.
+                </div>
+
+                <div class="article-title">수학</div>
+                <div class="article-h1">
+                    텍스트 필드의 또다른 멋진 기능은 Inspector에 있는 모든 입력값에 수학적인 조절이 가능한 것입니다. 더하기, 빼기, 나누기, 곱하기 그리고 퍼센트를 적용할 수 있습니다. 레이어를 선택했을 때 숫자로 된 텍스트 필드에 +,-,*,/ 를 사용할 수 있습니다.<br>
+
+                    <br> 사각형의 radius를 지정할 때 ;를 이용해 모서리마다 다른 값을 지정할 수 있습니다. (예. 40;0;40;0)<br>
+                    <br> 그룹이나 아트보드에 포함되어 있는 오브젝트의 가로/세로 값을 퍼센트로 지정할 수 있습니다. Sketch가 값을 계산해 레이어 크기를 자동으로 조절합니다. (예: 960px 크기의 아트보드에 포함되어 있는 레이어 가로값 "10%"으로 지정하면 레이어의 가로 사이즈는 96px)
+                </div>
+                <video class="article-img" controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/video/operations@2x.mp4"></video>
+
+
+                <div class="article-title">값 다듬기</div>
+                <div class="article-h1">
+                    빠르게 텍스트 필드 값을 조절하기 위해, 해당 라벨을 클릭-앤-드래그해 빠르게 값을 늘리거나 줄일 수 있습니다. 정확한 값을 정할 수 없거나 캔버스에서 어떻게 보이는지 확인하고 싶을 때 빠르게 실험해 볼 수 있습니다.
+                </div>
+
+                <div class="article-title">레이어 스타일</div>
+                <div class="article-h1">
+                    각 레이어에는 Fills, Borders, Shadows, Blur 스타일 속성 따로 지정할 수 있습니다.<br> 레이어에 새 스타일 속성을 추가하려면, 각 섹션 오른쪽에 있는 + 버튼을 누르면 됩니다.</div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/style-properties.jpg" width="100%" height="auto">
+
+
+                <div class="article-h1">새로운 Fill, Border, Shadow 속성을 추가하면 색상을 선택하는 팝오버 창이 뜹니다.</div>
+
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill.jpg" width="100%" height="auto">
+
+
+                <div class="article-h1">각 속성은 왼쪽에 있는 visibility 체크박스를 해제해 가릴 수 있습니다. Fills, Borders, Shadows 값을 선택해제 후 섹션 타이틀에 뜨는 휴지통 버튼으로 속성을 삭제할 수 있습니다.</div>
+                <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill-remove.jpg">
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill-remove.jpg" width="100%" height="auto">
+
+
+
+                <div class="article-h1">같은 방식으로 blur를 적용할 수 있습니다. visibility 체크박스를 선택하면, 팝업 메뉴에서 blur 타입을 선택하고 blur radius를 적용할 수 있습니다.</div>
+
+
+
+                <div class="article-title">내보내기</div>
+                <div class="article-h1">
+                    Inspector의 하단 오른쪽에서 Make Exportable 옵션을 찾을 수 있습니다. 이 영역에서 + 버튼을 눌러 어떤 레이어나 그룹을 내보낼 수 상태로 만듭니다.
+                </div>
+
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/inspector-make-exportable.jpg" width="100%" height="auto">
+
+
+                <hr>
+
+                <div class="article-title">
+                    레이어 리스트</div>
+                <div class="article-subtitle">
+                    레이어 리스트는 현재 페이지의 모든 레이어를 포함합니다. 여기에서 가리기와 잠그기와 같은 각 레이어의 속성을 볼 수 있으며, 문서 안의 레이어 이름과 순서를 정리 할 수 있습니다. </div>
+
+
+
+                <div class="article-title">
+                    다중 페이지</div>
+                <div class="article-h1">
+                    스케치에서는 여러 페이지를 사용할 수 있으며, 레이어 리스트 상단에 있는 이름을 눌러 페이지를 전환할 수 있습니다.(Function + 위 화살표 / Function + 아래 화살표로도 조절할 수 있습니다.)레이어 리스트에는 현재 페이지에 포함된 레이어만을 보여줍니다.</div>
+                <video class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/video/switcher@2x.mp4"></video>
+                <div class="article-h1">
+                    페이지를 정리하거나 옮기고 싶을 땐 페이지 패널을 열면 됩니다.
+                </div>
+                <video class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/video/page-list@2x.mp4"></video>
+                <div class="article-h1">
+                    + 버튼을 누르면 새 페이지가 추가됩니다. Control을 누르면서 페이지를 클릭하면 복사/삭제를 선택할 수 있습니다.
+                </div>
+
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/page-list-menu.jpg" width="100%" height="auto">
+                <div class="article-h1">
+                    레이어와 아트보드를 드래그해 다른 페이지로 보낼 수 있습니다.option 키를 누르면서 드래그하면 복사됩니다.
+                </div>
+                <video class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/video/page-list-drag@2x.mp4"></video>
+
+                <div class="article-title">
+                    아트보드</div>
+                <div class="article-h1">
+                    레이어리스트에서 아트보드는 배경 색이 다른 레이어보다 밝습니다. 모든 상속구조 최상위에 위치하며 아트보드는 다른 아트보드에 포함될 수 없습니다.</div>
+
+                <div class="article-title">
+                    마스크</div>
+                <div class="article-h1">
+                    마스킹된 레이어는 왼쪽에 작은 화살표가 표시됩니다. 하단에 위치한 레이어에 종속됩니다. 마스크에 대해 더 알아보기 </div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/masks.jpg" width="100%" height="auto">
+                <div class="article-title">
+                    불린 오퍼레이션</div>
+                <div class="article-h1">
+                    Boolean Operation은 단순한 도형이 다양한 형태로 결합되는 법칙에 대한 것입니다. Boolean Operation이 적용된 레이어는 오른쪽에 드롭다운이 표시되며 결합 방식을 언제나 수정할 수 있습니다. 레이어에 포함된 패스들에 Boolean Operation이 적용되며, 더 큰 도형과 결합되었을 때 어떻게 표시될지를 정해줍니다.
+                </div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/boolean-operations.jpg" width="100%" height="auto">
+
+                <div class="article-title">
+                    심볼과 공유 스타일</div>
+                <div class="article-h1">
+                    심볼은 당신의 디자인에서 반복적으로 사용하기 위한 레이어 그룹입니다. 레이어 리스트에서 마스터 심볼의 링크처럼 표시됩니다. 이 레이어는 하나의 레이어로 취급되며, 캔버스에서 더블 클릭하면 수정할 수 있습니다.<br>
+                    <br> 라이브러리 심볼은 라이브러리를 통해 외부문서에도 연결해 사용할 수 있는 심볼입니다. 로컬 심볼과 다르게 더블 클릭 시 라이브러리 심볼이 포함된 문서를 수정할 수 있습니다.<br>
+                    <br> 공유 스타일은 여러 레이어 간의 스타일을 유지하기 위해 도형과 텍스트 레이어에 적용하는 것입니다. 공유 스타일이 적용된 레이어는 리스트에서 회색 대신 보라색으로 아이콘이 표시됩니다. <br>
+                </div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/layers.jpg" width="100%" height="auto">
+
+
+                <div class="article-title">
+                    레이어 가리기와 잠그기</div>
+                <div class="article-h1">
+                    레이어나 그룹에 마우스 커서를 올리고 오른쪽에 나타나는 눈 아이콘을 눌러 캔버스에서 가릴 수 있습니다. (Shift - Command - H 를 눌러도 됩니다.) 눈아이콘이 보인다면 해당 레이어는 가려진 상태입니다.<br><br> 비슷하게 레이어 리스트에서 Option키를 누르면서 레이어에 마우스 커서를 올리면 눈 아이콘 대신 잠금 아이콘이 표시됩니다. 아이콘을 누르면 해당 레이어는 캔버스에서 잠기며, 해제하기 전까지 선택이나 이동을 할 수 없습니다. 또한 레이어를 선택하고 Shift - Command - L 을 눌러 잠글 수 있습니다.
+                </div>
+
+                <div class="article-title">
+                    레이어 필터링</div>
+                <div class="article-h1">
+                    레이어 리스트의 하단에 텍스트 필드가 표시되는 바에서 레이어를 필터링할 수 있습니다. 텍스트 필드에 레이어를 이름을 입력하면 레이어 리스트에 검색결과가 표시됩니다.<br><br> 이전 버전에서 Slices가 표시되었으나, 새 버전에서는 View 메뉴에서 토글할 수 있습니다. Show Slices를 선택하면 캔버스에 표시됩니다.
+                </div>
+
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/layers.jpg" width="100%" height="auto">
+
+
+                <div class="article-h1">
+                    텍스트 필드 옆에 있는 두 아이콘은 레이어와 분할입니다. 레이어 버튼을 누르면 리스트에서 레이어가 사라지며 더 이상 상호작용하지 않습니다.내보내기를 위한 슬라이스 레이어 작업할 때 사용하기 좋습니다.<br>
+                    <br> 슬라이스 버튼은 레이어 버튼의 반대 효과입니다. 슬라이스가 레이어 리스트에서 사라지며 더 이상 작동하지 않습니다.슬라이스 아이콘 옆에 페이지에서 내보낼 수 있는 레이어의 총 숫자가 표시됩니다.
+                    <br>
+                    <br> 노트: 캔버스에서 레이어가 선택되지 않을 때, 필터 레이어 버튼이 파란색으로 선택되어 있는지 확인하세요.
+                </div>
+
+                <div class="article-title">
+                    툴바</div>
+                <div class="article-subtitle">
+                    디자인할 때 필요한 모든 도구들이 툴바에 있습니다. 기본 세팅은 아래와 같이 레이어 삽입, 도형 수정, 문서 정리 입니다.
+                </div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/toolbar.jpg" width="100%" height="auto">
+                <div class="article-h1">
+                    가장 좌측은 Insert 메뉴입니다. 여기서 선택한 요소는 그룹 혹은 단독으로 레이어 리스트에 표시됩니다.
+                    <br><br> Make Sybol은 당신이 선택한 레이어나 그룹을 심볼로 만들 수 있습니다.
+                    <br><br> Zoom은 아이콘 하단의 퍼센트에 따른 확대율에 따라 문서를 보여줍니다.
+                    <br><br> Editing 영역의 4가지 기능으로 선택한 도형 레어이를 다룰 수 있습니다. 도형 레이어를 선택하면 Mask and Scale도 활성화됩니다.이 툴로 레이어를 도형 레이어으로 고정하고 사이즈를 바꿀 수 있습니다.
+                    <br><br> 그 옆의 4개의 아이콘은 도형을 만들기 위한 Boolean Operation입니다.
+                    <br>
+                    <br> Forward and Backward으로 문서를 정리할 수 있습니다. Mirror는 iOS 기기에서 디자인을 미리볼 수 있게 해줍니다(업로드 되어 있다면 클라우드를 통해 문서가 공유됩니다). View 메뉴는 복잡한 문서를 작업할 때 필요한 옵션들을 설정할 수 있습니다. 마지막으로 ㄷExport버튼으로 asset을 내보낼 수 있습니다.
+                </div>
+
+                <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/icons.jpg" width="100%" height="auto">
+                <div class="article-h1">
+                    이러한 도구들은 스케치가 제공하는 것입니다. shortcut 메뉴에서 Control 클릭 - "Customize Toolbar..."을 선택해 나만의 툴바 레이아웃을 구성할 수 있습니다.
+                </div>
             </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/canvas.jpg" width="100%" height="auto">
-            <div class="article-h1">
-                노트: blur와 같은 몇몇 효과는 미리보기 모드에서 캔버스 부분이 강제로 픽셀로 보입니다.(블러는 픽셀 기반 효과이기 때문입니다)
-            </div>
-
-
-            <div class="article-title">인스펙터</div>
-            <div class="article-subtitle">오른쪽에 있는 Inspector는 현재 선택한 레이어의 설정이나 현재 선택한 툴의 옵션을 조절할 수 있습니다. 레이어를 선택하면 자동으로 필요한 기능들이 Inspector에 분할되어 표시됩니다.</div>
-
-            <div class="article-title">정렬 옵션</div>
-            <div class="article-h1">
-                Inspector 최상단 바에 있는 정렬과 분배를 위한 버튼이 있습니다. 이 버튼들은 하나 이상의 레이어를 선택했을 때 활성화됩니다.
-            </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/align.jpg" width="100%" height="auto">
-
-            <div class="article-title">레이어 속성</div>
-            <div class="article-h1">
-                레이어 속성은 Inspector의 상단 부분에 있습니다. 위치, 크기, 투명도. 블렌딩, 레이어 타입에 따른 옵션(ex:네모나 각이 있는 도형의 모서리 둥글게하기)를 조절할 수 있습니다.
-            </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/general-attributes.jpg" width="100%" height="auto">
-
-            <div class="article-title">사이즈 조절 제한</div>
-            <div class="article-h1">
-                그룹이나 아트보드 내에 있는 레이어를 선택했을 때만 볼 수 있는 기능입니다. 그룹이나 아트보드의 크기가 조절될 때 해당 레이어가 어떻게 작동할지 정할 수 있습니다.
-            </div>
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/constraints.jpg" width="100%" height="auto">
-
-
-            <div class="article-title">텍스트 필드</div>
-            <div class="article-h1">
-                Inspector 내부의 텍스트 필드는 일반적인 텍스트 필드와 다릅니다. 해당 영역에 마우스 커서를 올리면 오른쪽에 화살표가 나옵니다. 이 영역을 클릭해 숫자값을 올리거나 줄일 수 있습니다. Shift 키를 누르고 조절하면 10단위로 조절됩니다. Option 키를 누르고 조절하면 0.1단위로 조절됩니다.
-            </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/math.jpg" width="100%" height="auto">
-
-            <div class="article-title">위 아래</div>
-            <div class="article-h1">
-                텍스트 필드 값을 수정하면, 위/아래 화살표가 사라지지만 기능은 유지됩니다. 쉬프트 키를 누르면서 위/아래 화살표 키를 누르면 10 단위로 조절할 수 있습니다.
-            </div>
-
-            <div class="article-title">수학</div>
-            <div class="article-h1">
-                텍스트 필드의 또다른 멋진 기능은 Inspector에 있는 모든 입력값에 수학적인 조절이 가능한 것입니다. 더하기, 빼기, 나누기, 곱하기 그리고 퍼센트를 적용할 수 있습니다. 레이어를 선택했을 때 숫자로 된 텍스트 필드에 +,-,*,/ 를 사용할 수 있습니다.<br>
-
-                <br> 사각형의 radius를 지정할 때 ;를 이용해 모서리마다 다른 값을 지정할 수 있습니다. (예. 40;0;40;0)<br>
-                <br> 그룹이나 아트보드에 포함되어 있는 오브젝트의 가로/세로 값을 퍼센트로 지정할 수 있습니다. Sketch가 값을 계산해 레이어 크기를 자동으로 조절합니다. (예: 960px 크기의 아트보드에 포함되어 있는 레이어 가로값 "10%"으로 지정하면 레이어의 가로 사이즈는 96px)
-            </div>
-            <video class="article-img" controls loop muted class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/video/operations@2x.mp4"></video>
-
-
-            <div class="article-title">값 다듬기</div>
-            <div class="article-h1">
-                빠르게 텍스트 필드 값을 조절하기 위해, 해당 라벨을 클릭-앤-드래그해 빠르게 값을 늘리거나 줄일 수 있습니다. 정확한 값을 정할 수 없거나 캔버스에서 어떻게 보이는지 확인하고 싶을 때 빠르게 실험해 볼 수 있습니다.
-            </div>
-
-            <div class="article-title">레이어 스타일</div>
-            <div class="article-h1">
-                각 레이어에는 Fills, Borders, Shadows, Blur 스타일 속성 따로 지정할 수 있습니다.<br> 레이어에 새 스타일 속성을 추가하려면, 각 섹션 오른쪽에 있는 + 버튼을 누르면 됩니다.</div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/style-properties.jpg" width="100%" height="auto">
-
-
-            <div class="article-h1">새로운 Fill, Border, Shadow 속성을 추가하면 색상을 선택하는 팝오버 창이 뜹니다.</div>
-
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill.jpg" width="100%" height="auto">
-
-
-            <div class="article-h1">각 속성은 왼쪽에 있는 visibility 체크박스를 해제해 가릴 수 있습니다. Fills, Borders, Shadows 값을 선택해제 후 섹션 타이틀에 뜨는 휴지통 버튼으로 속성을 삭제할 수 있습니다.</div>
-            <img class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill-remove.jpg">
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/inspector-fill-remove.jpg" width="100%" height="auto">
-
-
-
-            <div class="article-h1">같은 방식으로 blur를 적용할 수 있습니다. visibility 체크박스를 선택하면, 팝업 메뉴에서 blur 타입을 선택하고 blur radius를 적용할 수 있습니다.</div>
-
-
-
-            <div class="article-title">내보내기</div>
-            <div class="article-h1">
-                Inspector의 하단 오른쪽에서 Make Exportable 옵션을 찾을 수 있습니다. 이 영역에서 + 버튼을 눌러 어떤 레이어나 그룹을 내보낼 수 상태로 만듭니다.
-            </div>
-
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/inspector-make-exportable.jpg" width="100%" height="auto">
-
-
-            <hr>
-
-            <div class="article-title">
-                레이어 리스트</div>
-            <div class="article-subtitle">
-                레이어 리스트는 현재 페이지의 모든 레이어를 포함합니다. 여기에서 가리기와 잠그기와 같은 각 레이어의 속성을 볼 수 있으며, 문서 안의 레이어 이름과 순서를 정리 할 수 있습니다. </div>
-
-
-
-            <div class="article-title">
-                다중 페이지</div>
-            <div class="article-h1">
-                스케치에서는 여러 페이지를 사용할 수 있으며, 레이어 리스트 상단에 있는 이름을 눌러 페이지를 전환할 수 있습니다.(Function + 위 화살표 / Function + 아래 화살표로도 조절할 수 있습니다.)레이어 리스트에는 현재 페이지에 포함된 레이어만을 보여줍니다.</div>
-            <video class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/video/switcher@2x.mp4"></video>
-            <div class="article-h1">
-                페이지를 정리하거나 옮기고 싶을 땐 페이지 패널을 열면 됩니다.
-            </div>
-            <video class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/video/page-list@2x.mp4"></video>
-            <div class="article-h1">
-                + 버튼을 누르면 새 페이지가 추가됩니다. Control을 누르면서 페이지를 클릭하면 복사/삭제를 선택할 수 있습니다.
-            </div>
-
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/page-list-menu.jpg" width="100%" height="auto">
-            <div class="article-h1">
-                레이어와 아트보드를 드래그해 다른 페이지로 보낼 수 있습니다.option 키를 누르면서 드래그하면 복사됩니다.
-            </div>
-            <video class="article-img" src="https://www.sketchapp.com/images/documentation/the-interface/video/page-list-drag@2x.mp4"></video>
-
-            <div class="article-title">
-                아트보드</div>
-            <div class="article-h1">
-                레이어리스트에서 아트보드는 배경 색이 다른 레이어보다 밝습니다. 모든 상속구조 최상위에 위치하며 아트보드는 다른 아트보드에 포함될 수 없습니다.</div>
-
-            <div class="article-title">
-                마스크</div>
-            <div class="article-h1">
-                마스킹된 레이어는 왼쪽에 작은 화살표가 표시됩니다. 하단에 위치한 레이어에 종속됩니다. 마스크에 대해 더 알아보기 </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/masks.jpg" width="100%" height="auto">
-            <div class="article-title">
-                불린 오퍼레이션</div>
-            <div class="article-h1">
-                Boolean Operation은 단순한 도형이 다양한 형태로 결합되는 법칙에 대한 것입니다. Boolean Operation이 적용된 레이어는 오른쪽에 드롭다운이 표시되며 결합 방식을 언제나 수정할 수 있습니다. 레이어에 포함된 패스들에 Boolean Operation이 적용되며, 더 큰 도형과 결합되었을 때 어떻게 표시될지를 정해줍니다.
-            </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/boolean-operations.jpg" width="100%" height="auto">
-
-            <div class="article-title">
-                심볼과 공유 스타일</div>
-            <div class="article-h1">
-                심볼은 당신의 디자인에서 반복적으로 사용하기 위한 레이어 그룹입니다. 레이어 리스트에서 마스터 심볼의 링크처럼 표시됩니다. 이 레이어는 하나의 레이어로 취급되며, 캔버스에서 더블 클릭하면 수정할 수 있습니다.<br>
-                <br> 라이브러리 심볼은 라이브러리를 통해 외부문서에도 연결해 사용할 수 있는 심볼입니다. 로컬 심볼과 다르게 더블 클릭 시 라이브러리 심볼이 포함된 문서를 수정할 수 있습니다.<br>
-                <br> 공유 스타일은 여러 레이어 간의 스타일을 유지하기 위해 도형과 텍스트 레이어에 적용하는 것입니다. 공유 스타일이 적용된 레이어는 리스트에서 회색 대신 보라색으로 아이콘이 표시됩니다. <br>
-            </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/layers.jpg" width="100%" height="auto">
-
-            <div class="article-title">
-                레이어 필터링</div>
-            <div class="article-h1">
-                레이어 리스트의 가장 바닥에 있는 텍스트 필드와 몇몇 아이콘으로 구성된 바입니다.리스트에 보이는 레이어를 조절할 수 있습니다. 텍스트 필드에 찾으려는 레이어의 이름을 적으면 검색 결과가 나옵니다.
-            </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/filter.jpg" width="100%" height="auto">
-
-            <div class="article-h1">
-                모든 레이어는 레이어에 마우스를 올렸을 때 오른쪽에 나오는 눈 아이콘을 클릭해(혹은 Shift-Command-H를 누르면) 캔버스에서 숨길 수 있습니다. 눈 아이콘이 보이면 해당 레이어는 가려진 상태입니다. 비슷하게 옵션키를 누른 상태로 레이어 리스트에 마우스를 올리면, 숨김 버튼 대신 잠금 버튼이 보입니다. 버튼을 누르면 캔버스에서 레이어가 잠기며, 잠금을 해제하기 전에는 선택이나 이동이 불가능합니다. Shift-Command-L 을 눌러 잠글 수도 있습니다.
-            </div>
-
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/layers.jpg" width="100%" height="auto">
-
-
-            <div class="article-h1">
-                텍스트 필드 옆에 있는 두 아이콘은 레이어와 분할입니다. 레이어 버튼을 누르면 리스트에서 레이어가 사라지며 더 이상 상호작용하지 않습니다.내보내기를 위한 슬라이스 레이어 작업할 때 사용하기 좋습니다.<br>
-                <br> 슬라이스 버튼은 레이어 버튼의 반대 효과입니다. 슬라이스가 레이어 리스트에서 사라지며 더 이상 작동하지 않습니다.슬라이스 아이콘 옆에 페이지에서 내보낼 수 있는 레이어의 총 숫자가 표시됩니다.
-                <br>
-                <br> 노트: 캔버스에서 레이어가 선택되지 않을 때, 필터 레이어 버튼이 파란색으로 선택되어 있는지 확인하세요.
-            </div>
-
-            <div class="article-title">
-                툴바</div>
-            <div class="article-subtitle">
-                디자인할 때 필요한 모든 도구들이 툴바에 있습니다. 기본 세팅은 아래와 같이 레이어 삽입, 도형 수정, 문서 정리 입니다.
-            </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/toolbar.jpg" width="100%" height="auto">
-            <div class="article-h1">
-                가장 좌측은 Insert 메뉴입니다. 여기서 선택한 요소는 그룹 혹은 단독으로 레이어 리스트에 표시됩니다.
-                <br><br> Make Sybol은 당신이 선택한 레이어나 그룹을 심볼로 만들 수 있습니다.
-                <br><br> Zoom은 아이콘 하단의 퍼센트에 따른 확대율에 따라 문서를 보여줍니다.
-                <br><br> Editing 영역의 4가지 기능으로 선택한 도형 레어이를 다룰 수 있습니다. 도형 레이어를 선택하면 Mask and Scale도 활성화됩니다.이 툴로 레이어를 도형 레이어으로 고정하고 사이즈를 바꿀 수 있습니다.
-                <br><br> 그 옆의 4개의 아이콘은 도형을 만들기 위한 Boolean Operation입니다.
-                <br>
-                <br> Forward and Backward으로 문서를 정리할 수 있습니다. Mirror는 iOS 기기에서 디자인을 미리볼 수 있게 해줍니다(업로드 되어 있다면 클라우드를 통해 문서가 공유됩니다). View 메뉴는 복잡한 문서를 작업할 때 필요한 옵션들을 설정할 수 있습니다. 마지막으로 ㄷExport버튼으로 asset을 내보낼 수 있습니다.
-            </div>
-
-            <img class="lazy img-responsive" src="./img/img_placeholder.png" data-original="https://www.sketchapp.com/images/documentation/the-interface/icons.jpg" width="100%" height="auto">
-            <div class="article-h1">
-                이러한 도구들은 스케치가 제공하는 것입니다. shortcut 메뉴에서 Control 클릭 - "Customize Toolbar..."을 선택해 나만의 툴바 레이아웃을 구성할 수 있습니다.
-            </div>
-            <hr>
         </div>
     </div>
 
@@ -306,5 +306,6 @@
             });
         });
     </script>
+
 </body>
 </html>
