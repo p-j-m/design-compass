@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50444148-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-50444148-1');
+    </script>
+    <!-- meta preset-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="박종민" />
+    <meta name="description" content="스케치 사용자 매뉴얼 비공식 번역입니다." />
+    <meta name="keywords" content="ux,ui,심볼,스케치,스케치앱,튜토리얼,디자인툴,디자인,gui,ui,ux,매뉴얼,번역,사용자 경험" />
+    <meta property="og:image" content="./img/site_thumnail.png" />
+    <meta name="Resource-type" content="Document">
+
+    <title>[번역] 스케치 사용자 매뉴얼 - 벡터 다루기</title>
+
+    <!-- connect with other files -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./img/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./img/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./img/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="./img/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./img/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./img/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./img/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
+</head>
+
+<body>
+    <div class="se-pre-con"> <img class="loader" src="./img/icon/icon_compass.svg"> </div>
+    <div id="nav"></div>
+
+    <div class="article-outer">
+        <div id="submenu-sketch"></div>
+        <div class="article-container">
+
+            <div class="article-title">
+                벡터 다루기
+            </div>
+
+            <div class="article-subtitle">
+                스케치는 벡터 기반 디자인 툴입니다. Point와 Path를 이용해 Shape을 만들거나 수정할 수 있습니다. Shape Editing 챕터가 벡터를 소개하지만 이 챕터에서는 스케치에서 벡터를 다루는 법을 더 자세히 알아볼 것입니다.
+            </div>
+
+            <div class="article-h1">
+                벡터 수정 모드로 전환하기 위해서 Shape 레이어를 더블 클릭(혹은 Enter 키)하거나 Insert > Vector 를 선택해 새 Shape 레이어를 만듭니다.<br><br> 스케치에서 벡터를 다루는 방법에 대해 더 자세히 알기 위한 사례로 Peter Nowell의 excellent Mastering the Bézier Curve in Sketch.를 읽어보세요. 기술적이며 이해하기 쉽습니다.
+            </div>
+
+            <div class="article-title">
+                연결
+            </div>
+
+            <div class="article-h1">
+                열린 Path를 2개 이상 선택하고 Layer > Path > Join 을 누르면 하나의 Path로 합쳐집니다. 선택한 것 중 가장 밑에 있는 Path는 고정되고, 위에 있는 Path가 이동할 것입니다.
+            </div>
+
+            <div class="article-title">
+                전환
+            </div>
+
+            <div class="article-h1">
+                Path의 방향은 Point가 있는 위치에 따라 결졍되며 Path가 열려 있다면 시작 지점과 끝 지점이 있는 것을 의미합니다. Layer › Path › Reverse Order를 선택하면 원하는 위치로 새로운 point을 찍거나 화살표 방향을 바꾸기 위해 시작과 끝 지점을 바꿀 수 있습니다.</div>
+
+            <div class="article-title">
+                벡터 도구
+            </div>
+
+            <div class="article-subtitle">
+                사전에 준비된 Shape으로 만드는 대신 벡터 도구로 Shape을 직접 그릴 수 있습니다. 툴바에서 Insert › Vector 캔버스의 아무 곳이나 클릭해 첫번째 point를 추가합니다. 이 후 다른 곳을 클릭해 두번째 point를 추가합니다.
+            </div>
+
+            <div class="article-h1">
+                이제 두 Point가 연결된 것을 볼 수 있습니다. 세번째 Point를 클릭-드래그해 곡선을 그립니다. 첫번째 Point를 다시 클릭하면 Path가 닫힙니다.
+            </div>
+
+            <video controls loop muted class="article-img" src=" https://www.sketchapp.com/images/documentation/shapes/video/draw@2x.mp4"></video>
+
+            <div class="article-h1">
+                Points will be placed on full pixel values, however it is possible to change the Rounding options to get even more control.
+            </div>
+
+            <div class="article-title">
+                Point Types
+            </div>
+
+            <div class="article-h1">
+                As seen, a shape is made up of a series of points — and there are different types of points available which can affect the paths that lie between them. With a point selected, you can see four types in the Inspector; Straight, Mirrored, Disconnected and Asymmetric.
+            </div>
+            <img class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/modes@2x.jpg">
+
+            <div class="article-title">
+                Straight
+            </div>
+
+            <div class="article-h1">
+                This is the default point type you’ll see when clicking to insert a new point, and it will give you a straight path, useful for drawing things at angles, such as corners.
+                <br><br> Straight points don’t offer you any handle control points (as these are used to create curves), however, with a Straight point you have the option to create rounded corners, by clicking-and-dragging the slider underneath the point types.
+                <br><br> Being able to control corner radius on a per-point basis allows you to have different radii per corner; you can just round the top two corners and keep the bottom two right-angled, for example:
+                <br><br>
+
+                <img class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/modes@2x.jpg">
+                <br><br> Double-clicking a Straight point will convert it to a Mirrored point, and will change it back if you double-click again.
+            </div>
+
+            <div class="article-title">
+                Mirrored
+            </div>
+
+            <div class="article-h1">
+                A Mirrored point can be inserted by clicking-and-dragging, and will create something called a Bézier curve — which is a curved path. Coming out from the point are two handles, with handle control points at either end. These will mirror each other and sit an equal distance from the point.
+                <br><br> These handle control points will ‘pull’ the path towards themselves and can be dragged around to adjust the curvature of the path. Because the point type is Mirrored, dragging one handle control point, will move the other to create a completely smooth curve.
+
+
+            </div>
+
+            <div class="article-title">
+                Asymmetric
+            </div>
+
+            <div class="article-h1">
+                For this point mode, handle control points will appear similar as they do in Mirrored — they will share the same angle, but they can be positioned at an independent distance from the point.<br><br> When clicking-and-dragging to adjust a handle control point, holding down the Shift key will adjust the distance between the control point, and its vector point without affecting the handles’ angle. Perfect for trying to fine tune the curve at one side of a point.
+            </div>
+
+            <div class="article-title">
+                Disconnected
+            </div>
+
+            <div class="article-h1">
+                When a point is Disconnected, its handle control points are completely independent of each other. You can even press Backspace with one of the handle control points selected to delete it, allowing a curve to sharply turn into a straight line where the point lies.<br><br> When placing vector points, it’s possible to convert your Mirrored or Asymmetric point to a Disconnected one by holding down the Command key when you place your next point. This won’t affect the curve leading into that point. You can also do this with existing Mirrored or Asymmetric points by holding Command before clicking-and-dragging a handle control point.
+            </div>
+
+            <div class="article-title">
+                Shortcuts
+            </div>
+
+            <div class="article-h1">
+                Either while drawing, or editing your vector shape, you can easily change its type via one of its keyboard shortcuts. With your point(s) selected, press one of the following keys:<br><br> Each of these point types can also be adjusted in the Touch Bar when a point is selected.<br><br>
+
+                <img class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/tb-vector@2x.jpg"> When inserting points, holding down the Shift key before adding a new point will align it at a 45º increment from the previous point, no matter the point type.
+            </div>
+
+            <div class="article-title">
+                Points and Paths
+            </div>
+
+            <div class="article-subtitle">
+                All shapes are made up of vector points connected by paths, which make up the outlines of a shape. Vector editing allows you to create new shapes but also modify and polish your vector layers.
+            </div>
+
+            <div class="article-title">
+                Selecting Points
+            </div>
+
+            <div class="article-h1">
+                Just like layers, you can select multiple points. Just hold down the Shift key while you click on points. Selected points will appear larger and darker than unselected points. Shift-clicking an already selected point will deselect it. Depending on a point type, its handle control points can also be selected.<br><br> Another way to select multiple points is by clicking-and-dragging from outside of a closed shape to make a rectangular selection. Any points that lie within this will be selected.<br><br> If you’re clicking-and-dragging to make a selection, holding down the Shift key will invert the selection, meaning already-selected points will deselect within the new selection. Holding down Shift before clicking-and-dragging will extend the current selection.<br><br> If your path is open, clicking anywhere in the Canvas will add a new point, so you need to choose the Selection tool by clicking the button next to the Rounding options in the Inspector, (or press X).
+                <br><br> It is also worth noting that you can edit multiple vector shapes at once. Select any layer that contains subpaths, or select two or more vector shapes and press the Enter key to begin editing. Vector points will become visible for all shapes where you can make your edits at once, without having to individually select each shape to make your changes.
+            </div>
+
+            <video controls loop muted class="article-img" src=" https://www.sketchapp.com/images/documentation/shapes/video/shape-edit-multiple@2x.mp4"></video>
+
+            <div class="article-h1">
+                Pressing the Command-A shortcut will select all the points within a shape, and pressing the Tab key will jump between points in the order they were placed.
+            </div>
+
+            <div class="article-title">
+                Moving Points
+            </div>
+
+            <div class="article-h1">
+                With a point selected, you can move it around to modify your shape. A selected point’s properties will appear in the Inspector, giving you its X and Y co-ordinates which can be edited, dragged, or nudged.<br><br> When dragging a point around, you may see smart guides appear which allows you to align that point to other points, or the middle of the shape. Holding down the Shift key when dragging a point will ‘lock’ its axis, in the direction you drag it in. This means that after you move a point, it will remain in the exact X, or Y position that it was before. This is also the case for handle control points.<br><br> Holding down the Option key will display all handle control points within the shape — any of which can be moved regardless of what point you have selected.
+            </div>
+
+            <div class="article-title">
+                Aligning Points
+            </div>
+
+            <div class="article-h1">
+                It is possible to use the distribute and align tools at the top of the Inspector when you have multiple points selected. Distribute will ensure three or more points will be an equal distance from each other, whilst align will make sure two or more points line up.
+            </div>
+
+            <div class="article-title">
+                Rounding Points
+            </div>
+
+            <div class="article-h1">
+                Points may often snap to certain places when moving or inserting new points, and this is due to the Rounding option found in the Inspector, under the point type selection. You have the ability to round to full pixel edges, half pixels, or choose not to round at all.<br><br> Often, modifying vector points calls for extreme precision, so if you’re zoomed in when adjusting points, enabling the Pixel Grid (View › Canvas › Show Pixel Grid on Zoom) can be useful to see how points may snap.<br><br> If inserting new points when zoomed in, you will see a point preview snap to full, or half pixels before placing it, without worrying about being too precise or editing it later.
+            </div>
+
+            <div class="article-title">
+                Modifying Paths
+            </div>
+
+            <div class="article-h1">
+                Whilst it is possible to select points, you cannot select paths — but that doesn’t mean they can’t be edited.<br><br> When you hover over a path segment (between two points), it will appear blue along with a point preview that follows your cursor. If you click, you will insert a new point: Straight, on a straight line, and Asymmetric if the segment is already curved. If you click and drag to create a new point, the path will curve with an Asymmetric point.<br><br> If you hold down the Shift key and click on a path between two points, Sketch will insert the new point exactly in the middle.<br><br> You can also directly manipulate a path without inserting additional points. Hold the Command key and hover over a path and the “bend segment” cursor will appear. Holding Command, click and drag the path to begin bending it. This will alter the handle control points on the adjacent points which will influence the path’s curve.<br><br> Although not part of the vector editor, the Scissors tool can be used to open a path, and cut away a segment between two vector points.
+            </div>
+
+            <div class="article-title">
+                Closed vs Open
+            </div>
+
+            <div class="article-h1">
+                A path can be either closed or open. When it is closed, all the paths between the points will be connected. When a path is open, it leaves a gap between the last point and the first. You can turn a closed path to an open one and vice versa by choosing Layer › Path › Close Path in the menu, or Option-Command-O.<br><br> You can click the Finish Editing button, or press the Enter key to leave the editing mode to keep your path open. The next time you edit it, you can continue from where you left off and place your next point from either the first or last drawn point.<br><br> Depending on your preferences, when editing an open path and clicking on the opposite end point, you can either close the path, or select the point to allow easy editing. You can change this behaviour by choosing Preferences › Layers, and selecting “Close path when clicking to select the opposite end point”.<br><br> Note: whenever you’ve applied a fill to your shape, the fill will draw as if the path was closed—even if the border is drawn with a gap.
+
+                <img class="article-img" src="https://www.sketchapp.com/images/documentation/shapes/tb-vector@2x.jpg">
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $("#nav").load("nav.html");
+        $("#submenu-sketch").load("submenu-sketch.html");
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.lazyload.js?v=1.9.1"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+        });
+    </script>
+</body>
+</html>
