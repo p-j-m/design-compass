@@ -593,7 +593,7 @@ h2 {
 }
 
 .article-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 40px;
     margin-top: 50px;
@@ -602,11 +602,11 @@ h2 {
 }
 
 .article-subtitle {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 34px;
     margin-bottom: 20px;
-    color: #bbbbbb;
+    color: #232323;
 
 }
 
