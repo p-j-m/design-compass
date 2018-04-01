@@ -68,7 +68,7 @@
             <div class="article-title">
                 아이콘</div>
             <div class="article-h1">
-                아이콘은 다른 언어보다 보편적으로 이해할 수 있는 시각 언어입니다. 시각적으로 실험할 수 있는 방법이 많아 드리블이나 비헨스과 같은 디자인 커뮤니티에서 훌륭한 아이콘들을 확인할 수 있습니다. 스마트폰의 비좁은 스크린에서 공간을 절약할 수 있어 많이 쓰이고 있습니다.
+                아이콘은 상대적으로 다른 언어보다 보편적으로 이해할 수 있는 시각 언어입니다. 시각적으로 실험할 수 있는 방법이 많아 드리블이나 비헨스과 같은 디자인 커뮤니티에서 훌륭한 아이콘들이 많습니다. 아이콘은 좁은 영역을 차지하면서도 의미를 전달할 수 있어 다양한 영역에서 쓰이고 있습니다.
             </div>
 
             <img class="article-img" data-original="./img/design-system/icon/main@2x.png">
@@ -91,7 +91,7 @@
 
 
             <div class="article-title">
-                아이콘 만들기</div>
+                파일 종류</div>
             <div class="article-h1">
                 아이콘은 다양한 스크린에 알맞게 크기를 조절할 수 있게 벡터 Vector로 제작합니다. 보통 기기의 시스템 부하를 줄이기 위해 각 스크린에 알맞는 png 이미지를 사용합니다. 현재는 기기의 스펙이 높아지면서 코드로 이미지를 구현하는 svg를 사용하기도 합니다.
             </div>
@@ -99,17 +99,79 @@
             <div class="article-title">
                 그리드</div>
             <div class="article-h1">
-                4의 배수로 크기를 잡는 편이며 보통 24pt 정사각형을 기준으로 제작합니다 그래픽 툴이나 디바이스에서 구현하는 과정에서 끝 부분이 잘릴 수 있기 때문에 2pt정도 여백을 줍니다.
+                아이콘은 좁은 영역에서도 다른 요소들과 구분되어야합니다. 우리의 눈은 시각적 그리드와 윤곽선으로 구분합니다. 시각적 그리드란 무게중심으로 물리적인 무게 중심과 비슷하다고 생각하면 됩니다. 기하학적으로 해체된 대상을 원, 정사각형, 직사각형, 정삼각형으로 구성된 그리드에 맞춰 제작합니다. 오브젝트가 액체라고 생각했을 때 동일한 영역을 채워지는 양이 같아야합니다. asset의 가장자리가 잘리지 않도록 2pt의 여백을 줍니다. 짝수배율로 24 36 48 72 6 144 192를 사용하며 iOS UI에서는22pt~25pt Android에서는 32pt를 사용합니다.
             </div>
             <img class="article-img" data-original="./img/design-system/icon/icon_grid@2x.png">
 
             <div class="article-title">
-                방식</div>
+                아이콘 만들기 </div>
             <div class="article-h1">
-                아이콘을 표현하는 방식은 선(Line)과 면 (Solid)이 있습니다. 두 방식 모두 배경색에 따라 동일하게 보이지 않기 때문에 시각보정을 고려해 제작합니다. 앱 내에서 쓰이는 아이콘의 경우 표현되는 영역이 좁기 때문에 평면으로 느껴지는 것이 좋습니다. 평면을 유지하면서 겹침을 표현하는 방식으로 자르기와 음영 처리가 있습니다.
+                아이콘을 표현하는 방식은 선(Line)과 면(Solid)이 있습니다. 벡터 프로그램(Illustrator or Sketch)에서 뼈대가 되는 Stroke를 제작하고 속을 비운 Outline 아이콘과 속은 채우는 Solid로 나뉩니다. 아이콘을 식별할 때 필요한 최소한의 변화만을 주기 위해 보통 굵기, 끝모양, 꺾임, 음영, 겹칩 등이 통일됩니다.<br><br>
+                <img class="article-img" data-original="./img/design-system/icon/style-elemental.png">
+                굵기: 굵기는 보통 저해상도에서 픽셀 퍼펙션을 대응하기 위해 2pt를 최소한으로 잡는 것이 안전합니다.
+끝모양: 네모, 라운드로 부드러운 표현을 위해 라운드가 많이 쓰입니다.
+꺾임: 꺾임의 라운드는 시선이 자연스럽게 흐르도록 도와줍니다.
+음영, 겹침: 깊이,공간감이 표현할 때 필요하며 형태 혹은 색으로 표현합니다.
+                <img class="article-img" data-original="./img/design-system/icon/grid.png">
+                색을 고려하지 않았을 때, 같은 규칙이 적용된 아이콘은 윤곽선으로 구분됩니다. 시각적 그리드(Optical Grid)에 기반하며 시각적 무게감은 실제 물리세계에서의 무게중심과 비슷하게 작동합니다. 서로 다른 아이콘에 동일한 시각적 무게감을 주기 위해서 디테일의 양과 간격의 길이가 동일해야합니다. 간격이 과하게 가까울 경우 주변 색에 파묻힐 수 있기 때문에 최소 2pt 이상의 간격을 주는 것이 좋습니다. 디테일의 양은 수치로 동일한 양을 배분하기 어렵기 때문에 액체를 배분해 배치한다고 상상하면됩니다.
             </div>
 
-            <img class="article-img" data-original="./img/design-system/icon/icon_kind@2x.png">
+            <div class="article-title">
+                아이콘 디자인 시스템</div>
+            <div class="article-h1">
+                8pt-Grid기반의 레이아웃에 적용할 24pt 그리드 기반의 아이콘 디자인 시스템입니다. 최종 산출물은 outline으로 구성된 단일 path로 .svg 포맷으로 픽셀 퍼펙션을 지향합니다. 아이콘에 쓰이는 색은 fill로 채워지며 별도의 color 심볼을 중첩해 사용합니다. 아이콘을 제작할 때 필요한 일반적인 규칙을 지키며 다양한 상황에 쓰일 굵기,색,형태를 커스터마이징해 사용할 수 있도록 제작 중입니다.
+            </div>
+
+
+            <div class="article-title">
+                규칙</div>
+            <div class="article-h1">
+                End: Butt end Join: Miter Join Border Position: Center Position: 좌표값 정수
+            </div>
+
+            <img class="article-img" data-original="./img/design-system/icon/rule.png">
+
+
+            <div class="article-title">
+                종류</div>
+            <div class="article-h1">
+                Storke: 아이콘 스타일을 다루기 위한 원본 Outline 1px, 2px: 선으로 표현된 색상 교체 가능 아이콘 Fill: 속이 차 있는 색상 교체 가능 아이콘
+            </div>
+
+            <img class="article-img" data-original="./img/design-system/icon/variation.png">
+
+
+            <div class="article-title">
+                사용법</div>
+            <div class="article-h1">
+                0. SVGO Compressor 플러그인을 설치. SVG Export 최적화를 위해 필요한 플러그인입니다.
+
+1.라이브러리 심볼을 추가합니다. 
+
+2.실제 디자인에는 Outline과 Solid. 두 가지를 사용합니다. 
+
+3.새로운 디자인을 추가하거나 수정하려면 Stroke를 이용해 Outline 혹은 Solid를 만듭니다. 
+
+4.Outline과 Solid의 색상을 변경했을 경우 해당 아이콘을 그룹핑한 뒤 Make Exportable합니다. 
+*그룹핑 후 make exportable을 하지 않으면 라이브러리 심볼 색상으로만 export 됩니다.
+            </div>
+
+
+
+            <div class="article-title">
+                제작순서</div>
+            <div class="article-h1">
+                <img class="article-img" data-original="./img/design-system/icon/step1.png">
+                1.그리드 심볼 위에 원하는 아이콘을 Stroke로 제작 후 Make Symbol
+                
+ <img class="article-img" data-original="./img/design-system/icon/step2.png">
+2.Stroke 아이콘을 1px 굵기로 설정한 뒤 Outline 후 Make Symbol
+ <img class="article-img" data-original="./img/design-system/icon/step3.png">
+3.Stroke 아이콘을 2px 굵기로 설정한 뒤 Outline 후 Make Symbol
+ <img class="article-img" data-original="./img/design-system/icon/step4.png">
+4.Solid 아이콘이 필요할 경우 Stroke의 내부를 칠한 뒤 Outline 후 Make Symbol
+            </div>
+
 
 
             <div class="sidebar-con">
