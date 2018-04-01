@@ -99,21 +99,22 @@
             <div class="article-title">
                 그리드</div>
             <div class="article-h1">
-                아이콘은 좁은 영역에서도 다른 요소들과 구분되어야합니다. 우리의 눈은 시각적 그리드와 윤곽선으로 구분합니다. 시각적 그리드란 무게중심으로 물리적인 무게 중심과 비슷하다고 생각하면 됩니다. 기하학적으로 해체된 대상을 원, 정사각형, 직사각형, 정삼각형으로 구성된 그리드에 맞춰 제작합니다. 오브젝트가 액체라고 생각했을 때 동일한 영역을 채워지는 양이 같아야합니다. asset의 가장자리가 잘리지 않도록 2pt의 여백을 줍니다. 짝수배율로 24 36 48 72 6 144 192를 사용하며 iOS UI에서는22pt~25pt Android에서는 32pt를 사용합니다.
+                눈은 시각적 그리드와 윤곽선으로 아이콘을 구분합니다. 시각적 그리드란 같은 크기의 영역 안의 아이콘이 서로 같은 무게감을 가지고 가운데에 정렬되도록 착시효과를 포함해 시각적인 균형을 맞추기 위한 그리드를 말합니다. 기하학으로 해체한 대상을 원, 정사각형, 직사각형, 정삼각형으로 구성된 그리드에 맞춰 제작합니다.<br><br>가장자리가 잘리지 않도록 2pt의 여백을 줍니다. 모바일,데스크탑 용도로 보통 짝수배율로 24 36 48 72 6 144 192 크기를를 사용하며 일반적으로 24pt를 기준으로 제작합니다.
             </div>
-            <img class="article-img" data-original="./img/design-system/icon/icon_grid@2x.png">
+              <img class="article-img" data-original="./img/design-system/icon/grid.png"> 
 
             <div class="article-title">
                 아이콘 만들기 </div>
             <div class="article-h1">
-                아이콘을 표현하는 방식은 선(Line)과 면(Solid)이 있습니다. 벡터 프로그램(Illustrator or Sketch)에서 뼈대가 되는 Stroke를 제작하고 속을 비운 Outline 아이콘과 속은 채우는 Solid로 나뉩니다. 아이콘을 식별할 때 필요한 최소한의 변화만을 주기 위해 보통 굵기, 끝모양, 꺾임, 음영, 겹칩 등이 통일됩니다.<br><br>
+                아이콘을 표현하는 방식은 선(Line)과 면(Solid)이 있습니다. 아이콘을 구성하는 요소로 굵기, 끝모양, 꺾임, 음영, 겹칩 등이 있으며 보는 사람이 아이콘을 식별할 때 필요한 최소한의 변화만 주기 위해 표현 규칙을 통일합니다.<br><br>
                 <img class="article-img" data-original="./img/design-system/icon/style-elemental.png">
-                굵기: 굵기는 보통 저해상도에서 픽셀 퍼펙션을 대응하기 위해 2pt를 최소한으로 잡는 것이 안전합니다.
-끝모양: 네모, 라운드로 부드러운 표현을 위해 라운드가 많이 쓰입니다.
-꺾임: 꺾임의 라운드는 시선이 자연스럽게 흐르도록 도와줍니다.
-음영, 겹침: 깊이,공간감이 표현할 때 필요하며 형태 혹은 색으로 표현합니다.
-                <img class="article-img" data-original="./img/design-system/icon/grid.png">
-                색을 고려하지 않았을 때, 같은 규칙이 적용된 아이콘은 윤곽선으로 구분됩니다. 시각적 그리드(Optical Grid)에 기반하며 시각적 무게감은 실제 물리세계에서의 무게중심과 비슷하게 작동합니다. 서로 다른 아이콘에 동일한 시각적 무게감을 주기 위해서 디테일의 양과 간격의 길이가 동일해야합니다. 간격이 과하게 가까울 경우 주변 색에 파묻힐 수 있기 때문에 최소 2pt 이상의 간격을 주는 것이 좋습니다. 디테일의 양은 수치로 동일한 양을 배분하기 어렵기 때문에 액체를 배분해 배치한다고 상상하면됩니다.
+                <ul>
+                    <li>굵기: 저해상도에서 픽셀에 정확하게 표시되기 위해 2pt를 최소한으로 잡는 것이 안전합니다.<br>(저해상도로 인해 강제로 1px이 2px로 표시될 수 있습니다.)</li>
+                    <li>끝모양: 각, 라운드가 있으며 부드러운 표현을 위해 라운드가 많이 쓰입니다.</li>
+                    <li>꺾임: 끝모양과 마찬가지로 라운드가 자주 쓰이며 시선이 자연스럽게 흐르도록 도와줍니다.</li>
+                    <li>겹침: 깊이, 공간감이 표현할 때 필요하며 형태 혹은 색으로 표현합니다.</li>
+                </ul>
+             같은 규칙이 적용된 아이콘은 먼저 윤곽선으로 구분합니다. 서로 다른 아이콘에 동일한 시각적 무게감을 주기 위해서 디테일이나 간격의 양이 동일해야합니다. 디테일의 양은 수치로 동일한 양을 배분하기 어렵기 때문에 그리드 내부에 동일한 양의 잉크를 사용한다고 생각하는 것이 도움이 될 것입니다. 간격이 과하게 가까울 경우 주변 색에 파묻혀 간격이 흐려질 수 있기 때문에 때문에 최소 2pt 이상의 간격을 주는 것이 좋습니다.
             </div>
 
             <div class="article-title">
@@ -126,7 +127,14 @@
             <div class="article-title">
                 규칙</div>
             <div class="article-h1">
-                End: Butt end Join: Miter Join Border Position: Center Position: 좌표값 정수
+                패스의 포인트가 소숫점에 위치할 경우 디바이스에서 의도하지 않게 표현될 수 있습니다. 되도록 최종 산출물의 포인트의 위치가 정수가 될 수 있도록 제작합니다. 아래의 항목은 선이 정수로 표현될 수 있는 설정값입니다.
+                <ul>
+                    <li>Position: 정수 좌표값</li>
+                    <li>End: Butt end</li>
+                    <li>Join: Miter Join (라운드도 큰 무리는 없습니다.) </li>
+                    <li>Border Position: Center</li>
+
+                </ul>
             </div>
 
             <img class="article-img" data-original="./img/design-system/icon/rule.png">
@@ -135,7 +143,12 @@
             <div class="article-title">
                 종류</div>
             <div class="article-h1">
-                Storke: 아이콘 스타일을 다루기 위한 원본 Outline 1px, 2px: 선으로 표현된 색상 교체 가능 아이콘 Fill: 속이 차 있는 색상 교체 가능 아이콘
+                벡터 프로그램으로 뼈대가 되는 패스를 제작하고 이를 바탕으로 굵기를 조절할 수 있는 파일(Stroke)과 윤곽선을 따 굵기를 조절할 수 없는 파일(Outline, Fill)로 나뉩니다.
+                <ul>
+                    <li>Storke: 아이콘 스타일을 다루기 위한 원본</li>
+                    <li>Outline 1px, 2px: 선으로 표현된 색상 교체 가능 아이콘</li>
+                    <li>Fill: 속이 차 있는 색상 교체 가능 아이콘</li>
+                </ul>
             </div>
 
             <img class="article-img" data-original="./img/design-system/icon/variation.png">
@@ -144,33 +157,39 @@
             <div class="article-title">
                 사용법</div>
             <div class="article-h1">
-                0. SVGO Compressor 플러그인을 설치. SVG Export 최적화를 위해 필요한 플러그인입니다.
+                <ol>
+                    <li>SVGO Compressor 플러그인을 설치.<br>(SVG Export 최적화를 위해 필요한 플러그인입니다.)</li>
 
-1.라이브러리 심볼을 추가합니다. 
+                    <li>Icon 라이브러리 심볼을 추가합니다. </li>
 
-2.실제 디자인에는 Outline과 Solid. 두 가지를 사용합니다. 
+                    <li>Outliine과 Solid 심볼을 디자인에 적용합니다. </li>
 
-3.새로운 디자인을 추가하거나 수정하려면 Stroke를 이용해 Outline 혹은 Solid를 만듭니다. 
+                    <li>새로운 디자인을 추가하거나 수정하려면 Stroke 아이콘을 제작한 뒤 Outoline 혹은 Solid를 만듭니다. </li>
 
-4.Outline과 Solid의 색상을 변경했을 경우 해당 아이콘을 그룹핑한 뒤 Make Exportable합니다. 
-*그룹핑 후 make exportable을 하지 않으면 라이브러리 심볼 색상으로만 export 됩니다.
+                    <li>디자인에 적용한 Solid의 색상을 Overide한 경우 해당 아이콘을 그룹핑한 뒤 Make Exportable합니다.<br>
+                    *그룹핑을 하지 않을 경우 제플린에서 의도와 다른 파일이 다운로드 될 것입니다.</li>
+                </ol>
             </div>
 
 
 
             <div class="article-title">
-                제작순서</div>
+                제작 순서</div>
             <div class="article-h1">
-                <img class="article-img" data-original="./img/design-system/icon/step1.png">
-                1.그리드 심볼 위에 원하는 아이콘을 Stroke로 제작 후 Make Symbol
-                
- <img class="article-img" data-original="./img/design-system/icon/step2.png">
-2.Stroke 아이콘을 1px 굵기로 설정한 뒤 Outline 후 Make Symbol
- <img class="article-img" data-original="./img/design-system/icon/step3.png">
-3.Stroke 아이콘을 2px 굵기로 설정한 뒤 Outline 후 Make Symbol
- <img class="article-img" data-original="./img/design-system/icon/step4.png">
-4.Solid 아이콘이 필요할 경우 Stroke의 내부를 칠한 뒤 Outline 후 Make Symbol
+                <img class="article-img" data-original="./img/design-system/icon/step1.png"> 1.그리드 심볼 위에 원하는 아이콘을 Stroke로 제작 후 Make Symbol
+
+                <img class="article-img" data-original="./img/design-system/icon/step2.png"> 2.Stroke 아이콘을 1px 굵기로 설정한 뒤 Outline 후 Make Symbol
+                <img class="article-img" data-original="./img/design-system/icon/step3.png"> 3.Stroke 아이콘을 2px 굵기로 설정한 뒤 Outline 후 Make Symbol
+                <img class="article-img" data-original="./img/design-system/icon/step4.png"> 4.Solid 아이콘이 필요할 경우 Stroke의 내부를 칠한 뒤 Outline 후 Make Symbol
             </div>
+
+            <div class="article-title">
+                주의할 점</div>
+            <div class="article-h1">
+                그리드 내부에 서로 다른 아이콘을 제작할때 동일한 양의 잉크를 사용한다고 생각하는 것이 도움이 될 것입니다.
+            </div>
+
+
 
 
 
