@@ -96,12 +96,6 @@
                 아이콘은 다양한 스크린에 알맞게 크기를 조절할 수 있게 벡터 Vector로 제작합니다. 보통 기기의 시스템 부하를 줄이기 위해 각 스크린에 알맞는 png 이미지를 사용합니다. 현재는 기기의 스펙이 높아지면서 코드로 이미지를 구현하는 svg를 사용하기도 합니다.
             </div>
             <img class="article-img" data-original="./img/design-system/icon/icon_filetype@2x.png">
-            <div class="article-title">
-                그리드</div>
-            <div class="article-h1">
-                눈은 시각적 그리드와 윤곽선으로 아이콘을 구분합니다. 시각적 그리드란 같은 크기의 영역 안의 다양한 형태의 아이콘이 같은 무게감과 무게 중심을 갖게 하기 위한 그리드를 말합니다. 기하학으로 해체한 대상을 원, 정사각형, 직사각형, 정삼각형으로 구성된 그리드에 맞춰 제작합니다.<br><br>Asset을 내보낼 때 가장자리가 어색하게 잘릴 수 있기 때문에 항상 2pt의 안전 여백을 줍니다. 모바일,데스크탑 용도로 보통 짝수배율로 24 36 48 72 6 144 192 크기를 사용하며 일반적으로 24pt를 기준으로 제작합니다.
-            </div>
-              <img class="article-img" data-original="./img/design-system/icon/grid.png"> 
 
             <div class="article-title">
                 아이콘 만들기 </div>
@@ -109,15 +103,25 @@
                 아이콘을 표현하는 방식은 선(Line)과 면(Solid)이 있습니다. 아이콘을 구성하는 요소로 굵기, 끝모양, 꺾임, 음영, 겹칩 등이 있으며 보는 사람이 아이콘을 식별할 때 필요한 최소한의 변화만 주기 위해 표현 규칙을 통일합니다.<br><br>
                 <img class="article-img" data-original="./img/design-system/icon/style-elemental.png">
                 <ul>
-                    <li>굵기: 저해상도에서 픽셀에 정확하게 표시되기 위해 2pt를 최소한으로 잡는 것이 안전합니다.<br>(저해상도로 인해 1px이 강제로 2px로 표시될 수 있습니다.)</li>
+                    <li>굵기: 저해상도에서 픽셀에 정확하게 표시되기 위해 2pt를 최소한으로 잡는 것이 안전합니다.<br>(저해상도에서 1px가 강제로 2px로 표시될 수 있습니다.)</li>
                     <li>끝모양: 각, 라운드가 있으며 부드러운 표현을 위해 라운드가 많이 쓰입니다.</li>
                     <li>꺾임: 끝모양과 마찬가지로 라운드가 자주 쓰이며 시선이 자연스럽게 흐르도록 도와줍니다.</li>
                     <li>겹침: 깊이, 공간감이 표현할 때 필요하며 형태 혹은 색으로 표현합니다.</li>
                 </ul>
-                 <img class="article-img" data-original="./img/design-system/icon/style-elemental.png">
-                
-             같은 규칙이 적용된 아이콘은 먼저 윤곽선으로 구분합니다. 서로 다른 아이콘에 동일한 시각적 무게감을 주기 위해서 디테일이나 간격의 양이 동일해야합니다. 디테일의 양은 수치로 동일한 양을 배분하기 어렵기 때문에 그리드 내부에 동일한 양의 잉크를 사용한다고 생각하는 것이 도움이 될 것입니다. 간격이 과하게 가까울 경우 주변 색에 파묻혀 간격이 흐려질 수 있기 때문에 때문에 최소 2pt 이상의 간격을 주는 것이 좋습니다.
+
+
+                <div class="article-title">
+                    디테일</div>
+                같은 규칙이 적용된 아이콘은 먼저 윤곽선으로 구분합니다. 서로 다른 아이콘에 동일한 시각적 무게감을 주기 위해서 디테일이나 간격의 양이 동일해야합니다. 디테일의 양은 수치로 동일한 양을 배분하기 어렵기 때문에 그리드 내부에 동일한 양의 잉크를 사용한다고 생각하는 것이 도움이 될 것입니다. 잉크가 너무 가까이 있으면 하나로 합쳐지듯이 간격이 과하게 가까울 경우 간격이 흐려질 수 있습니다. 최소 2pt 이상의 간격을 주는 것이 안전합니다.
+                <img class="article-img" data-original="./img/design-system/icon/ink.png">
             </div>
+
+            <div class="article-title">
+                그리드</div>
+            <div class="article-h1">
+                눈은 시각적 그리드와 윤곽선으로 아이콘을 구분합니다. 시각적 그리드란 같은 크기의 영역 안의 다양한 형태의 아이콘이 같은 무게감과 무게 중심을 갖게 하기 위한 그리드를 말합니다. 기하학으로 해체한 대상을 원, 정사각형, 직사각형, 정삼각형으로 구성된 그리드에 맞춰 제작합니다.<br><br>Asset을 내보낼 때 가장자리가 어색하게 잘릴 수 있기 때문에 항상 2pt의 안전 여백을 줍니다. 모바일,데스크탑 용도로 보통 짝수배율로 24 36 48 72 6 144 192 크기를 사용하며 일반적으로 24pt를 기준으로 제작합니다.
+            </div>
+            <img class="article-img" data-original="./img/design-system/icon/grid.png">
 
             <div class="article-title">
                 아이콘 디자인 시스템</div>
@@ -160,57 +164,53 @@
                 사용법</div>
             <div class="article-h1">
                 <ol>
-                    <li>SVGO Compressor 플러그인을 설치.<br>(SVG Export 최적화를 위해 필요한 플러그인입니다.)</li>
+                    <li>SVGO Compressor, Rename It 플러그인을 설치.<br>(SVG Export 최적화와 레이어,아트보드 이름 관리 플러그인입니다.)</li>
 
-                    <li>Icon 라이브러리 심볼을 추가합니다. </li>
+                    <li>Preference > Libraries > Add Library 선택 후 DC-Icon.sketch 파일을 추가합니다. </li>
 
                     <li>Outliine과 Solid 심볼을 디자인에 적용합니다. </li>
 
                     <li>새로운 디자인을 추가하거나 수정하려면 Stroke 아이콘을 제작한 뒤 Outoline 혹은 Solid를 만듭니다. </li>
-
-                    <li>디자인에 적용한 Solid의 색상을 Overide한 경우 해당 아이콘을 그룹핑한 뒤 Make Exportable합니다.<br>
-                    *그룹핑을 하지 않을 경우 제플린에서 의도와 다른 파일이 다운로드 될 것입니다.</li>
                 </ol>
             </div>
 
 
 
             <div class="article-title">
-                제작 순서</div>
+                직접 만들기</div>
             <div class="article-h1">
-                <img class="article-img" data-original="./img/design-system/icon/step1.png"> 1.그리드 심볼 위에 원하는 아이콘을 Stroke로 제작 후 Make Symbol
-
-                <img class="article-img" data-original="./img/design-system/icon/step2.png"> 2.Stroke 아이콘을 1px 굵기로 설정한 뒤 Outline 후 Make Symbol
-                <img class="article-img" data-original="./img/design-system/icon/step3.png"> 3.Stroke 아이콘을 2px 굵기로 설정한 뒤 Outline 후 Make Symbol
-                <img class="article-img" data-original="./img/design-system/icon/step4.png"> 4.Solid 아이콘이 필요할 경우 Stroke의 내부를 칠한 뒤 Outline 후 Make Symbol
+                아이콘을 표현하기 위한 다양한 레이어로 심볼이 구성됩니다. 아이콘을 표현하기 위한 레이어 뿐만 아니라 내부 여백을 위한 24x24 크기의 Rectangle 레이어가 필요합니다. Export할 시 여러 툴에서 강제로 여백을 재단하는 경우가 많아 안전장치로 레이어를 추가합니다.
+                <img class="article-img" data-original="./img/design-system/icon/step1.png"> 1.그리드 심볼 위에 원하는 아이콘을 Stroke로 제작 후 24x24 크기의 심볼을 만듭니다.
+                <img class="article-img" data-original="./img/design-system/icon/step2.png"> 2.새 심볼을 만들어 Stroke 아이콘을 복사-붙여넣기 한 뒤 픽셀에 정확하게 표시되는지 확인 후 Layer > Convert to Outlines(혹은 Shift + Command + O)를 선택합니다.
+                <img class="article-img" data-original="./img/design-system/icon/step3.png"> 3.새 심볼을 만들고 Stroke 아이콘을 2px 굵기로 설정해 복사-붙여넣기 한 뒤 픽셀에 정확하게 표시되는지 확인 후 Layer > Convert to Outlines(혹은 Shift + Command + O)을 선택합니다.
+                <img class="article-img" data-original="./img/design-system/icon/step4.png"> 4.Soli이 필요할 경우 Stroke의 Fill을 선택해 심볼을 만듭니다.
+                <img class="article-img" data-original="./img/design-system/icon/step5.png">
             </div>
-            
-             <div class="article-title">
+
+            <div class="article-title">
                 체크 리스트</div>
             <div class="article-h1">
-               -다른 요소와 결합될때, 아이콘은 글자보다 구분이 쉽기 때문에 좌-우 읽는 특성에 맞춰 좌에 있는게 좋다.<br>
-- 보편적이든 아니든 가능한한 레이블을 사용하라. <br>
-- 아이콘은 OS 환경에 맞춰서 적용해줘야한다. 타 OS 의 아이콘은 학습한 적이 없어서 뭔지 이해 못할 수도 있다.<br>
-- 시각 언어에는 부가적인 효과들이 있지만 액션 아이콘의 경우 사용자에게 액션을 하기 위한 정보를 전달하는데 초점을 맞춰야 합니다. 따라서 가능한 레이블을 추가하는 것이 좋습니다. 
-                <br>
-                - 시각 언어의 약점 큰 영역의 일러스트레이션과 시간이 적용된 애니메이션은 더 많은 정보를 전달할 수 있지만 청각 언어보다는 비효율적인 편입니당. 효율을 추구하기 때문에 눈은 최소한 구분하는 것을 자제하려 한다. 그래서 뇌가 게슈탈트 같은 짓을 한다.  구분 - 에너지 듬. <br>
-- 검은 배경에 식별이 어려울 정도로 얇은 흰 선이 있으면 그냥 무시한다.<br>
-- 흰 배경에 식별이 어려울 정도로 얇은 회색 글씨가 있으면 무시한다.<br>
-- 시각적인 표현이 명쾌하다면 누구나 이해할 수 있지만, 그림으로 표현하기 어려운 개념은 문자로 이해하는게 훨씬 편합니다.<br>
-- 액션을 위한 아이콘의 경우 손가락으로 터치할 수 있는 최소한의 크기(44px*29px)을 주어야합니다. (아이콘 크기에 딱 맞는 액션 버튼만큼 무서운게 없습니다!) 
+                <img class="article-img" data-original="./img/design-system/icon/icons.png">
+                <ul>
+                    <li>레이블을 사용하면 사용자가 더 빠르게 이해하고 행동할 수 있습니다.</li>
+                    <li>텍스트와 결합될 때 텍스트보다 아이콘으로 아이템을 구분하는 것이 더 적합하기 때문에 좌-우 읽는 특성에 맞춰 왼쪽에 배치하는 것이 좋습니다.</li>
+                    <li>만약 텍스트를 읽고난 뒤에 해야하는 액션 아이콘의 경우 우측에 배치하는 것이 좋습니다.</li>
+                    <li>색, 형태의 대비가 약하고 과하게 얇거나 두꺼울 경우 눈과 뇌가 정보를 무시하기 때문에 되도록 최소한의 대비를 유지해야합니다.</li>
+                    <li>액션을 위한 아이콘의 경우 손가락으로 터치할 수 있는 최소한의 크기(44px*29px)을 주어야합니다. (아이콘 크기에 딱 맞는 액션 버튼만큼 무서운게 없습니다!)</li>
+                </ul>
             </div>
-            
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
+
             <div class="article-title">
                 첨부 파일</div>
             <div class="article-h1">
                 <div class="btn" onclick="location.href='./assets/files/DC-Icon.sketch';">
-                   DC-Icon.sketch
+                    DC-Icon.sketch
                 </div>
             </div>
 
@@ -258,4 +258,5 @@
         });
     </script>
 </body>
+
 </html>

@@ -230,6 +230,11 @@ ul {
     padding-left: 24px;
 }
 
+li {
+    padding-bottom:16px;
+    
+}
+
 
 .logo {
     font-size: 20px;
@@ -605,7 +610,7 @@ h2 {
     height: auto;
     width: 100%;
     max-width: 750px;
-    margin-bottom: 20px;
+    margin: 10px 0px;
 }
 
 .article-title {
