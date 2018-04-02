@@ -372,8 +372,8 @@ ul {
     transition: ease 0.3s;
 }
 
-.menu-sub li:hover{
-    opacity:1;
+.menu-sub li:hover {
+    opacity: 1;
     transition: ease 0.3s;
 }
 
@@ -488,6 +488,22 @@ h2 {
     font-weight: 200;
 }
 
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #28ab8f;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #009273;
+    transition: 0.2s ease;
+}
+
 .nav-btn {
     cursor: pointer;
     background: #ffffff;
@@ -586,7 +602,7 @@ h2 {
 }
 
 .article-img {
-    height:auto;
+    height: auto;
     width: 100%;
     max-width: 750px;
     margin-bottom: 20px;
@@ -791,7 +807,7 @@ h2 {
     .nav {
         position: fixed;
         left: 0;
-height:60px;
+        height: 60px;
         text-align: left;
         box-shadow: none;
     }
