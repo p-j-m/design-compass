@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50444148-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-50444148-1');
+    </script>
+    <!-- meta preset-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="박종민" />
+    <meta name="description" content="스케치 사용자 매뉴얼 비공식 번역입니다." />
+    <meta name="keywords" content="ux,ui,심볼,스케치,스케치앱,튜토리얼,디자인툴,디자인,gui,ui,ux,매뉴얼,번역,사용자 경험,사전 설정,preference,canvas,layers,plugins,libraries,export presets,캔버스,레이어,플러그인" />
+    <meta property="og:image" content="./img/site_thumnail.png" />
+    <meta name="Resource-type" content="Document">
+
+    <title>[번역] 스케치 사용자 매뉴얼 - 사전 설정</title>
+
+
+    <!-- connect with other files -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./img/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./img/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./img/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="./img/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./img/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./img/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./img/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
+</head>
+
+<body>
+    <div class="se-pre-con"> <img class="loader" src="./img/icon/icon_compass.svg"> </div>
+    <div id="nav"></div>
+
+    <div class="article-outer">
+        <div id="submenu-sketch"></div>
+        <div class="article-container">
+            <div class="article-title">
+                사전 설정</div>
+            <div class="article-subtitle">
+                사전설정에서 원하는대로 기능을 세팅할 수 있습니다. 사전설정을 하려면 Sketch › Preferences을 선택하거나 Command-,를 누르세요. 여기서 아래 항목에 해당하는 탭을 볼 수 있습니다.
+            </div>
+            <div class="article-h1">
+                <ul>
+                    <li>General</li>
+                    <li>Canvas</li>
+                    <li>Layers</li>
+                    <li>Plugins</li>
+                    <li>Presets</li>
+                </ul>
+                사전설정 패널에서 보이지 않지만 조절할 수 있는 옵션도 있습니다.
+            </div>
+
+            <div class="article-title">
+                svgExportSkipAssignIdToLayerName
+            </div>
+            <div class="article-h1">
+                이 항목이 YES로 되어 있으면 svg를 내보낼 때 layer에 있는 이름을 사용하지 않습니다.<br><br> 1 defaults write ~/Library/Preferences/com.bohemiancoding.sketch3.plist svgExportSkipAssignIdToLayerName -bool yes<br><br> 이 기능을 비활성하려면 아래를 실행하세요.<br><br> 1 defaults write ~/Library/Preferences/com.bohemiancoding.sketch3.plist svgExportSkipAssignIdToLayerName -bool no<br><br> 노트: macOS의 사전설정 캐시방식으로 인해 변경사항을 적용하려면 로그아웃 후 로그인해야합니다.
+            </div>
+
+            <div class="article-title">
+                일반
+            </div>
+            <div class="article-subtitle">
+                일반 사전설정에서 스케치에서의 다양한 활동을 세팅 할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                자동 저장
+            </div>
+            <div class="article-h1">
+                항목이 선택되면 macOS가 정기적으로 스케치 파일을 자동 저장하며 버전별로 복구합니다.
+            </div>
+
+            <div class="article-title">
+                벡터 가져오기
+            </div>
+            <div class="article-h1">
+                'flat' 이미지로 PDF와 EPS로 가져와야 하는지 내부 패스 데이터를 유지해 스케치에서 수정가능하게 가져올지를 정합니다.
+            </div>
+
+            <div class="article-title">
+                아트보드 내보내기
+            </div>
+            <div class="article-h1">
+                PDF로 아트보드를 내보낼 때 규칙을 정합니다. 레이어 리스트의 정렬 순서나 (위 > 아래, 아래 > 위) 다양한 위치에서 읽는 순서를 정할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                색 프로필
+            </div>
+            <div class="article-h1">
+                문서에서 렌더링하는 기본 색 프로필을 정합니다. 관리 안함, sRGB, Display P3 중에서 고릅니다.
+            </div>
+
+            <div class="article-title">
+                프라이버시
+            </div>
+            <div class="article-h1">
+                진단/사용 데이터를 보내 스케치를 향상시키는데 동의하세요. 모든 데이터는 익명이며 당신을 식별할 수 없습니다. Privacy Statement에서 자세히 확인할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                캔버스
+            </div>
+            <div class="article-subtitle">
+                캔버스 사전설정에서 확대/축소 시 캔버스에 디자인이 어떻게 보일지 정의할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                확대 애니메이션
+            </div>
+            <div class="article-h1">
+                어디서부터 확대했는지 맥락을 확인할 수 있습니다. 만약 꺼두면 전환되는 애니메이션이 없이 인스턴트로 확대됩니다.
+            </div>
+
+            <div class="article-title">
+                선택한 요소 확대
+            </div>
+            <div class="article-h1">
+                View › Zoom In / Zoom Out를 사용하면 캔버스 정가운데를 기준으로 확대/축소합니다. 체크박스를 선택하면 선택한 레이어를 기준으로 확대/축소합니다.
+            </div>
+
+
+            <div class="article-title">
+                이전 캔버스 위치로 되돌리기
+            </div>
+            <div class="article-h1">
+                이 옵션으로 확대를 시작한 캔버스로 축소합니다. 스케치는 기본적으로 현재 캔버스의 정가운데를 기준으로 축소합니다. 매우 큰 비율로 화면을 확대 했을 때, 이전에 보던 화면으로 축소하고 싶으면 이 옵션을 체크합니다.
+            </div>
+
+            <div class="article-title">
+                넛지 간격
+            </div>
+            <div class="article-h1">
+                선택한 어떤 레이어라도 화살표 키 (짧은 거리), Shift-화살표 키 (먼 거리)로 "nudge"할 수 있습니다. 이 사전설정은 nudge의 간격을 조절합니다.
+            </div>
+
+            <div class="article-title">
+                색
+            </div>
+            <div class="article-h1">
+                레이어 정렬, 옵션 키 간격 확인, 프로토타이핑 오버레이에 표시되는 가이드 색을 정할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                레이어
+            </div>
+            <div class="article-subtitle">
+                레이어 사전 설정에서 레이어와 그룹의 동작을 설정할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                픽셀 맞추기
+            </div>
+            <div class="article-h1">
+                픽셀 맞추기 옵션은 그리기,이동,크기 조절 시에 소숫점 픽셀을 가장 가까운 정수 크기의 픽셀에 맞추는 옵션입니다.
+            </div>
+
+            <div class="article-title">
+                새 그룹에 클릭-스루 가능하게 하기
+            </div>
+            <div class="article-h1">
+                새 그룹을 만들었을 때 내부 레이어를 Command키를 누르지 않고도 선택할 수 있습니다. 그룹 레이어를 선택하면 Inspector에서 그룹별로 옵션을 토글할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                반대쪽 끝 포인트 선택했을 때 패스 닫기
+            </div>
+            <div class="article-h1">
+                벡터 에디터로 열린 패스를 수정할 때 적용됩니다. 패스의 시작 포인트와 끝 포인트를 클릭 했을 때 패스를 닫을지 포인트를 선택할지 정할 수 있습니다. 오픈 패스를 수정할 때 편리합니다.
+            </div>
+
+            <div class="article-title">
+                복사 레이어 겹침
+            </div>
+            <div class="article-h1">
+                기본적으로 원본에서 10px 빗겨나간 위치에 오브젝트가 복사됩니다. 이 옵션을 해제하면 원본과 같은 위치에 바로 붙여넣습니다.
+            </div>
+
+            <div class="article-title">
+                복사 레이어 이름
+            </div>
+            <div class="article-h1">
+                이 옵션을 설정하면 복사된 레이어의 뒤에 "copy"를 추가해 원본 이름을 유니크하게 유지합니다. 옵션을 해제하면 원본과 같은 이름이 복사됩니다.
+            </div>
+
+            <div class="article-title">
+                비트맵 단조롭게 하기
+            </div>
+            <div class="article-h1">
+                이 옵션을 설정하면 Layer › Flatten Selection to Bitmap로 비트맵 이미지를 flatten 했을 때 해상도를 설정할 수 있습니다. 레티나 디스플레이를 사용할 경우 2x해상도를 추천합니다.
+            </div>
+
+            <div class="article-title">
+                플러그인
+            </div>
+            <div class="article-subtitle">
+                모든 스케치 플러그인은 사전설정에서 관리할 수 있습니다. 파인더를 통할 필요 없이 여기서 설치한 모든 플러그인을 필터,토글,삭제할 수 있습니다.
+            </div>
+            <div class="article-h1">
+                이 패널에서 플러그인의 이름, 저자, 설명, 버전 등의 메타데이터를 확인할 수 있습니다. 왼쪽에 있는 체크박스로 플러그인의 가릴 수 있으며, 삭제할 필요 없이 비활성할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                기존 플러그인
+            </div>
+            <div class="article-h1">
+                설치된 플러그인 리스트에서 "Legacy Plugins"를 볼 수 있습니다. 이것은 스케치 3.4이전 버전에 만들어진 플러그인을 말합니다.
+            </div>
+
+            <div class="article-title">
+                플러그인 받기
+            </div>
+            <div class="article-h1">
+                사전 설정 패널의 바닥부분에서 "Get Plugins..."가 있습니다. 클릭하면 저희 플러그인 페이지로 이동하며 저희가 선정한 사용가능한 플러그인을 확인하고 다운로드 받을 수 있습니다. 플러그인을 찾고 문서에 사용하는 법을 배우려면 아래 튜토리얼 영상을 확인하세요.
+            </div>
+
+            <div class="article-title">
+                라이브러리
+            </div>
+            <div class="article-subtitle">
+                라이브러리 패널에서 스케치에서 쓰이는 모든 라이브러리를 관리할 수 있습니다.
+            </div>
+            <div class="article-h1">
+                문서를 라이브러리로 추가하려면 사전설정으로 이동합니다. "Add Library"를 누르고 사용하고 싶은 심볼이 포함된 .sketch 문서를 선택해 간단하게 추가할 수 있습니다.<br><br>
+                <img class="article-img" src="https://www.sketchapp.com/images/documentation/libraries/library-preferences.jpg"><br><br> 라이브러리가 추가되면 미리보기 왼쪽의 체크박스로 가시성을 토글할 수 있습니다. 체크박스가 해제되면 Insert 메뉴에서 표시되지 않습니다. 여러 프로젝트를 진행할 때 라이브러리를 빠르게 관리할 수 있는 이상적인 방법입니다. 오른쪽에 있는 Quick Look 아이콘으로 파일을 열지 않고 라이브러리를 미리볼 수 있습니다.<br><br> 리스트에서 라이브러리를 선택하면 리스트 아래에 있는 설정 아이콘을 선택해 옵션을 설정할 수 있습니다. 파인더에서 문서 보기, 라이브러리 열기, 모두 삭제하기. 라이브러리를 삭제하는 것은 파괴적인 행동으로 해당 라이브러리를 사용한 모든 문서에서 연결 해제되며 사용한 심볼은 로컬 심볼이 됩니다.<br><br> 커스텀 프리뷰를 만들고 싶다면 문서 내에 200x160px 크기의 아트보드를 만들고 "Libary Preview"라고 이름을 적어주세요.
+            </div>
+
+            <div class="article-title">
+                누락된 라이브러리
+            </div>
+            <div class="article-h1">
+                라이브러리 사전 설정에서 누락된 라이브러리에 대한 경고를 볼 수 있습니다. 이는 해당 파일을 찾을 수 없는 것이며 삭제되었거나 플래시 드라이브나 연결되지 않은 서버와 같은 외부 기기에 있을 수 있습니다.<br><br> 이 메시지가 떴을 때 라이브러리를 가지고 있다면 라이브러리를 Control-클릭하거나 라이브러리를 선택한 뒤 리스트 아래의 설정 아이콘을 누르세요. 여기서 "Locate..."를 선택하면 라이브러리를 다시 연결할 수 있습니다.
+            </div>
+
+            <div class="article-title">
+                내보내기 프리셋
+            </div>
+            <div class="article-subtitle">
+                내보내기 프리셋은 에셋을 내보낼 때 시간을 아낄 수 있는 굉장히 유용한 기능입니다. 프리셋 사전설정 패널에서 생성/관리할 수 있습니다.
+            </div>
+            <div class="article-h1">
+                내보낼 수 있는 레이어, 슬라이스, 아트보드를 선택했을 때 Inspector 아래에 나오는 모든 프리셋이 왼쪽에 표시됩니다. 프리셋 이름 왼쪽의 라디오 버튼으로 새 슬라이스를 추가하거나 내보낼 수 있는 레이어를 만들었을 때 어떤 것을 기본설정으로 할지 정할 수 있습니다.
+                <br><br> 리스트 아래의 + 버튼으로 새 프리셋을 추가할 수 있으며 - 버튼으로 선택한 프리셋을 제거할 수 있습니다.
+                <br>
+                <img class="article-img" src="https://www.sketchapp.com/images/documentation/preferences/presets.jpg"><br>오른쪽에 내보내는 크기가 표시됩니다. + 버튼을 누르면 크기, 접두사/접미어, 파일타입을 수정할 수 있는 내보내기 스케일을 추가합니다. 추가할 수 있는 스케일의 수 한계는 없으며 접두사와 접미사를 동시에 사용할 수 있습니다. 내보내기 설정에 관해서 Make Exportable 문서에서 더 자세히 알아볼 수 있습니다.
+            </div>
+
+
+        </div>
+    </div>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $("#nav").load("nav.html");
+        $("#menu-sub").load("menu-sub.html");
+        $("#submenu-sketch").load("submenu-sketch.html");
+    </script>
+
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.lazyload.js?v=1.9.1"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+        });
+    </script>
+</body>
+
+</html>
