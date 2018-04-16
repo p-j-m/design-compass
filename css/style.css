@@ -20,7 +20,7 @@
     padding: 0px;
     color: #232323;
     font-size: 20px;
-    cursor: pointer;
+    cursor: url(../img/Cursor.png), auto;
     text-align: left;
     box-shadow: 1px solid #e6e6e6;
 }
@@ -109,7 +109,7 @@
     padding: 0 20px;
     color: #232323;
     font-size: 20px;
-    cursor: pointer;
+    cursor: url(../img/Cursor.png), auto;
     text-align: right;
 
 }
@@ -219,6 +219,7 @@
 }
 
 body {
+    cursor:url(../img/Cursor.png), auto;
     margin: 0;
     font-family: "Noto Sans KR", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -288,7 +289,7 @@ li {
 }
 
 .pagination {
-    cursor: pointer;
+    cursor: url(../img/Cursor.png), auto;
     display: inline-block;
     font-size: 20px;
     width: 50%;
@@ -298,7 +299,7 @@ li {
 
 .pagination-left {
     float: left;
-    cursor: pointer;
+    cursor: url(../img/Cursor.png), auto;
     display: inline-block;
     font-size: 20px;
     width: 50%;
@@ -326,7 +327,7 @@ li {
 .pagination-right {
     float: right;
     text-align: right;
-    cursor: pointer;
+    cursor: url(../img/Cursor.png), auto;
     display: inline-block;
     font-size: 20px;
     width: 50%;
@@ -435,6 +436,7 @@ hr {
 }
 
 a {
+    cursor:url(../img/Cursor.png), auto;
     text-decoration: none;
     color: #232323;
     transition: ease 0.5s;
@@ -495,7 +497,7 @@ h2 {
 
 .btn {
     display: inline-block;
-    cursor: pointer;
+    cursor: url(../img/Cursor.png), auto;
     padding: 8px 16px;
     background-color: #28ab8f;
     text-align: center;
@@ -510,7 +512,7 @@ h2 {
 }
 
 .nav-btn {
-    cursor: pointer;
+    cursor: url(../img/Cursor.png), auto;
     background: #ffffff;
     background: rgba(0, 0, 0, 0.00);
     font-family: "Noto Sans KR", sans-serif;
@@ -774,7 +776,7 @@ h2 {
 }
 
 .sidebar-outlink {
-    cursor: pointer;
+    cursor: url(../img/Cursor.png), auto;
     width: 100%;
     margin: 8px 0px;
     font-size: 16px;
@@ -906,7 +908,7 @@ h2 {
         padding: 0 20px;
         color: #232323;
         font-size: 20px;
-        cursor: pointer;
+        cursor: url(../img/Cursor.png), auto;
         text-align: right;
 
     }
@@ -981,14 +983,14 @@ h2 {
         font-weight: 400;
         line-height: 28px;
         margin-bottom: 20px;
-        color: #9a9a9a;
+        color: #232323;
     }
 
 
     .article-h1 {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 26px;
         margin-bottom: 24px;
         color: #4e4e4e;
     }
