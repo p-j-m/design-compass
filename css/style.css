@@ -219,7 +219,7 @@
 }
 
 body {
-    cursor:url(../img/Cursor.png), auto;
+    cursor:pointer;
     margin: 0;
     font-family: "Noto Sans KR", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -436,7 +436,7 @@ hr {
 }
 
 a {
-    cursor:url(../img/Cursor.png), auto;
+    cursor:pointer;
     text-decoration: none;
     color: #232323;
     transition: ease 0.5s;
