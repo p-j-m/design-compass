@@ -259,6 +259,10 @@ li {
     top: -60px !important;
 }
 
+.nav-down {
+    top: 60px !important;
+}
+
 .nav-icon {
     width: 20px;
     padding-right: 12px;

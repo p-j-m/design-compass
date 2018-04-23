@@ -37,11 +37,11 @@ $(document).ready(function () {
                 // This is necessary so you never see what is "behind" the navbar.
                 if (st > lastScrollTop && st > navbarHeight) {
                     // Scroll Down
-                    $('header').removeClass('nav-down').addClass('nav-up');
+                    $('header').addClass('nav-up');
                 } else {
                     // Scroll Up
                     if (st + $(window).height() < $(document).height()) {
-                        $('header').removeClass('nav-up').addClass('nav-down');
+                        $('header').removeClass('nav-up');
                     }
                 }
 
