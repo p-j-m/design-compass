@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <polygon id="chevron-down-a" points="19.219 6.375 20.781 7.625 12 18.601 3.219 7.625 4.781 6.375 12 15.399"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="24" height="24"/>
+    <use fill="#000" fill-rule="nonzero" xlink:href="#chevron-down-a"/>
+  </g>
+</svg>

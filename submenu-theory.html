@@ -6,41 +6,40 @@
 </script>
 
 <script>
-    // Get current page URL
+    // 현재 URL 가져오기
     var url = window.location.href;
     // remove # from URL
     url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
 
-    // remove parameters from URL
+    // URL에서 파라미터 제거
     url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
 
-    // select file name
+    // 파일 이름 선택
     url = url.substr(url.lastIndexOf("/") + 1);
 
-    // If file name not avilable
+    // 파일 이름 안될 때
     if (url == '') {
         url = 'index.html';
     }
-    // Loop all menu items
+    // 메뉴 아이템 액티브 상태 확인
     $('.menu-sub li').each(function() {
         // select href
         var href = $(this).find('a').attr('href');
         // Check filename
         if (url == href) {
-            // Add active class
+            // 클래스 추가
             $(this).addClass('active');
         }
     });
-
 </script>
 
 <div class="menu-sub">
-    <div class="menu-sub-dropdown">서비스 디자인</div>
+    <div class="menu-sub-dropdown">디자인 이론</div>
     <ul>
-         <li><a href="service-design.html">시작</a></li>
+         <li><a href="design-theory.html">시작</a></li>
         <li><a href="design-thinking.html">디자인 사고</a></li>
         <li><a href="preference.html">프로젝트 준비</a></li>
-        <li><a href="design-system.html">디자인 시스템</a></li>  
+        <li><a href="design-composition.html">디자인 시스템</a></li>  
         <li><a href="pattern.html">패턴</a></li>
         <li><a href="component.html">컴포넌트</a></li>
         <li><a href="color.html">색</a></li>
@@ -52,12 +51,12 @@
 <header class="mobile-menu-sub">
     <div class="mobile-menu-sub-dropdown">
         서비스 디자인
-        <img style="  opacity:1;    float: right;     padding-right: 14px;     width: 12px;     padding-top: 2px;" src="./img/icon/icon-dropdown.svg"></div>
+        <img style="  opacity:1;    float: right;     padding-right: 14px;     width: 12px;     padding-top: 2px;" src="./assets/img/icon/icon-dropdown.svg"></div>
     <ul class="mobile-dropdown-sub">
-         <li><a href="service-design.html">시작</a></li>
+         <li><a href="design-theory.html">시작</a></li>
         <li><a href="design-thinking.html">디자인 사고</a></li>
         <li><a href="preference.html">프로젝트 준비</a></li>
-        <li><a href="design-system.html">디자인 시스템</a></li>  
+        <li><a href="design-composition.html">디자인 시스템</a></li>  
         <li><a href="pattern.html">패턴</a></li>
         <li><a href="component.html">컴포넌트</a></li>
         <li><a href="color.html">색</a></li>

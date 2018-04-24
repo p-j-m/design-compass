@@ -1,55 +1,45 @@
 <script type="text/javascript">
-    $(".mobile-menu").on('click', function() {
-        $(".mobile-dropdown").slideToggle("fast");
+    $('.burger').click(function() {
+        $(this).toggleClass('open');
+        $('.sidemenu').toggleClass('open')
     });
 
 </script>
 
 <header class="nav">
     <div class="header">
-        <div class="mobile-menu">
-            <a class="dropdown-link">
-            <img class="icon-menu" src="./img/icon/icon-menu.svg">
-            </a>
-            <ul class="mobile-dropdown">
-                <li class="nav-btn" onclick="location.href='index.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_home.svg">홈</div>
-                </li>
-
-                <li class="nav-btn" onclick="location.href='project_list.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_project.svg">프로젝트</div>
-                </li>
-
-                <li class="nav-btn" onclick="location.href='service-design.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_service.svg">서비스 디자인</div>
-                </li>
-                <li class="nav-btn" onclick="location.href='sketch-tutorial.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_sketch.svg">스케치 가이드</div>
-                </li>
-
-                <li class="nav-btn" onclick="location.href='archive.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_archive.svg">아카이브</div>
-                </li>
-
-                <li class="nav-btn" onclick="location.href='about.html';">
-                    <div class="nav-btn-sub"><img class="nav-icon" src="./img/icon/icon_about.svg">소개글</div>
-                </li>
+        <button class="burger">
+      <span></span>
+    </button>
+        <div class="sidemenu">
+            <ul class="main_menu">
+                <li><a href="./index.html">홈</a></li>
+                <li><a href="./design-theory.html">디자인 이론</a></li>
+                <li><a href="./design-system.html">디자인 시스템</a></li>
+                <li><a href="./sketch-tutorial.html">스케치 매뉴얼</a></li>
+                <li><a href="./archive.html">아카이브</a></li>
             </ul>
+            <div class="sidemenu_footer">
+                <h3>
+                    <a href="https://www.behance.net/sb000796">
+                <object style="left:0px; pointer-events:none; width:24px;height:24px;padding-right:10px;" type="image/svg+xml" data="./assets/Icon/Solid/Social-Behance.svg"></object>
+                </a>
+
+                    <a href="https://dribbble.com/blackschorl">
+            <object style="left:0px; pointer-events:none; width:24px;height:24px;padding-right:10px;" type="image/svg+xml" data="./assets/Icon/Solid/Social-Dribbble.svg"></object>
+                    
+                </a>
+                    <a href="https://brunch.co.kr/@blckschrl">
+             <object style="left:0px; pointer-events:none; width:24px;height:24px;padding-right:10px;" type="image/svg+xml" data="./assets/Icon/Solid/Social-Brunch.svg"></object>
+                </a>
+                </h3>
+                <p>garadiansss@gmail.com</p>
+            </div>
         </div>
-
-        <div class="header-logo" onclick="location.href='index.html';">
-            <img class="header-logo-icon" src="./img/icon/icon_compass.svg">
-        </div>
-
-        <div class="header-share">
-            <a href="https://brunch.co.kr/@blckschrl">
-                <img class="header-share-icon"
-                src="./img/icon/icon_brunch.svg"></a>
-            <a href="https://dribbble.com/blackschorl">
-                <img class="header-share-icon" src="./img/icon/icon_dribbble.svg"></a>
-            <a href="https://www.behance.net/sb000796">
-                <img class="header-share-icon" src="./img/icon/icon_behance.svg"></a>
-
+        <div class="logo">
+            <a href="./index.html">
+            <img style="margin:20px; width:32px;height:auto;" src="./assets/img/icon/icon-compass.svg">
+            </a>
         </div>
     </div>
 </header>

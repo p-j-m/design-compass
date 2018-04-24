@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="check-a" d="M2,2 L22,2 L22,22 L2,22 L2,2 Z M18.6467051,6.2973057 L10.5270591,14.5666427 L5.35312392,9.29989377 L3.9263949,10.7014801 L10.5274073,17.4209062 L20.0737761,7.69854391 L18.6467051,6.2973057 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" fill-rule="nonzero" xlink:href="#check-a"/>
+  </g>
+</svg>

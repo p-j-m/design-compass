@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="chevron-left-a" d="M2,2 L22,2 L22,22 L2,22 L2,2 Z M16,18.4468097 L8.98433292,12 L16,5.55319032 L14.7059087,4 L6,12 L14.7059087,20 L16,18.4468097 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" xlink:href="#chevron-left-a"/>
+  </g>
+</svg>
