@@ -837,12 +837,12 @@ header {
 }
 
 .sidemenu ul {
-    padding: 64px 24px;
+    padding: 48px 24px;
 }
 
 .sidemenu ul li {
     display: block;
-    line-height: 60px;
+    line-height: 40px;
     opacity: 0;
     transition: all .2s ease;
 }
