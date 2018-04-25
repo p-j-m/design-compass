@@ -551,7 +551,7 @@ header {
 
 .service-desc {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     color: #232323;
     opacity: 0.6;
 }
@@ -1154,6 +1154,7 @@ header {
 }
 
 .mobile-dropdown-sub li {
+           margin:0px;
     padding-left: 28px;
     height: auto;
     border-bottom: 1px solid #e9eaee;
@@ -1245,7 +1246,7 @@ ul {
 }
 
 .nav-up {
-    top: -72px !important;
+    top: -74px !important;
     transition: ease 0.5s;
 }
 
@@ -1525,27 +1526,6 @@ li a {
 }
 
 
-.service-box {
-    float: left;
-    width: 120px;
-    height: 120px;
-    padding: 30px 30px;
-    margin: 10px 30px;
-    background: #FFFFFF;
-    /* box-shadow: 0px 4px 40px #f1f1f3; */
-    border-radius: 8px;
-    text-align: center;
-    transition: ease 0.5s;
-    cursor: pointer;
-
-}
-
-.service-box:hover {
-    color: white;
-    box-shadow: 0px 10px 40px #e9e9ea;
-    transition: ease 0.5s;
-    transform: translateY(-10px)
-}
 
 
 .icon-logo {
@@ -1846,6 +1826,7 @@ li a {
     }
 
     .mobile-dropdown li {
+
         padding: 8px 16px;
         height: auto;
     }
@@ -1862,7 +1843,7 @@ li a {
         display: inline;
         width: 100%;
         margin-top: 56px;
-        height: 74px;
+        height: 88px;
         background-color: #ffffff;
         /* disable text selection by clicking */
         -webkit-user-select: none;
@@ -1879,7 +1860,7 @@ li a {
 
     .mobile-menu-sub-dropdown {
         display: block;
-        margin: 16px 16px 12px 16px;
+        margin: 32px 16px 12px 16px;
         padding: 12px 0px 0px 14px;
         color: #a2a2a2;
         border-radius: 4px;
