@@ -303,6 +303,16 @@ table.plain {
     padding: 1em;
 }
 
+.tag{
+    font-size:0.875em;
+    padding:8px;
+    border:1px solid black;
+}
+
+.caption{
+     font-size:0.875em;
+}
+
 
 
 /*Img Box*/
@@ -1346,6 +1356,7 @@ ul {
 }
 
 .menu-sub-dropdown {
+    margin-bottom:32px;
     font-weight: 600;
     font-size: 20px;
     line-height: 34px;
