@@ -72,13 +72,25 @@
             <p>
                 패스의 포인트가 소숫점에 위치할 경우 디바이스에서 의도하지 않게 표현될 수 있습니다. 되도록 최종 산출물의 포인트의 위치가 정수가 될 수 있도록 제작합니다. 아래는 아이콘 디자인 시스템의 기본 규칙입니다. 제작 효율을 위한 세팅으로 라운드가 포함되지 않았습니다.
             </p>
-            <ul>
-                <li>Position: Point 좌표값 정수</li>
-                <li>End: Butt end 각진 끝</li>
-                <li>Join: Miter Join 각진 꺽임 </li>
-                <li>Border Position: Center</li>
-            </ul>
-
+            <table>
+                <tr>
+                    <th>Coordinate</th>
+                    <td>Full pixel</td>
+                </tr>
+                <tr>
+                    <th>End</th>
+                    <td>Butt End (각진 끝)</td>
+                </tr>
+                <tr>
+                    <th>Join</th>
+                    <td>Miter Join (각진 꺾임)</td>
+                </tr>
+                <tr>
+                    <th>Border Position</th>
+                    <td>Center</td>
+                </tr>
+            </table>
+            
 
             <img class="article-img" data-original="./assets/img/design-system/icon/rule.png">
 
@@ -87,11 +99,22 @@
                 종류</h3>
             <p>
                 벡터 프로그램으로 뼈대가 되는 패스를 제작하고 이를 바탕으로 굵기를 조절할 수 있는 파일(Stroke)과 윤곽선을 따 굵기를 조절할 수 없는 파일(Outline, Fill)로 나뉩니다. 실제 코드에서는 윤곽선이 따진 아이콘을 사용합니다. Stroke로 만들어진 svg를 사용할 경우 선 굵기 정보를 디바이스가 계산해 디스플레이에 표시해 부하가 늘어날 수 있어 윤곽선이 따진 svg을 사용하는 것이 좋습니다.</p>
-            <ul>
-                <li>Storke: 아이콘 스타일을 다루기 위한 원본</li>
-                <li>Outline 1px, 2px: 아웃라인이 따진 선으로 표현된 아이콘</li>
-                <li>Fill: 아웃라인이 따진 속이 차 있는 아이콘</li>
-            </ul>
+            
+            <table>
+                <tr>
+                    <th>Stroke</th>
+                    <td>아이콘 스타일을 다루기 위한 원본</td>
+                </tr>
+                <tr>
+                    <th>Outline 1px, 2px</th>
+                    <td>아웃라인이 따진 선으로 표현된 아이콘</td>
+                </tr>
+                <tr>
+                    <th>Fill</th>
+                    <td>아웃라인이 따진 속이 차 있는 아이콘</td>
+                </tr>
+
+            </table>
 
 
             <img class="article-img" data-original="./assets/img/design-system/icon/variation.png">
@@ -124,7 +147,7 @@
                 <img class="article-img" data-original="./assets/img/design-system/icon/step5.png">
             </p>
             <h3>
-            웹 사용 예시
+                웹 사용 예시
             </h3>
             <div style="max-width:750px;">
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/1px/Plus.svg"></object>
@@ -141,7 +164,7 @@
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/1px/Upload.svg"></object>
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/1px/First-Page.svg"></object>
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/1px/Last-Page.svg"></object>
-                
+
             </div>
             <div style="max-width:750px;">
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/2px/Plus.svg"></object>
@@ -157,7 +180,7 @@
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/2px/Download.svg"></object>
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/2px/Upload.svg"></object>
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/2px/First-Page.svg"></object>
-                <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/2px/Last-Page.svg"></object> 
+                <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Outline/2px/Last-Page.svg"></object>
             </div>
             <div style="max-width:750px;">
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Solid/Bell.svg"></object>
@@ -176,12 +199,25 @@
                 <object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Solid/Location.svg"></object>
 
             </div>
-            <pre><xmp><code>
-<object class="icon-svg" type="image/svg+xml" data="./assets/Icon/Solid/Image.svg"></object>
-</code></xmp></pre>
-  
-            
-              <h3>
+<pre><xmp>.icon-svg {
+height: 24px;
+width: 24px;
+padding:12px;
+opacity: 1;
+transition: 0.2s ease;
+}
+
+.icon-svg:hover {
+opacity: 0.6;
+transition: 0.2s ease;
+}
+
+<object class="icon-svg" type="image/svg+xml" 
+data="./assets/Icon/Solid/Image.svg"></object>
+</xmp></pre>
+
+
+            <h3>
                 첨부 파일</h3>
 
             <div class="btn" onclick="location.href='./assets/files/DesignCompass-Icon-60.sketch';">
@@ -191,9 +227,10 @@
 
             <!--pagination -->
             <hr style="width:100%;">
-            <div class="pagination-right" onclick="location.href='design-thinking.html';">
-                <span class="pagination-text">디자인 사고</span>
-                <object class="pagination-icon" type="image/svg+xml" data="./assets/Icon/Outline/2px/Arrow-Right.svg"></object>
+            <div class="pagination-left" onclick="location.href='lib-typography.html';">
+                <object class="pagination-icon" type="image/svg+xml" data="./assets/Icon/Outline/2px/Arrow-Left.svg"></object>
+                <span class="pagination-text">서체</span>
+                
             </div>
         </div>
     </div>
