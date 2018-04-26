@@ -78,7 +78,6 @@ h6 {
 
 p {
     line-height: 1.8em;
-    letter-spacing: 0.02em;
 }
 
 em {
@@ -1101,7 +1100,7 @@ header {
 
 .mobile-menu-sub-dropdown {
     display: block;
-    margin: 12px 16px 12px 16px;
+    margin: 12px 16px;
     padding: 12px 0px 0px 14px;
     color: #a2a2a2;
     border-radius: 4px;
@@ -1151,7 +1150,6 @@ header {
     list-style: none;
     color: #232323;
     overflow-y: scroll;
-    margin: 10px 0px 0px -14px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -1433,7 +1431,6 @@ ul {
 
 
 a {
-    text-decoration: none;
     color: #232323;
     transition: ease 0.5s;
 }
@@ -1844,7 +1841,7 @@ li a {
         position: fixed;
         display: inline;
         width: 100%;
-        margin-top: 56px;
+        margin-top: 60px;
         height: 72px;
         background-color: #ffffff;
         /* disable text selection by clicking */
@@ -1862,7 +1859,7 @@ li a {
 
     .mobile-menu-sub-dropdown {
         display: block;
-        margin: 16px;
+        margin: 12px 16px;
         padding: 12px 0px 0px 14px;
         color: #a2a2a2;
         border-radius: 4px;
