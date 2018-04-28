@@ -189,12 +189,12 @@ mark {
 
 code,
 tt {
-    padding: 1px 3px;
+    padding: 6px;
     font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.85em;
+    font-size: 0.9em;
     white-space: pre;
     border: 1px solid #C8C8C8;
-    background: #F7FAFB;
+    background: #fff;
     border-radius: 2px;
 }
 
@@ -229,9 +229,9 @@ kbd {
     padding: 0px 8px;
     border: #ccc 1px solid;
     color: #666;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: medium;
-    background: #f4f4f4;
+    background: #fff;
     border-radius: 4px;
 
 }
