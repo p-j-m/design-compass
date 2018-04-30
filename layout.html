@@ -23,7 +23,7 @@
     <meta property="og:image" content="./assets/img/thumnail/site-thumnail.png" />
     <meta name="Resource-type" content="Document">
 
-    <title>디자인 시스템 - 그리드</title>
+    <title>디자인 이론 - 레이아웃</title>
 
     <!-- connect with other files -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -64,37 +64,37 @@
             <h3>
                 레이아웃</h3>
             <p>
-                스마트폰, 타블렛, 노트북, 데스크탑에 대응하는 레이아웃 시스템입니다.
+                레이아웃은 특정 영역 안에 요소를 배치하는 것입니다. 스크린 기반의 레이아웃은 정적인 화면의 균형 뿐만 아니라 사용자가 서비스 내의 추상적인 공간의 구조를 이해할 수 있어야합니다. 다양한 크기에서도 동일한 맥락으로 사용할 수 있도록 서체, 이미지, 영상 등 다양한 패턴과 컴포넌트를 중요도에 따라 배치합니다.
             </p>
 
             <h3>
                 단위</h3>
             <p>
-                픽셀 기반의 스크린을 위한 최소 단위입니다. 스마트폰, 모니터, 티비 등 스크린의 크기나 픽셀 밀도가 같지 않기 때문에 기본 단위는 곱하거나 나누어도 정수가 될 수 있는 짝수를 사용하며 그 중에서도 8 포인트 그리드 시스템이 널리 쓰이고 있습니다. iOS의 경우 375, 750 등 8로 나뉘지 않는 화면이 있기 때문에 단위를 엄격하게 적용하지는 않습니다.
+                픽셀 기반 스크린을 디자인하기 위한 최소 단위입니다. 스마트폰, 모니터, 티비 등 스크린의 크기나 픽셀 밀도가 같지 않기 때문에 기본 단위는 곱하거나 나누어도 정수가 될 수 있는 짝수를 사용하며 그 중에서도 8 포인트 그리드 시스템이 널리 쓰이고 있습니다. iOS의 375, 750 스크린과 같이 8로 나뉘지 않는 경우도 있기 때문에 단위를 엄격하게 적용하지는 않습니다.
             </p>
             <div class="sidebar-outlink" onclick="location.href='https://brunch.co.kr/@blackindigo-red/8';">
-                        <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">8-Point 그리드 시스템 by 정윤선
-                    </div>
+                <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">8-Point 그리드 시스템 by 정윤선
+            </div>
             <img class="article-img" data-original="./assets/img/design-system/unit@2x.png">
 
-            <div class="article-title">
-                PX PT DP</div>
-            <div class="article-h1">
+            <h3>
+                PX PT DP</h3>
+            <p>
                 px를 기본 단위로 디자인하면 스크린마다 다른 픽셀 밀도(PPI = 1inch 공간 안에 표시되는 픽셀 수)의 차이로 인해 크기가 작아질 수 있습니다. iOS/Android에서는 어떤 화면에서도 같은 크기로 보이도록 pt와 dp 단위를 사용합니다. 그래픽 디자인 툴은 보통 1px = 1pt로 설정되어 따로 설정을 변경할 필요는 없습니다.
-            </div>
+            </p>
             <div class="sidebar-outlink" onclick="location.href='https://brunch.co.kr/@blackindigo-red/18#_=_';">
-                        <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">픽셀 밀도에 대한 설명 - 정윤선
-                    </div>
-            <div class="sidebar-outlink" onclick="location.href=' https://brunch.co.kr/@eeasily/17';">
-                        <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">모바일 기본 단위 DP,PT - Henry Lee
-                    </div>
-            <img class="article-img" data-original="./assets/img/design-system/pixel_density@2x.png">
-            
-              <div class="article-title">
-                스크린</div>
-            <div class="article-h1">
-                서비스가 지원할 디바이스 중 가장 작은 스크린을 기준으로 PT,DP 단위로 작업하며 디바이스의 밀도(Density)만큼 곱해져 실제 디바이스에 표시됩니다. 작은 화면을 기준으로 디자인된 파일에서 사용한 에셋이 실제 디바이스에서는 큰 픽셀로 표시되기 때문에 각 밀도에 맞도록 에셋을 크게 만듭니다. 주로 iOS를 기준으로 x1 x2 x3 으로 에셋을 내보내며 안드로이드에서 함께 사용할 수도 있습니다.
+                <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">픽셀 밀도에 대한 설명 - 정윤선
             </div>
+            <div class="sidebar-outlink" onclick="location.href=' https://brunch.co.kr/@eeasily/17';">
+                <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">모바일 기본 단위 DP,PT - Henry Lee
+            </div>
+            <img class="article-img" data-original="./assets/img/design-system/pixel_density@2x.png">
+
+            <h3>
+                스크린</h3>
+            <p>
+                서비스가 지원할 디바이스 중 가장 작은 스크린을 기준으로 PT,DP 단위로 작업하며 디바이스의 밀도(Density)만큼 곱해져 실제 디바이스에 표시됩니다. 작은 화면을 기준으로 디자인된 파일에서 사용한 에셋이 실제 디바이스에서는 큰 픽셀로 표시되기 때문에 각 밀도에 맞도록 에셋을 크게 만듭니다. 주로 iOS를 기준으로 x1 x2 x3 으로 에셋을 내보내며 안드로이드는 x1 x1.5 x2 x3 x4로 내보냅니다.
+            </p>
             <table>
                 <tr>
                     <th>Device</th>
@@ -121,7 +121,7 @@
                     <td>1280x850</td>
                 </tr>
             </table>
-            
+
             <h5>Android</h5>
             <table>
                 <tr>
@@ -167,7 +167,7 @@
                     <td>1440x2960</td>
                 </tr>
             </table>
-            
+
             <h5>iOS</h5>
             <table>
                 <tr>
@@ -195,19 +195,19 @@
                     <td>1125x1624</td>
                 </tr>
                 <tr>
-                    <td>iPhone Air 2</td>
+                    <td>iPad Air 2</td>
                     <td>768x1024</td>
                     <td>2.0</td>
                     <td>1536x2048</td>
                 </tr>
-               <tr>
-                    <td>iPhone Pro 10.5</td>
+                <tr>
+                    <td>iPad Pro 10.5</td>
                     <td>834x1112</td>
                     <td>2.0</td>
                     <td>1668x2224</td>
                 </tr>
                 <tr>
-                    <td>iPhone Pro 12.9</td>
+                    <td>iPad Pro 12.9</td>
                     <td>1366x1024</td>
                     <td>2.0</td>
                     <td>2732x2048</td>
@@ -237,41 +237,61 @@
                     <td>5120x2880</td>
                 </tr>
             </table>
-            
+
             <h3>
-                블록 그리드</h3>
+                구조</h3>
             <p>
+                여러 형태 중 모바일 사용량이 더 많기 때문에 레이아웃의 기준을 스마트폰으로 잡습니다. 큰 그림을 스케치하기 위해 자세한 사항이 생략된 블록 그리드로 전체 구조를 짜며 보통 Header,Nav,Contents,Footer,Overlay로 구성됩니다. 특별한 이유가 없을 경우 되도록 큰 구조는 통일 시키는 편이 좋습니다.
             </p>
-            
-            <h3>
-                베이스라인 그리드</h3>
-            <p>
-            </p>
-            
+
             <h3>
                 반응형 레이아웃</h3>
             <p>
+                모든 스크린에 맞춰 디자인/개발을 따로 할 수 없기 때문에 스크린 크기에 따라 자동으로 레이아웃이 변하는 반응형 레이아웃을 사용합니다. 특정 픽셀 이상/이하 일 경우를 지정해 레이아웃이 표시되는 방식을 정하는 것으로 화면의 크기와 비율이 다양한 웹에서 주로 사용됩니다.
             </p>
             
+            <a href="https://material.io/guidelines/layout/responsive-ui.html">머티리얼 디자인 - Responsive UI </a>
             
-<div class="sidebar-con">
-                <div class="sidebar-wrapper">
+            <h3>
+                브레이크 포인트</h3>
+            <p>
+                레이아웃이 달라지는 가로 기준 픽셀을 말합니다. 데스크탑/타블렛/모바일 혹은 Portrait/Landscape로 나눕니다.
+            </p>
 
-                    <div class="sidebar-title">
-                        더 보기
-                    </div>
-                    <div class="sidebar-outlink" onclick="location.href='http://sebastien-gabriel.com/designers-guide-to-dpi/#menu';">
-                        <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">Designer's guide to DPI - sebastien-gabriel
-                    </div>
-                </div>
-            </div>
+            <table>
+                <tr>
+                    <th>Breakpoint</th>
+                    <th>Device</th>
+                    <th>Columns</th>
+                    <th>Gutter(pt/dp)</th>
+                </tr>
+                <tr>
+                    <td>375</td>
+                    <td>Mobile</td>
+                    <td>4</td>
+                    <td>8,16</td>
+                </tr>
+                <tr>
+                    <td>768,1024</td>
+                    <td>Tablet</td>
+                    <td>8</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>1440,1600,1920</td>
+                    <td>Laptop,Desktop</td>
+                    <td>12</td>
+                    <td>24</td>
+                </tr>
+            </table>
+
         </div>
-        
+
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
     <script>
         $("#nav").load("nav.html");
-        $("#submenu-theory").load("submenu-system.html");
+        $("#submenu-theory").load("submenu-theory.html");
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="./js/jquery.lazyload.js?v=1.9.1"></script>
