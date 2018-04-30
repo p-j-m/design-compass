@@ -24,7 +24,7 @@
     <meta property="og:image" content="./assets/img/thumnail/site-thumnail.png" />
     <meta name="Resource-type" content="Document">
 
-    <title>디자인 나침반 - 디자인 시스템</title>
+    <title>디자인 나침반 - 폴더,파일</title>
 
     <!-- connect with other files -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -54,6 +54,7 @@
     <meta name="msapplication-square150x150logo" content="./assets/img/favicon/mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="./assets/img/favicon/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="./assets/img/favicon/mstile-310x310.png" />
+
 </head>
 
 <body>
@@ -62,12 +63,13 @@
     <div class="article-outer">
         <div id="submenu-theory"></div>
         <div class="article-container">
-            <div class="article-title">
-                폴더</div>
-            <div class="article-h1">
-                프로젝트 진행 시 사용하는 폴더 구조입니다. 브랜딩과 디자인 시스템을 적용한 서비스의 경우 작업 파일에 많은 디자이너와 개발자가 접근하게 되기 때문에 동일한 규칙으로 정리해 혼란을 최소화합니다. 각 폴더 내부는 <b>원본(Resources) 재료(Assets) 작업 (.sketch, .psd 등) 결과물 (_export)</b>로 이뤄집니다.
-            </div>
+            <h3>
+                폴더</h3>
+            <p>
+                프로젝트 진행 시 사용하는 폴더 구조입니다. 브랜딩과 디자인 시스템을 적용한 서비스의 경우 작업 파일에 많은 디자이너와 개발자가 접근하기 떄문에 규칙을 짜 구성원들과 공유해 혼란을 최소화합니다. 각 폴더 내부는 <em>원본(Resources) 재료(Assets) 작업 (.sketch, .psd 등) 결과물 (_export)</em>로 이뤄집니다.
+            </p>
 
+            <h3>상위 폴더</h3>
             <table>
                 <tr>
                     <th>Project Name</th>
@@ -95,20 +97,63 @@
                 </tr>
             </table>
 
+            <h3>하위 폴더</h3>
             <table>
                 <tr>
                     <th>_Asstes</th>
-                    <td>디자인 요소</td>
+                    <td>Working Files에서 사용하는 요소. img, icon, font, graph 등</td>
                 </tr>
                 <tr>
                     <th>_Exports</th>
-                    <td>페이지 스크린샷 및 이미지</td>
+                    <td>해당 폴더에서 외부로 노출하는 결과물. </td>
+                </tr>
+                <tr>
+                    <th>_Resource</th>
+                    <td>해당 폴더 내에서만 필요한 리소스. 문서, 이미지, 레퍼런스 등</td>
                 </tr>
                 <tr>
                     <th>Working Files</th>
                     <td>작업 파일</td>
                 </tr>
             </table>
+
+            <h3>
+                이름</h3>
+            <p>
+                버전 관리 프로그램이나 Google Docs를 이용해 식별할 수 있는 유니크 이름만 작성해도 상관 없지만 로컬 파일이 필요할 경우 규칙을 정해 이름을 작성하는 것이 좋습니다. 폴더의 경우 대문자+띄어쓰기를 사용하며 파일은 소문자+대쉬를 사용합니다.(코드 작성 시 대문자 치는게 생각보다 큰 노동입니다.)
+            </p>
+            <h5>문서 이름</h5>
+            <table>
+                <tr>
+                    <th>프로젝트</th>
+                    <th>식별자</th>
+                    <th>버전</th>
+                    <th>확장자</th>
+                </tr>
+                <tr>
+                    <td>designcompass</td>
+                    <td>guideline</td>
+                    <td>v1</td>
+                    <td>.doc</td>
+                </tr>
+            </table>
+            
+            <h5>폴더 이름</h5>
+            <table>
+                <tr>
+                    <th>프로젝트</th>
+                    <th>식별자</th>
+                    <th>버전</th>
+                    <th>확장자</th>
+                </tr>
+                <tr>
+                    <td>designcompass</td>
+                    <td>guideline</td>
+                    <td>v1</td>
+                    <td>.doc</td>
+                </tr>
+            </table>
+
         </div>
     </div>
 
