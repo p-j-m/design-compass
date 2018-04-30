@@ -1774,12 +1774,9 @@ li a {
 
 @media screen and (max-width: 840px) {
 
-
     .archive-title {
-
         float: none;
         width: auto;
-
         padding: 20px 20px 20px 20px;
     }
     .article-container {
