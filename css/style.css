@@ -226,14 +226,14 @@ tt {
 kbd {
     display: inline-block;
     margin: 0.2em;
-    padding: 0px 8px;
+    padding: 4px 8px 2px 8px;
     border: #ccc 1px solid;
-    color: #666;
-    font-size: 0.9em;
+    color: #000;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1em;
     font-weight: medium;
     background: #fff;
     border-radius: 4px;
-
 }
 
 table {
