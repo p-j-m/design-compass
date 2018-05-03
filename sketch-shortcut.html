@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50444148-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-50444148-1');
+    </script>
+    <!-- meta preset-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="박종민" />
+    <meta name="description" content="디자인에 대하여" />
+    <meta name="keywords" content="portfolio,designer,interactive,visual 디자인,색,앱디자인,서비스,원리,디자인 요소" />
+    <meta property="og:image" content="./assets/img/thumnail/site-thumnail.png" />
+    <meta name="Resource-type" content="Document">
+
+    <title>스케치 단축키</title>
+
+    <!-- connect with other files -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/img/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/img/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/img/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/img/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/img/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/img/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="./assets/img/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./assets/img/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./assets/img/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./assets/img/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./assets/img/favicon/mstile-310x310.png" />
+
+    <style>
+        table th,
+        table td {
+            vertical-align: middle;
+        }
+
+        table kbd {
+            vertical-align: middle;
+        }
+
+        table tbody>tr:nth-child(odd)>td,
+        table tbody>tr:nth-child(odd)>th {
+            background-color: #fcfcfc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="se-pre-con"> <img class="loader" src="./assets/img/icon/icon-compass.svg"> </div>
+    <div id="nav"></div>
+    <div class="article-outer">
+        <div id="submenu-theory"></div>
+        <div class="article-container">
+            <h3>
+                General
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>⌘</kbd><kbd>V</kbd>
+                        <td>
+                            <td>Paste over selection</td>
+                </tr>
+                <tr>
+                    <td><kbd>fn</kbd><kbd>↑</kbd>
+                        <td>
+                            <td>Previous page</td>
+                </tr>
+                <tr>
+                    <td><kbd>fn</kbd><kbd>↓</kbd>
+                        <td>
+                            <td>Next page</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>R</kbd>
+                        <td>
+                            <td>Show/hide rulers</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>P</kbd>
+                        <td>
+                            <td>Show/hide pixels</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>X</kbd>
+                        <td>
+                            <td>Show/hide pixel grid</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>G</kbd>
+                        <td>
+                            <td>Show/hide grid</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>L</kbd>
+                        <td>
+                            <td>Show/hide layout</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>E</kbd>
+                        <td>
+                            <td>Show/hide slices</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>F</kbd>
+                        <td>
+                            <td>Show/hide prototyping</td>
+                </tr>
+            </table>
+
+            <h3>
+                Insert
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>R</kbd>
+                        <td>
+                            <td>Rectangle</td>
+                </tr>
+                <tr>
+                    <td><kbd>O</kbd>
+                        <td>
+                            <td>Oval</td>
+                </tr>
+                <tr>
+                    <td><kbd>L</kbd>
+                        <td>
+                            <td>Line</td>
+                </tr>
+                <tr>
+                    <td><kbd>U</kbd>
+                        <td>
+                            <td>Rounded rectangle</td>
+                </tr>
+                <tr>
+                    <td><kbd>V</kbd>
+                        <td>
+                            <td>Vector tool</td>
+                </tr>
+                <tr>
+                    <td><kbd>V</kbd>
+                        <td>
+                            <td>Pencil tool</td>
+                </tr>
+                <tr>
+                    <td><kbd>V</kbd>
+                        <td>
+                            <td>Text tool</td>
+                </tr>
+                <tr>
+                    <td><kbd>A</kbd>
+                        <td>
+                            <td>Artboard tool</td>
+                </tr>
+                <tr>
+                    <td><kbd>S</kbd>
+                        <td>
+                            <td>Slice tool</td>
+                </tr>
+                <tr>
+                    <td><kbd>H</kbd>
+                        <td>
+                            <td>Hotspot tool</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd><kbd>Drag</kbd>
+                        <td>
+                            <td>When inserting a layer, draw shape from center</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>Drag</kbd>
+                        <td>
+                            <td>When inserting a layer, lock ratio of shape</td>
+                </tr>
+                <tr>
+                    <td><kbd>Space</kbd><kbd>Drag</kbd>
+                        <td>
+                            <td>Place newly drawn layer before confirming it</td>
+                </tr>
+            </table>
+
+            <h3>
+                Select
+            </h3>
+            <table>
+                <tr>
+                    <td>
+                        <kbd>⌥</kbd><kbd>Drag</kbd>
+                        <td>
+                            <td>
+                                Selects layer within drag bounds
+                            </td>
+                </tr>
+                <tr>
+                    <td>
+                        <kbd>⌘</kbd><kbd>Click</kbd> a layer
+                        <td>
+                            <td>
+                                Select any layer
+                            </td>
+                </tr>
+                <tr>
+                    <td>
+                        <kbd>⌥</kbd><kbd>Click</kbd> a layer
+                        <td>
+                            <td>
+                                Select an obscured layer
+                            </td>
+                </tr>
+                <tr>
+                    <td>
+                        <kbd>fn</kbd><kbd>→</kbd>
+                        <td>
+                            <td>
+                                Select next Artboard
+                            </td>
+                </tr>
+                <tr>
+                    <td>
+                        <kbd>fn</kbd><kbd>←</kbd>
+                        <td>
+                            <td>
+                                Select previous Artboard
+                            </td>
+                </tr>
+            </table>
+
+            <h3>
+                Move & Resize
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⌥</kbd><kbd>hover</kbd></td>
+                    <td>Display distance between other layers</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>D</kbd></td>
+                    <td>Duplicate</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd><kbd>drag</kbd></td>
+                    <td>Duplicate</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>drag</kbd></td>
+                    <td>Move layer along X/Y axis</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd><kbd>drag</kbd></td>
+                    <td>Move layer ignoring smart guides</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd><kbd>drag</kbd></td>
+                    <td>Move an obscured layer</td>
+                </tr>
+                <tr>
+                    <td><kbd>Arrow keys</kbd></td>
+                    <td>Nudge layer any direction by 1 px*</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>Arrow keys</kbd></td>
+                    <td>Nudge layer any direction by 10 px*</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>K</kbd></td>
+                    <td>Scale layer</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd><kbd>resize</kbd></td>
+                    <td>Resize layer from center</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>resize</kbd></td>
+                    <td>Preserve layer ratio</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>→</kbd> or <kbd>↓</kbd></td>
+                    <td>Expand by 1 px</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>←</kbd> or <kbd>↑</kbd></td>
+                    <td>Contract by 1 px</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>→</kbd> or <kbd>↓</kbd></td>
+                    <td>Expand by 10 px</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>←</kbd> or <kbd>↑</kbd></td>
+                    <td>Contract by 10 px</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌥</kbd><kbd>hover</kbd></td>
+                    <td>Show distance to baseline/cap height on text layers</td>
+                </tr>
+            </table>
+
+
+            <h3>
+                Edit
+            </h3>
+
+            <table>
+                <tr>
+                    <td><kbd>Enter</kbd></td>
+                    <td>Edit layer</td>
+                </tr>
+                <tr>
+                    <td><kbd>Escape</kbd></td>
+                    <td>Finish editing</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌫</kbd></td>
+                    <td>Delete layer</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>C</kbd></td>
+                    <td>Copy style</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>V</kbd></td>
+                    <td>Paste style</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>S</kbd></td>
+                    <td>Sync shared style</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌃</kbd> <kbd>S</kbd></td>
+                    <td>Reset shared style</td>
+                </tr>
+                <tr>
+                    <td><kbd>W</kbd></td>
+                    <td>Add link to Artboard</td>
+                </tr>
+                <tr>
+                    <td><kbd>F</kbd></td>
+                    <td>Toggle fill</td>
+                </tr>
+                <tr>
+                    <td><kbd>B</kbd></td>
+                    <td>Toggle border</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>C</kbd></td>
+                    <td>Pick color</td>
+                </tr>
+                <tr>
+                    <td><kbd>0</kbd> to <kbd>9</kbd></td>
+                    <td>Edit layer opacity</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>T</kbd></td>
+                    <td>Transform shape</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>R</kbd></td>
+                    <td>Rotate layer</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>M</kbd></td>
+                    <td>Use as mask</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>Escape</kbd></td>
+                    <td>Return to instance</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>U</kbd></td>
+                    <td>Union multiple layers</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>S</kbd></td>
+                    <td>Subtract multiple layers</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>I</kbd></td>
+                    <td>Intersect multiple layers</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>X</kbd></td>
+                    <td>Show Difference between multiple layers</td>
+                </tr>
+            </table>
+
+            <h3>
+                Vector
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>O</kbd></td>
+                    <td>Open/close path</td>
+                </tr>
+                <tr>
+                    <td><kbd>Tab</kbd></td>
+                    <td>Selects next point</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd></td>
+                    <td>Show all handle control points</td>
+                </tr>
+                <tr>
+                    <td><kbd>1</kbd></td>
+                    <td>Straight point type</td>
+                </tr>
+                <tr>
+                    <td><kbd>2</kbd></td>
+                    <td>Mirrored point type</td>
+                </tr>
+                <tr>
+                    <td><kbd>3</kbd></td>
+                    <td>Disconnected point type</td>
+                </tr>
+                <tr>
+                    <td><kbd>4</kbd></td>
+                    <td>Asymmetric point type</td>
+                </tr>
+                <tr>
+                    <td><kbd>Double-click</kbd> vector point</td>
+                    <td>Toggle point between Straight and Mirrored</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>drag</kbd>vector point</td>
+                    <td>Move point along X/Y axis</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd><kbd>drag</kbd> handle control</td>
+                    <td>Converts selected point to Disconnected</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>click</kbd></td>
+                    <td>Place new point at a 45º angle</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>click</kbd> path segment</td>
+                    <td>Place new point between existing points</td>
+                </tr>
+            </table>
+
+            <h3>
+                Text
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>V</kbd></td>
+                    <td>Paste as rich text</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>T</kbd></td>
+                    <td>Change typeface</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>B</kbd></td>
+                    <td>Bold</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>I</kbd></td>
+                    <td>Italic</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>U</kbd></td>
+                    <td>Underline</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>+</kbd></td>
+                    <td>Increase font size</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>-</kbd></td>
+                    <td>Decrease font size</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>L</kbd></td>
+                    <td>Increase character spacing</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>T</kbd></td>
+                    <td>Decrease character spacing</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>{</kbd></td>
+                    <td>Align left</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>&#124;</kbd></td>
+                    <td>Align center</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>}</kbd></td>
+                    <td>Align right</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd> Space </kbd></td>
+                    <td>Emoji &amp; symbols</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>O</kbd></td>
+                    <td>Convert to outlines</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>Return</kbd></td>
+                    <td>Insert a line break</td>
+                </tr>
+            </table>
+
+            <h3>
+                Arrange
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>G</kbd></td>
+                    <td>Group</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>G</kbd></td>
+                    <td>Ungroup</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>R</kbd></td>
+                    <td>Rename layer</td>
+                </tr>
+                <tr>
+                    <td><kbd>Tab</kbd></td>
+                    <td>Select next layer in group</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>Tab</kbd></td>
+                    <td>Select previous layer in group</td>
+                </tr>
+                <tr>
+                    <td><kbd>Enter</kbd></td>
+                    <td>Selects layer inside group</td>
+                </tr>
+                <tr>
+                    <td><kbd>Escape</kbd></td>
+                    <td>Selects parent group</td>
+                </tr>
+                <tr>
+                    <td><kbd>Click-and-drag</kbd>a layer</td>
+                    <td>Adjust layer hierarchy</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>↑</kbd></td>
+                    <td>Bring forward</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>↑</kbd></td>
+                    <td>Bring to front</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>↓</kbd></td>
+                    <td>Send backward</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>↓</kbd></td>
+                    <td>Send to back</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>↑</kbd></td>
+                    <td>Move up (out of group/Artboard)</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>H</kbd></td>
+                    <td>Distribute horizontally</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>V</kbd></td>
+                    <td>Distribute vertically</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd><kbd>click</kbd> Align buttons</td>
+                    <td>Align layer to Artboard</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>H</kbd></td>
+                    <td>Hide/show layer</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>L</kbd></td>
+                    <td>Lock/unlock layer</td>
+                </tr>
+            </table>
+
+            <h3>
+                Constraints
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>W</kbd></td>
+                    <td>Pin top</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>A</kbd></td>
+                    <td>Pin left</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>S</kbd></td>
+                    <td>Pin bottom</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>D</kbd></td>
+                    <td>Pin right</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>J</kbd></td>
+                    <td>Fix width</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>K</kbd></td>
+                    <td>Fix height</td>
+                </tr>
+            </table>
+
+            <h3>
+                Export
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>E</kbd></td>
+                    <td>Export</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>E</kbd></td>
+                    <td>Export selected layer(s)</td>
+                </tr>
+                <tr>
+                    <td><kbd>Drag</kbd> a layer to Desktop</td>
+                    <td>Export asset</td>
+                </tr>
+                <tr>
+                    <td><kbd>Drag</kbd> a layer to Canvas</td>
+                    <td>Insert flattened duplicate</td>
+                </tr>
+                <tr>
+                    <td><kbd>/</kbd> in layer name</td>
+                    <td>Includes folder in export</td>
+                </tr>
+            </table>
+
+            <h3>
+                Zoom
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>0</kbd></td>
+                    <td>Zoom to 100%</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>1</kbd></td>
+                    <td>Zoom to all elements on Canvas</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>2</kbd></td>
+                    <td>Zoom to selected layer(s)</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>3</kbd></td>
+                    <td>Center selected layer(s) in the Canvas</td>
+                </tr>
+                <tr>
+                    <td><kbd>Z</kbd><kbd>drag</kbd></td>
+                    <td>Zoom to area</td>
+                </tr>
+                <tr>
+                    <td><kbd>Z</kbd><kbd>click</kbd></td>
+                    <td>Zoom in</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>Z</kbd><kbd>click</kbd></td>
+                    <td>Zoom out</td>
+                </tr>
+                <tr>
+                    <td><kbd>~</kbd> (<kbd>§</kbd> on some keyboards)</td>
+                    <td>Temporarily zoom out to 100%</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>F</kbd></td>
+                    <td>Toggle full screen</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>1</kbd></td>
+                    <td>Show/hide Layer List</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>2</kbd></td>
+                    <td>Show/hide Inspector</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd> <kbd>.</kbd></td>
+                    <td>Enter presentation mode</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>T</kbd></td>
+                    <td>Show/hide Toolbar</td>
+                </tr>
+            </table>
+            <h3>
+                Text
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>Tab</kbd></td>
+                    <td>Focus Inspector</td>
+                </tr>
+                <tr>
+                    <td><kbd>Tab</kbd></td>
+                    <td>Select next field</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>Tab</kbd></td>
+                    <td>Select previous field</td>
+                </tr>
+                <tr>
+                    <td><kbd>Enter</kbd></td>
+                    <td>Confirm change</td>
+                </tr>
+                <tr>
+                    <td><kbd>Escape</kbd></td>
+                    <td>Clear change</td>
+                </tr>
+                <tr>
+                    <td><kbd>↑</kbd></td>
+                    <td>Increase value by 1</td>
+                </tr>
+                <tr>
+                    <td><kbd>↓</kbd></td>
+                    <td>Decrease value by 1</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>↑</kbd></td>
+                    <td>Increase value by 10</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd> <kbd>↓</kbd></td>
+                    <td>Decrease value by 10</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>↑</kbd></td>
+                    <td>Increase value by 0.1</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌥</kbd> <kbd>↓</kbd></td>
+                    <td>Decrease value by 0.1</td>
+                </tr>
+            </table>
+
+            <h3>
+                Size Field
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>L</kbd></td>
+                    <td>Scale from the left (default)</td>
+                </tr>
+                <tr>
+                    <td><kbd>R</kbd></td>
+                    <td>Scale from the right</td>
+                </tr>
+                <tr>
+                    <td><kbd>T</kbd></td>
+                    <td>Scale from the top (default)</td>
+                </tr>
+                <tr>
+                    <td><kbd>B</kbd></td>
+                    <td>Scale from the bottom</td>
+                </tr>
+                <tr>
+                    <td><kbd>C</kbd> / <kbd>M</kbd></td>
+                    <td>Scale from the center / middle</td>
+                </tr>
+            </table>
+
+            <h3>
+                Math Operators
+            </h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><kbd>+</kbd></td>
+                        <td>Add</td>
+                    </tr>
+                    <tr>
+                        <td><kbd>-</kbd></td>
+                        <td>Subtract</td>
+                    </tr>
+                    <tr>
+                        <td><kbd>*</kbd></td>
+                        <td>Multiply</td>
+                    </tr>
+                    <tr>
+                        <td><kbd>/</kbd></td>
+                        <td>Divide</td>
+                    </tr>
+                    <tr>
+                        <td><kbd>%</kbd></td>
+                        <td>Resize layer to a percentage of its parent group or Artboard</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>
+                Export Fields
+            </h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><kbd>X</kbd></td>
+                        <td>Scale multiplier. Eg, <code>2x</code> will export at twice the size</td>
+                    </tr>
+                    <tr>
+                        <td><kbd>H</kbd></td>
+                        <td>Exports layer at the specified height. Eg, <code>512h</code></td>
+                    </tr>
+                    <tr>
+                        <td><kbd>W</kbd></td>
+                        <td>Exports layer at the specified width. Eg, <code>512w</code></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <h3>
+                Plugins
+            </h3>
+            <table>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⌘</kbd></td>
+                    <td>Run runner</td>
+                    <td>Runner</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌘</kbd><kbd>'</kbd></td>
+                    <td>Previous Action</td>
+                    <td>Runner</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌘</kbd><kbd>A</kbd></td>
+                    <td>Toggle Overlay</td>
+                    <td>Abstract</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌘</kbd><kbd>C</kbd></td>
+                    <td>Preview and Commit</td>
+                    <td>Abstract</td>
+                </tr>
+                <tr>
+                    <td><kbd>⇧</kbd><kbd>⌘</kbd><kbd>R</kbd></td>
+                    <td>Rename Selected Layers</td>
+                    <td>RenameIt</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⇧</kbd><kbd>R</kbd></td>
+                    <td>Rename Selected Artboards</td>
+                    <td>RenameIt</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⌘</kbd><kbd>R</kbd></td>
+                    <td>Find and Replace Layers'Artboards Names</td>
+                    <td>RenameIt</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌘</kbd><kbd>A</kbd></td>
+                    <td>Rename All Instances</td>
+                    <td>Rename Instances</td>
+                </tr>
+
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌥</kbd><kbd>⌘</kbd><kbd>A</kbd></td>
+                    <td>Rename All Instances on Current Page</td>
+                    <td>Rename Instances</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌘</kbd><kbd>U</kbd></td>
+                    <td>Unsplash It</td>
+                    <td>Unsplash</td>
+                </tr>
+                <tr>
+                    <td><kbd>⌃</kbd><kbd>⌘</kbd><kbd>E</kbd></td>
+                    <td>Export</td>
+                    <td>Zeplin</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $("#nav").load("nav.html");
+        $("#submenu-theory").load("submenu-system.html");
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="./js/jquery.lazyload.js?v=1.9.1"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+        });
+    </script>
+</body>
+
+</html>
