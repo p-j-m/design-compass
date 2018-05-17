@@ -5,6 +5,7 @@
 body {
     font-family: "Noto Sans KR", sans-serif;
     font-size: 16px;
+    -webkit-overflow-scrolling: touch;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #3e3e3e;
