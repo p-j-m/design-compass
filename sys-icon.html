@@ -146,6 +146,28 @@
                 <img class="article-img" data-original="./assets/img/design-system/icon/step4.png"> 4.Soli이 필요할 경우 Stroke의 Fill을 선택해 심볼을 만듭니다.
                 <img class="article-img" data-original="./assets/img/design-system/icon/step5.png">
             </p>
+            
+            <h2>
+                내보내기</h2>
+            <h3>
+                마스터 심볼</h3>
+            <p>
+               Stroke 심볼은 아이콘 제작을 위한 원본이며 실제로 개발에 사용하는 심볼은 Outline 1px, Outline 2px, Solid입니다. 각 심볼은 Make Exportable가 설정되어 있습니다. 심볼은 컬러 오버라이드 레이어와 패스 레이어로 구성됩니다. 패스 레이어는 Layer/Combine/Flatten으로 가능한 하나의 패스로 정리했습니다. 라이브러리 아이콘을 사용한 뒤 제플린으로 내보내면 여백이 포함된 svg 혹은 png 파일을 다운로드 받을 수 있습니다.  
+                <img class="article-img" data-original="./assets/img/design-system/icon/library-icon-master@2x.png"> 
+            
+            </p>
+            
+                        <h3>
+                인스턴스 심볼</h3>
+            <p>
+               인스턴스 심볼을 내보낼 경우 별도의 수정이 없을 경우 바로 내보내면 되지만 색을 오버라이드를 할 경우 별도의 작업이 필요합니다. 제플린의 경우 색상 오버라이드를 무시하고 마스터 심볼대로 내보내기 때문에 의도한대로 내보내기 위해서는 슬라이스와 그룹을 사용해야합니다. 다른 레이어 요소에 영향을 받지 않도록 (배경에 하얀 레이어가 깔려 있다던가) 슬라이스와 심볼을 그룹핑하고 슬라이스 레이어를 선택한 뒤 Export group contents only 를 체크합니다.  
+                <img class="article-img" data-original="./assets/img/design-system/icon/library-icon-instance@2x.png"> 
+            
+            </p>
+            
+            
+            
+            
             <h3>
                 웹 사용 예시
             </h3>
