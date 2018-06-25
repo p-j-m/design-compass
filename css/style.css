@@ -12,6 +12,10 @@ body {
     margin: 0px;
 }
 
+object{
+    pointer-events: none;
+}
+
 .d1,
 .d2,
 .d3 {
