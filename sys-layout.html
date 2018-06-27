@@ -12,6 +12,7 @@
         }
         gtag('js', new Date());
         gtag('config', 'UA-50444148-1');
+
     </script>
     <!-- meta preset-->
     <meta charset="utf-8">
@@ -64,214 +65,46 @@
             <h3>
                 레이아웃</h3>
             <p>
-                스마트폰, 타블렛, 노트북, 데스크탑에 대응하는 레이아웃 시스템입니다.
+                스케치로 효율적으로 디자인을 만들기 위한 레이아웃 시스템입니다.
             </p>
 
             <h3>
-                단위</h3>
+                그리드</h3>
             <p>
-                픽셀 기반의 스크린을 위한 최소 단위입니다. 스마트폰, 모니터, 티비 등 스크린의 크기나 픽셀 밀도가 같지 않기 때문에 기본 단위는 곱하거나 나누어도 정수가 될 수 있는 짝수를 사용하며 그 중에서도 8 포인트 그리드 시스템이 널리 쓰이고 있습니다. iOS의 경우 375, 750 등 8로 나뉘지 않는 화면이 있기 때문에 단위를 엄격하게 적용하지는 않습니다.
+                최소한의 단위를 표현한 격자 안내선입니다. 1픽셀 단위로 디자인할 경우 효율이 떨어지기 때문에 스크린의 전체 픽셀을 기준으로 최소 단위를 정합니다. 보편적으로 쓰이는 스크린 픽셀이 8로 나눠지기 때문에 8pt 그리드를 널리 사용합니다. 다만 8로 나눠지지 않는 스크린을 디자인할 경우 따로 그리드를 설정해주기도 합니다.
             </p>
-            <div class="sidebar-outlink" onclick="location.href='https://brunch.co.kr/@blackindigo-red/8';">
-                        <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">8-Point 그리드 시스템 by 정윤선
-                    </div>
-            <img class="article-img" data-original="./assets/img/design-system/unit@2x.png">
+            <img class="article-img" data-original="./assets/img/design-system/Layout/Layout_Grid.png">
 
-            <div class="article-title">
-                PX PT DP</div>
-            <div class="article-h1">
-                px를 기본 단위로 디자인하면 스크린마다 다른 픽셀 밀도(PPI = 1inch 공간 안에 표시되는 픽셀 수)의 차이로 인해 크기가 작아질 수 있습니다. iOS/Android에서는 어떤 화면에서도 같은 크기로 보이도록 pt와 dp 단위를 사용합니다. 그래픽 디자인 툴은 보통 1px = 1pt로 설정되어 따로 설정을 변경할 필요는 없습니다.
-            </div>
-            <div class="sidebar-outlink" onclick="location.href='https://brunch.co.kr/@blackindigo-red/18#_=_';">
-                        <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">픽셀 밀도에 대한 설명 - 정윤선
-                    </div>
-            <div class="sidebar-outlink" onclick="location.href=' https://brunch.co.kr/@eeasily/17';">
-                        <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">모바일 기본 단위 DP,PT - Henry Lee
-                    </div>
-            <img class="article-img" data-original="./assets/img/design-system/pixel_density@2x.png">
-            
-              <div class="article-title">
-                스크린</div>
-            <div class="article-h1">
-                서비스가 지원할 디바이스 중 가장 작은 스크린을 기준으로 PT,DP 단위로 작업하며 디바이스의 밀도(Density)만큼 곱해져 실제 디바이스에 표시됩니다. 작은 화면을 기준으로 디자인된 파일에서 사용한 에셋이 실제 디바이스에서는 큰 픽셀로 표시되기 때문에 각 밀도에 맞도록 에셋을 크게 만듭니다. 주로 iOS를 기준으로 x1 x2 x3 으로 에셋을 내보내며 안드로이드에서 함께 사용할 수도 있습니다.
-            </div>
-            <table>
-                <tr>
-                    <th>Device</th>
-                    <th>PT=DP</th>
-                    <th>Density</th>
-                    <th>PX</th>
-                </tr>
-                <tr>
-                    <td>Standard Mobile</td>
-                    <td>360x640</td>
-                    <td>1.0</td>
-                    <td>360x640</td>
-                </tr>
-                <tr>
-                    <td>Standard Tablet 9</td>
-                    <td>768x1024</td>
-                    <td>1.0</td>
-                    <td>768x1024</td>
-                </tr>
-                <tr>
-                    <td>Standard Desktop</td>
-                    <td>1280x850</td>
-                    <td>1.0</td>
-                    <td>1280x850</td>
-                </tr>
-            </table>
-            
-            <h5>Android</h5>
-            <table>
-                <tr>
-                    <th>Device</th>
-                    <th>PT=DP</th>
-                    <th>Density</th>
-                    <th>PX</th>
-                </tr>
-                <tr>
-                    <td>Google Pixel 2</td>
-                    <td>411x731</td>
-                    <td>2.6</td>
-                    <td>1080x1920</td>
-                </tr>
-                <tr>
-                    <td>Google Pixel 2 XL</td>
-                    <td>411x822</td>
-                    <td>3.5</td>
-                    <td>1440x2880</td>
-                </tr>
-                <tr>
-                    <td>Galaxy S6</td>
-                    <td>360x640</td>
-                    <td>4.0</td>
-                    <td>1440x2560</td>
-                </tr>
-                <tr>
-                    <td>Galaxy S8</td>
-                    <td>360x740</td>
-                    <td>4.0</td>
-                    <td>1440x2960</td>
-                </tr>
-                <tr>
-                    <td>Galaxy S8+</td>
-                    <td>360x740</td>
-                    <td>4.0</td>
-                    <td>1440x2960</td>
-                </tr>
-                <tr>
-                    <td>Galaxy Note 8</td>
-                    <td>360x740</td>
-                    <td>4.0</td>
-                    <td>1440x2960</td>
-                </tr>
-            </table>
-            
-            <h5>iOS</h5>
-            <table>
-                <tr>
-                    <th>Device</th>
-                    <th>PT=DP</th>
-                    <th>Density</th>
-                    <th>PX</th>
-                </tr>
-                <tr>
-                    <td>iPhone SE</td>
-                    <td>320x568</td>
-                    <td>2.0</td>
-                    <td>640x1136</td>
-                </tr>
-                <tr>
-                    <td>iPhone 8</td>
-                    <td>375x667</td>
-                    <td>2.0</td>
-                    <td>1125x1334</td>
-                </tr>
-                <tr>
-                    <td>iPhone X</td>
-                    <td>375x812</td>
-                    <td>2.0</td>
-                    <td>1125x1624</td>
-                </tr>
-                <tr>
-                    <td>iPhone Air 2</td>
-                    <td>768x1024</td>
-                    <td>2.0</td>
-                    <td>1536x2048</td>
-                </tr>
-               <tr>
-                    <td>iPhone Pro 10.5</td>
-                    <td>834x1112</td>
-                    <td>2.0</td>
-                    <td>1668x2224</td>
-                </tr>
-                <tr>
-                    <td>iPhone Pro 12.9</td>
-                    <td>1366x1024</td>
-                    <td>2.0</td>
-                    <td>2732x2048</td>
-                </tr>
-                <tr>
-                    <td>Macbook Pro 13</td>
-                    <td>1280x800</td>
-                    <td>2.0</td>
-                    <td>2560x1600</td>
-                </tr>
-                <tr>
-                    <td>Macbook Pro 15</td>
-                    <td>1440x900</td>
-                    <td>2.0</td>
-                    <td>2880x1800</td>
-                </tr>
-                <tr>
-                    <td>iMac</td>
-                    <td>2560x1440</td>
-                    <td>1.0</td>
-                    <td>2880x1440</td>
-                </tr>
-                <tr>
-                    <td>iMac 5k</td>
-                    <td>2560x1440</td>
-                    <td>2.0</td>
-                    <td>5120x2880</td>
-                </tr>
-            </table>
-            
             <h3>
-                블록 그리드</h3>
+                레이아웃</h3>
             <p>
+                반복해서 적용되는 레이아웃 패턴을 위한 안내선입니다. 나눌 단의 개수, 기본 픽셀 그리드와의 적합성 등을 고려해서 4단, 6단, 12단을 사용합니다. Header, Footer, Contents, Nav와 같이 전체적인 구조를 짜거나 반응형 디자인을 할 때 도움이 되는 안내선입니다.
             </p>
-            
-            <h3>
-                베이스라인 그리드</h3>
-            <p>
-            </p>
-            
-            <h3>
-                반응형 레이아웃</h3>
-            <p>
-            </p>
-            
-            
-<div class="sidebar-con">
-                <div class="sidebar-wrapper">
+            <img class="article-img" data-original="./assets/img/design-system/Layout/Layout_Layout.png">
 
-                    <div class="sidebar-title">
-                        더 보기
-                    </div>
-                    <div class="sidebar-outlink" onclick="location.href='http://sebastien-gabriel.com/designers-guide-to-dpi/#menu';">
-                        <img class="sidebar-icon" data-original="./assets/img/icon/icon-outlink.svg">Designer's guide to DPI - sebastien-gabriel
-                    </div>
-                </div>
+            <h3>
+                설정</h3>
+            <p>
+                스케치 오른쪽 상단의 View에서 Grid와 Layout을 설정할 수 있습니다. Grid block size 에 기본 단위를 설정해 그리드를 설정합니다. 양쪽 마진을 고려해 Total width를 지정하고(Device Width - (Left Margin + Right Margin)=Total width), Number of Columns와 Gutter Width를 이용해 레이아웃을 설정합니다.
+            </p>
+            <img class="article-img" data-original="./assets/img/design-system/Layout/Layout_Setting.png">
+
+            <h3>
+                첨부 파일</h3>
+
+            <div class="btn" onclick="location.href='https://github.com/p-j-m/design-compass/blob/master/assets/files/DC-Layout.sketch';">
+                Github: DC-Layout.sketch
             </div>
+
+
         </div>
-        
+
     </div>
     <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
     <script>
         $("#nav").load("nav.html");
         $("#submenu-theory").load("submenu-system.html");
+
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="./js/jquery.lazyload.js?v=1.9.1"></script>
@@ -281,6 +114,7 @@
                 effect: "fadeIn"
             });
         });
+
     </script>
 </body>
 
