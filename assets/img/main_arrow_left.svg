@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <polygon id="main-arrow-left-a" points="4.282 7.772 15.583 7.772 15.583 9.228 4.282 9.228 9.885 14.512 8.926 15.583 1.417 8.5 8.926 1.417 9.885 2.488"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="38" height="38" x="1" y="1" fill="#000" stroke="#FFF" stroke-width="2" rx="19"/>
+    <g transform="translate(11.429 11.429)">
+      <mask id="main-arrow-left-b" fill="#fff">
+        <use xlink:href="#main-arrow-left-a"/>
+      </mask>
+      <use fill="#000" xlink:href="#main-arrow-left-a"/>
+      <g fill="#FFF" mask="url(#main-arrow-left-b)">
+        <rect width="17" height="17"/>
+      </g>
+    </g>
+  </g>
+</svg>
